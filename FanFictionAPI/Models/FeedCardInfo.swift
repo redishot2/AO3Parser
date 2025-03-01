@@ -40,7 +40,7 @@ public struct FeedCardInfo: Hashable, Codable {
                     chapterCountRaw != "?"
             else { return nil }
             guard
-                let chapterCount = Int(chapterCountRaw)
+                let chapterCount = String(chapterCountRaw).toInt()
             else { return nil }
             
             return chapterCount

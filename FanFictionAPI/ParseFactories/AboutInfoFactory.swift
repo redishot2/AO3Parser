@@ -10,7 +10,7 @@ internal import SwiftSoup
 
 internal class AboutInfoFactory {
     
-    internal static func createAboutInfo(using document: Document?) -> AboutInfo? {
+    internal static func parse(_ document: Document?) -> AboutInfo? {
         guard let document = document else { return nil }
         guard let metaItems = AboutInfoFactory.getToAboutInfoData(document) else { return nil }
         

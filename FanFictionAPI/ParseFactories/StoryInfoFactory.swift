@@ -10,7 +10,7 @@ internal import SwiftSoup
 
 internal class StoryInfoFactory {
     
-    internal static func createChapterStoryInfo(using document: Document?) -> StoryInfo? {
+    internal static func parse(_ document: Document?) -> StoryInfo? {
         guard let document = document else { return nil }
         guard let metaItems = StoryInfoFactory.getToStoryInfoData(document) else { return nil }
         
@@ -118,7 +118,7 @@ internal class StoryInfoFactory {
             // Word Count
             guard let wordsRaw = statsList.first(where: { $0.hasClass("words") }) else { return nil }
             let wordsCountString = try wordsRaw.text()
-            guard let wordCount = Int(wordsCountString) else { return nil }
+            guard let wordCount = wordsCountString.toInt() else { return nil }
             
             // Chapters
             guard let chaptersRaw = statsList.first(where: { $0.hasClass("chapters") }) else { return nil }
@@ -127,22 +127,22 @@ internal class StoryInfoFactory {
             // Comment Count
             guard let commentsRaw = statsList.first(where: { $0.hasClass("comments") }) else { return nil }
             let commentsCountString = try commentsRaw.text()
-            guard let comments = Int(commentsCountString) else { return nil }
+            guard let comments = commentsCountString.toInt() else { return nil }
             
             // Kudos Count
             guard let kudosRaw = statsList.first(where: { $0.hasClass("kudos") }) else { return nil }
             let kudosCountString = try kudosRaw.text()
-            guard let kudos = Int(kudosCountString) else { return nil }
+            guard let kudos = kudosCountString.toInt() else { return nil }
             
             // Bookmarks Count
             guard let bookmarksRaw = statsList.first(where: { $0.hasClass("bookmarks") }) else { return nil }
             let bookmarksString = try bookmarksRaw.text()
-            guard let bookmarks = Int(bookmarksString) else { return nil }
+            guard let bookmarks = bookmarksString.toInt() else { return nil }
             
             // Hits Count
             guard let hitsRaw = statsList.first(where: { $0.hasClass("hits") }) else { return nil }
             let hitsCountString = try hitsRaw.text()
-            guard let hits = Int(hitsCountString) else { return nil }
+            guard let hits = hitsCountString.toInt() else { return nil }
             
             return StoryInfo.Stats(published: publishedDate, completed: completedDate, words: wordCount, chapters: chapters, comments: comments, kudos: kudos, bookmarks: bookmarks, hits: hits)
         } catch {

@@ -64,7 +64,7 @@ public struct Networking {
         case newsfeed
         
         /// A work chapter
-        case work(workID: String, chapterID: String?)
+        case work(work: Work, chapterID: String?)
         
         /// All chapters in a work (links)
         case workChapters(workID: String)
@@ -110,40 +110,32 @@ public struct Networking {
     internal static func parseHTML<T>(document: Document?, as endpoint: Endpoint) async -> T? {
         switch endpoint {
             case .relatedWorks(let feedTitle):
-                guard let feedInfo = FeedInfoFactory.parse(document, for: feedTitle) as? T else {
-                    return nil
-                }
-                return feedInfo
+                return FeedInfoFactory.parse(document, for: feedTitle) as? T
                 
             case .profile:
-                guard let profileInfo = UserInfoFactory.parse(document) as? T else {
-                    return nil
-                }
-                return profileInfo
+                return UserInfoFactory.parse(document) as? T
                 
             case .newsfeed:
-                guard let news = await NewsFactory.parse(document) as? T else {
-                    return nil
-                }
-                return news
+                return await NewsFactory.parse(document) as? T
                 
-            case .work:
-                guard let chapter = ChapterFactory.parse(document) as? T else {
-                    return nil
+            case .work(let work, _):
+                if work.shouldParseAdditionalInfo {
+                    work.storyInfo = StoryInfoFactory.parse(document)
+                    work.aboutInfo = AboutInfoFactory.parse(document)
                 }
-                return chapter
+                
+                guard let chapter = ChapterFactory.parse(document) else {
+                    return work as? T
+                }
+                
+                work.chapters[work.currentChapter] = chapter
+                return work as? T
                 
             case .workChapters:
-                guard let news = ChapterListFactory.parse(document) as? T else {
-                    return nil
-                }
-                return news
+                return ChapterListFactory.parse(document) as? T
                 
             case .category:
-                guard let categoryInfo = CategoryInfoFactory.parse(document) as? T else {
-                    return nil
-                }
-                return categoryInfo
+                return CategoryInfoFactory.parse(document) as? T
         }
     }
 }
@@ -165,9 +157,9 @@ extension Networking {
                 components.path = "/users/\(username)\(pageName)"
             case .newsfeed:
                 components.path = "/admin_posts"
-            case .work(let workID, let chapterID):
+            case .work(let work, let chapterID):
                 let chapterInfo: String = chapterID == nil ? "" : "/chapters/\(chapterID!)"
-                components.path = "/works/\(workID)\(chapterInfo)"
+                components.path = "/works/\(work.id)\(chapterInfo)"
                 components.queryItems = [URLQueryItem(name: "view_adult", value: "true")]
             case .workChapters(let workID):
                 components.path = "/works/\(workID)/navigate"

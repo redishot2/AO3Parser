@@ -89,14 +89,16 @@ class FanFictionAPITests: XCTestCase {
     // MARK: Works
     func testWorkURLsOneShot() async {
         let expectedURL = URL(string: "https://archiveofourown.org/works/3234290?view_adult=true")
-        let resultURL = Networking.generateURL(for: .work(workID: "3234290", chapterID: nil))
+        let work = Work(id: "3234290")
+        let resultURL = Networking.generateURL(for: .work(work: work, chapterID: nil))
 
         XCTAssertEqual(expectedURL, resultURL)
     }
     
     func testWorkURLsMultiChapter() async {
         let expectedURL = URL(string: "https://archiveofourown.org/works/22493011/chapters/53746540?view_adult=true")
-        let resultURL = Networking.generateURL(for: .work(workID: "22493011", chapterID: "53746540"))
+        let work = Work(id: "22493011")
+        let resultURL = Networking.generateURL(for: .work(work: work, chapterID: "53746540"))
 
         XCTAssertEqual(expectedURL, resultURL)
     }

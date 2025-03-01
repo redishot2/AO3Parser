@@ -34,7 +34,7 @@ internal class NewsFactory {
             let navWrapper = try mainDiv?.select("ol").first(where: { $0.hasClass("pagination actions") })
             let buttonWrapper = try navWrapper?.select("li").last(where: { !$0.hasClass("next") })
             if let countRaw = try buttonWrapper?.text() {
-                pageCount = Int(countRaw) ?? 0
+                pageCount = countRaw.toInt() ?? 0
             }
             
             return News(articles: articles, tags: tags, translations: translations, pagesCount: pageCount)
@@ -96,7 +96,7 @@ internal class NewsFactory {
                 if commentButtonText?.count ?? 0 > 2 {
                     commentsCountRaw = commentButtonText?[1]
                 }
-                let commentsCount = Int(commentsCountRaw ?? "") ?? 0
+                let commentsCount = commentsCountRaw?.toInt() ?? 0
                 
                 var text: [Article.Content] = []
                 if let articleRaw = try item.select("div").first(where: { $0.hasClass("userstuff") }) {

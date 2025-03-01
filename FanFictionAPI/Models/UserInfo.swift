@@ -26,5 +26,5 @@ public struct UserInfo {
     let recentWorks: [FeedCardInfo]
     let recentSeries: [FeedCardInfo]
     let recentBookmarks: [FeedCardInfo]
-    let gifts: [FeedCardInfo]
+//    let gifts: [FeedCardInfo] TODO: Fix
 }

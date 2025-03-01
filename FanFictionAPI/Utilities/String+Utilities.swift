@@ -21,4 +21,13 @@ extension String {
         guard let rangeTo = self[rangeFrom...].range(of: to)?.lowerBound else { return nil }
         return String(self[rangeFrom..<rangeTo])
     }
+    
+    internal func toInt() -> Int? {
+        let formater = NumberFormatter()
+        formater.numberStyle = .decimal
+        formater.locale = Locale(identifier: Locale.current.identifier)
+        let number = formater.number(from: self)
+        
+        return number?.intValue
+    }
 }

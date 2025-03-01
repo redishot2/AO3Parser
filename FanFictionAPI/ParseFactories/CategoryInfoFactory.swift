@@ -63,7 +63,7 @@ internal class CategoryInfoFactory {
                 worksCountRaw = worksCountRaw.replacingOccurrences(of: ")", with: "")
                 worksCountRaw = worksCountRaw.replacingOccurrences(of: "(", with: "")
                 worksCountRaw = worksCountRaw.trimmingCharacters(in: .whitespacesAndNewlines)
-                let worksCount = Int(worksCountRaw)
+                let worksCount = worksCountRaw.toInt()
                 
                 fandoms.append(FandomItem(name: fandomName, worksCount: worksCount ?? 0))
             }

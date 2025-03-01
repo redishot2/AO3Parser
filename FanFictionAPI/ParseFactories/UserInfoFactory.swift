@@ -35,7 +35,7 @@ internal class UserInfoFactory {
 //                userInfo = parseUserInfo(pUserHeader)
 //            }
             
-            return UserInfo(username: profile.username, profilePicture: profile.picture, joinDate: userInfo.joinDate, bio: userInfo.bio, counts: counts, fandoms: fandoms, recentWorks: works, recentSeries: series, recentBookmarks: bookmarks, gifts: gifts)
+            return UserInfo(username: profile.username, profilePicture: profile.picture, joinDate: userInfo.joinDate, bio: userInfo.bio, counts: counts, fandoms: fandoms, recentWorks: works, recentSeries: series, recentBookmarks: bookmarks)
         } catch {
             return nil
         }
@@ -170,10 +170,10 @@ internal class UserInfoFactory {
             let bookmarksCount   = try header?.select("li")[2].text().slice(from: "(", to: ")")
             let collectionsCount = try header?.select("li")[3].text().slice(from: "(", to: ")")
             
-            let work        = Int(workCount ?? "0") ?? 0
-            let series      = Int(seriesCount ?? "0") ?? 0
-            let bookmarks   = Int(bookmarksCount ?? "0") ?? 0
-            let collections = Int(collectionsCount ?? "0") ?? 0
+            let work        = workCount?.toInt() ?? 0
+            let series      = seriesCount?.toInt() ?? 0
+            let bookmarks   = bookmarksCount?.toInt() ?? 0
+            let collections = collectionsCount?.toInt() ?? 0
             
             return UserInfo.Counts(works: work, series: series, bookmarks: bookmarks, collections: collections)
         } catch {

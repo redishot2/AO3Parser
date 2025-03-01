@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="keywords" content="fanfiction, transformative works, otw, fair use, archive" />
+    <meta name="language" content="en-US" />
+    <meta name="subject" content="fandom" />
+    <meta name="description" content="An Archive of Our Own, a project of the
+    Organization for Transformative Works" />
+    <meta name="distribution" content="GLOBAL" />
+    <meta name="classification" content="transformative works" />
+    <meta name="author" content="Organization for Transformative Works" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+          
+          Admin Posts
+        |
+        Archive of Our Own
+    </title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/1_site_screen_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 62em), handheld" href="/stylesheets/skins/skin_1_default/4_site_midsize.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 42em), handheld" href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="speech" href="/stylesheets/skins/skin_1_default/6_site_speech_.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/stylesheets/skins/skin_1_default/7_site_print_.css" />
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/8_site_screen_IE8_or_lower.css" /><![endif]-->
+<!--[if IE 5]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/9_site_screen_IE5.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/10_site_screen_IE6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/11_site_screen_IE7.css" /><![endif]-->
+
+
+<!--sandbox for developers    -->
+<link rel="stylesheet" href="/stylesheets/sandbox.css" />
+
+
+
+<script src="/javascripts/livevalidation_standalone.js"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ZlSuP29fG6AHOlD5WyuH-1LdNNQ1ccZX565f9EX6gPV09auJYTH3_unLRR9yvKZeoqUN-Qvcuq-kbJWlbF7rZg" />
+
+    
+  </head>
+
+  <body class="logged-out" >
+    <div id="outer" class="wrapper">
+      <ul id="skiplinks"><li><a href="#main">Main Content</a></li></ul>
+      <noscript><p id="javascript-warning">While we&#39;ve done our best to make the core functionality of this site accessible without JavaScript, it will work better with it enabled. Please consider turning it on!</p></noscript>
+
+<!-- BEGIN header -->
+
+<header id="header" class="region">
+
+  <h1 class="heading">
+    <a href="/"><span>Archive of Our Own</span><sup> beta</sup><img alt="Archive of Our Own" class="logo" src="/images/ao3_logos/logo_42.png" /></a>
+  </h1>
+
+    <div id="login" class="dropdown">
+      <p class="user actions">
+        <a id="login-dropdown" href="/users/login">Log In</a>
+      </p>
+      <div id="small_login" class="simple login">
+    <form class="new_user" id="new_user_session_small" action="/users/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9yFZBgeiT2VqrxcfZHpttEy2_vIoRRZNkhgGZ51LWBrXflbw55xL7Df4wsY0529OL2NEuAmLylhtoqCfzMzctA" autocomplete="off" />
+    <dl>
+    <dt>
+      <label for="user_session_login_small">User name or email:</label></dt>
+    <dd><input id="user_session_login_small" type="text" name="user[login]" /></dd>
+    <dt><label for="user_session_password_small">Password:</label></dt>
+    <dd><input id="user_session_password_small" type="password" name="user[password]" /></dd>
+  </dl>
+  <p class="submit actions">
+    <label for="user_remember_me_small" class="action"><input type="checkbox" name="user[remember_me]" id="user_remember_me_small" value="1" />Remember Me</label>
+    <input type="submit" name="commit" value="Log In" />
+  </p>
+</form>
+<ul class="footnote actions">
+  <li><a href="/users/password/new">Forgot password?</a></li>
+    <li>
+      <a href="/invite_requests">Get an Invitation</a>
+    </li>
+</ul>
+
+</div>
+
+    </div>
+
+  <nav aria-label="Site">
+    <ul class="primary navigation actions">
+      <li class="dropdown">
+        <a href="/menu/fandoms">Fandoms</a>
+        <ul class="menu">
+  <li><a href="/media">All Fandoms</a></li>
+        <li id="medium_5"><a href="/media/Anime%20*a*%20Manga/fandoms">Anime &amp; Manga</a></li>
+        <li id="medium_3"><a href="/media/Books%20*a*%20Literature/fandoms">Books &amp; Literature</a></li>
+        <li id="medium_4"><a href="/media/Cartoons%20*a*%20Comics%20*a*%20Graphic%20Novels/fandoms">Cartoons &amp; Comics &amp; Graphic Novels</a></li>
+        <li id="medium_7"><a href="/media/Celebrities%20*a*%20Real%20People/fandoms">Celebrities &amp; Real People</a></li>
+        <li id="medium_2"><a href="/media/Movies/fandoms">Movies</a></li>
+        <li id="medium_6"><a href="/media/Music%20*a*%20Bands/fandoms">Music &amp; Bands</a></li>
+        <li id="medium_8"><a href="/media/Other%20Media/fandoms">Other Media</a></li>
+        <li id="medium_30198"><a href="/media/Theater/fandoms">Theater</a></li>
+        <li id="medium_1"><a href="/media/TV%20Shows/fandoms">TV Shows</a></li>
+        <li id="medium_476"><a href="/media/Video%20Games/fandoms">Video Games</a></li>
+        <li id="medium_9971"><a href="/media/Uncategorized%20Fandoms/fandoms">Uncategorized Fandoms</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/browse">Browse</a>
+        <ul class="menu">
+  <li><a href="/works">Works</a></li>
+  <li><a href="/bookmarks">Bookmarks</a></li>
+  <li><a href="/tags">Tags</a></li>
+  <li><a href="/collections">Collections</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/search">Search</a>
+        <ul class="menu">
+  <li><a href="/works/search">Works</a></li>
+  <li><a href="/bookmarks/search">Bookmarks</a></li>
+  <li><a href="/tags/search">Tags</a></li>
+  <li><a href="/people/search">People</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/about">About</a>
+        <ul class="menu">
+  <li><a href="/about">About Us</a></li>
+  <li><a href="/admin_posts">News</a></li>
+  <li><a href="/faq">FAQ</a></li>
+  <li><a href="/wrangling_guidelines">Wrangling Guidelines</a></li>
+  <li><a href="/donate">Donate or Volunteer</a></li>
+</ul>
+
+      </li>
+      <li class="search"><form class="search" id="search" role="search" aria-label="Work" action="/works/search" accept-charset="UTF-8" method="get">
+  <fieldset>
+    <p>
+      <label class="landmark" for="site_search">Work Search</label>
+      <input class="text" id="site_search" aria-describedby="site_search_tooltip" type="text" name="work_search[query]" />
+      <span class="tip" role="tooltip" id="site_search_tooltip">tip: lex m/m (mature OR explicit)</span>
+      <span class="submit actions"><input type="submit" value="Search" class="button" /></span>
+    </p>
+  </fieldset>
+</form></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="clear"></div>
+
+</header>
+
+
+
+<!-- END header -->
+
+      <div id="inner" class="wrapper">
+        <!-- BEGIN sidebar -->
+          <nav id="dashboard" class="admin region" role="navigation region">
+    <h3 class="landmark heading">Page Summary</h3>
+    <ul class="navigation actions">
+          <li><a href="/admin_posts/31264">Fandom and Fair Use: Spotlight on Recent Fair Use Discussions (40)</a></li>
+          <li><a href="/admin_posts/31204">Intermittent site slowness and errors (109)</a></li>
+          <li><a href="/admin_posts/31201">The OTW is Recruiting for Open Doors Technical Volunteers, Policy &amp; Abuse Volunteers, and Tag Wrangling Volunteers (23)</a></li>
+          <li><a href="/admin_posts/31198">Thanks for Participating in #IFD2025 (9)</a></li>
+          <li><a href="/admin_posts/31174">It's International Fanworks Day 2025! (89)</a></li>
+          <li><a href="/admin_posts/31120">Welcome to Feedback Fest 2025 (69)</a></li>
+          <li><a href="/admin_posts/31039">What We’re Doing for #IFD2025 (54)</a></li>
+          <li><a href="/admin_posts/31027">January 2025 Newsletter, Volume 196 (25)</a></li>
+  </ul>
+</nav>
+
+        <!-- END sidebar -->
+
+        <!-- BEGIN main -->
+        <div id="main" class="admin_posts-index dashboard region" role="main">
+          
+          <div class="flash"></div>
+          <div class="news admin home">
+    <div class="primary header module">
+      <!--Descriptive page name, messages and instructions-->
+      <h2 class="heading"><a href="/admin_posts">AO3 News</a></h2>
+      <div class="icon"></div>
+      <!--/descriptions-->
+
+      <!--subnav-->
+      <ul class="navigation actions" role="navigation">
+        <li><h3 class="landmark">Filters</h3>
+<form action="/admin_posts" accept-charset="UTF-8" method="get">
+  <p><label for="tag">Tag:</label>
+  <select name="tag" id="tag"><option></option><option value="60">2009</option>
+<option value="65">2010</option>
+<option value="10">2011</option>
+<option value="13">2012</option>
+<option value="84">2013</option>
+<option value="105">2014</option>
+<option value="146">2015</option>
+<option value="160">2016</option>
+<option value="173">2017</option>
+<option value="183">2018</option>
+<option value="191">2019</option>
+<option value="202">2020</option>
+<option value="243">2021</option>
+<option value="253">2022</option>
+<option value="257">2023</option>
+<option value="271">2023 annual report</option>
+<option value="262">2024</option>
+<option value="274">2025</option>
+<option value="259">27715</option>
+<option value="265">30025</option>
+<option value="240">About Our Volunteers</option>
+<option value="67">AD&amp;T Committee</option>
+<option value="9">AD&amp;T Minutes</option>
+<option value="33">alpha feature</option>
+<option value="135">anniversary</option>
+<option value="46">announcement</option>
+<option value="227">AO3 Documentation Committee</option>
+<option value="27">april showers</option>
+<option value="69">call for feedback</option>
+<option value="68">call for volunteers</option>
+<option value="79">Category Change</option>
+<option value="255">Communications Committee</option>
+<option value="92">content policy</option>
+<option value="235">Development &amp; Membership</option>
+<option value="189">downtime report</option>
+<option value="172">Elections</option>
+<option value="250">event</option>
+<option value="115">fanhackers</option>
+<option value="110">fanlore</option>
+<option value="174">Finance Committee</option>
+<option value="223">Financial Support</option>
+<option value="226">Help &amp; Info for Users</option>
+<option value="109">international fanworks day</option>
+<option value="143">invitations</option>
+<option value="6">known issues</option>
+<option value="104">legal advocacy</option>
+<option value="70">Maintenance Alerts</option>
+<option value="30">membership drive</option>
+<option value="221">milestone</option>
+<option value="20">multimedia</option>
+<option value="22">newsletter</option>
+<option value="61">open beta</option>
+<option value="18">open doors</option>
+<option value="232">OTW Board</option>
+<option value="193">Policy &amp; Abuse Committee</option>
+<option value="1">release notes</option>
+<option value="239">Reports</option>
+<option value="71">roadmap</option>
+<option value="72">servers of our own</option>
+<option value="124">site changes</option>
+<option value="238">site performance</option>
+<option value="87">Site Security</option>
+<option value="62">site stats</option>
+<option value="2">skins</option>
+<option value="229">Strategic Planning Committee</option>
+<option value="80">Support Committee</option>
+<option value="75">Systems Committee</option>
+<option value="29">tag wrangling</option>
+<option value="112">transformative works and cultures</option>
+<option value="233">Translation Committee</option>
+<option value="5">tutorial</option>
+<option value="268">where to find us</option></select>
+  <label for="language_id">Language:</label>
+  <select name="language_id" id="language_id"><option lang="afr" value="afr">Afrikaans</option>
+<option lang="ar" value="ar">العربية</option>
+<option lang="id" value="id">Bahasa Indonesia</option>
+<option lang="ms" value="ms">Bahasa Malaysia</option>
+<option lang="bg" value="bg">Български</option>
+<option lang="bn" value="bn">বাংলা</option>
+<option lang="ca" value="ca">Català</option>
+<option lang="cs" value="cs">Čeština</option>
+<option lang="cy" value="cy">Cymraeg</option>
+<option lang="da" value="da">Dansk</option>
+<option lang="de" value="de">Deutsch</option>
+<option lang="et" value="et">eesti keel</option>
+<option lang="el" value="el">Ελληνικά</option>
+<option lang="en" selected="selected" value="en">English</option>
+<option lang="es" value="es">Español</option>
+<option lang="eu" value="eu">Euskara</option>
+<option lang="fa" value="fa">فارسی</option>
+<option lang="fil" value="fil">Filipino</option>
+<option lang="fr" value="fr">Français</option>
+<option lang="gl" value="gl">Galego</option>
+<option lang="ko" value="ko">한국어</option>
+<option lang="hi" value="hi">हिन्दी</option>
+<option lang="hr" value="hr">Hrvatski</option>
+<option lang="is" value="is">Íslenska</option>
+<option lang="it" value="it">Italiano</option>
+<option lang="he" value="he">עברית</option>
+<option lang="kan" value="kan">ಕನ್ನಡ</option>
+<option lang="sw" value="sw">Kiswahili</option>
+<option lang="kir" value="kir">Кыргызча</option>
+<option lang="lv" value="lv">Latviešu valoda</option>
+<option lang="lt" value="lt">Lietuvių kalba</option>
+<option lang="hu" value="hu">Magyar</option>
+<option lang="mk" value="mk">македонски</option>
+<option lang="mr" value="mr">मराठी</option>
+<option lang="nl" value="nl">Nederlands</option>
+<option lang="ja" value="ja">日本語</option>
+<option lang="no" value="no">Norsk</option>
+<option lang="pl" value="pl">Polski</option>
+<option lang="ptBR" value="ptBR">Português brasileiro</option>
+<option lang="ptPT" value="ptPT">Português europeu</option>
+<option lang="ro" value="ro">Română</option>
+<option lang="ru" value="ru">Русский</option>
+<option lang="si" value="si">සිංහල</option>
+<option lang="sk" value="sk">Slovenčina</option>
+<option lang="slv" value="slv">Slovenščina</option>
+<option lang="sr" value="sr">Српски</option>
+<option lang="fi" value="fi">suomi</option>
+<option lang="sv" value="sv">Svenska</option>
+<option lang="th" value="th">ไทย</option>
+<option lang="vi" value="vi">Tiếng Việt</option>
+<option lang="tr" value="tr">Türkçe</option>
+<option lang="uk" value="uk">Українська</option>
+<option lang="zh" value="zh">中文-普通话 國語</option></select>
+  <input type="submit" name="commit" value="Go" /></p>
+</form></li>
+        <li><a title="RSS Feed" class="rss" href="/admin_posts.rss"><span>RSS Feed</span></a></li>
+      </ul>
+      <!--/subnav-->
+    </div>
+    <!--main content-->
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31264">Fandom and Fair Use: Spotlight on Recent Fair Use Discussions</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-26 14:54:05 UTC</dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+            <li><a class="tag" href="/admin_posts?tag=104">legal advocacy</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/recurring/spotlight/spotlight-v2/legal/spotlight-legal-flat-english.png" alt="Spotlight on Legal Issues" />
+</p><p>Copyright is the legal protection granting the owners of creative works (such as books, music, artwork, and so on) the authority to control their use, distribution, and sale. Copyright is a limited right, with key exceptions such as fair use. Fair use allows people to use copyrighted works for transformative purposes, such as commenting, reporting, and criticizing. Noncommercial uses are particularly favored as fair uses.</p><p>For Fair Use Week 2025, we want to spotlight recent discussions about Fair Use and highlight its importance for transformative works, because fair use makes fanworks legal under copyright law.</p><p>OTW’s Legal team is currently keeping an eye on <a href="https://www.eff.org/deeplinks/2024/01/more-decade-later-site-blocking-still-censorship" rel="nofollow">site-blocking legislation</a>, which has the potential to be overly broad and has been reintroduced in the new US Congress. We're also watching some interesting cases, like one against Jimmy Kimmel for his videos mocking George Santos' Cameos. Legal’s Rebecca Tushnet submitted an <a href="https://tushnet.com/wp-content/uploads/2024/12/ip-prof-santos.pdf" rel="nofollow">amicus brief</a> in that case, defending Kimmel’s right to make fun of Santos. Another recent legal dispute saw tattoo artist Kat Von D sued by a photographer whose photo she used as a reference for a tattoo—she <a href="https://itsartlaw.org/2024/04/16/shhhhhh-kat-von-d-and-tattoo-fan-art/" rel="nofollow">won a jury verdict</a> that some of her uses of the photo were fair uses, and the tattoo itself was not an infringement. The Authors Alliance, which supports the interests of authors in strong fair use rights and strong protections against publishers’ attempts to make authors surrender their rights, submitted an <a href="https://www.authorsalliance.org/sedlik-v-kvd-amicus-authors-alliance-final-for-efiling/" rel="nofollow">amicus brief</a> in support of fair use.</p><p>The US Copyright Office also recently released a section of a <a href="https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf" rel="nofollow">report on AI and copyright</a> focusing on when AI-generated works are copyrightable. The Office concluded that human involvement in creation is required for copyrightability and that merely providing a prompt—even a detailed prompt refined over multiple attempts—does not represent enough human involvement to satisfy that requirement. As a result, the Copyright Office will accept works with AI-generated components, like the credits in a live-action film, but purely AI-generated works will not be considered copyrightable human creations. The Office is also expected to issue a report on AI training and fair use in the coming months. However, the Copyright Office does not decide most issues of fair use and its recommendations will not be binding in courts.</p><p>Another set of fair use developments comes from the US Copyright Claims Board, a small-claims proceeding set up by the Copyright Office. It was started in 2020 to handle some copyright claims more cheaply than litigation in federal court. Although there are some serious problems with the setup, the Board is not a rubber stamp for copyright owners – they do not always side with them. One example comes from a <a href="https://dockets.ccb.gov/document/download/11921" rel="nofollow">recent decision</a> which found that a YouTube feud, where one YouTuber brought a claim against another for using clips of her work, involved fair use and not infringement.</p><p>It’s absolutely critical that fair use remains a robust exception to copyright, as it’s the foundation of transformative works’ existence—including, but not limited to, all types of fanworks.</p><p>As the OTW, we are committed to defending the right of transformative works to exist. Our Legal team works hard to stay on top of recent developments involving copyright law. And we want you to know your rights: exercising fair use rights and reminding people that copyright is not absolute keeps fair use healthy. In light of this, we wish you a happy Fair Use Week and hope we could help you catch up with some of the latest developments regarding copyright!</p><hr /><p>
+  <em>Is there a new law that might affect fans or fannish activities in your country? <a href="https://www.transformativeworks.org/contact_us/?who=Communications" rel="nofollow">Send us a message</a> about legislation you think we should know about. (Submitting a concern doesn’t guarantee that it will be included in a future Spotlight on Legal Issues post.)</em>
+</p><p>
+  <em>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</em>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31264?show_comments=true#comments">Read 40 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31204">Intermittent site slowness and errors</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-24 15:48:23 UTC</dd>
+      <dt class="translations">Translations:</dt>
+      <dd class="translations">
+        <ul class="languages commas">
+            <li><a lang="id" href="/admin_posts/31231">Bahasa Indonesia</a></li>
+            <li><a lang="bg" href="/admin_posts/31282">Български</a></li>
+            <li><a lang="ca" href="/admin_posts/31228">Català</a></li>
+            <li><a lang="cs" href="/admin_posts/31222">Čeština</a></li>
+            <li><a lang="da" href="/admin_posts/31255">Dansk</a></li>
+            <li><a lang="de" href="/admin_posts/31240">Deutsch</a></li>
+            <li><a lang="el" href="/admin_posts/31216">Ελληνικά</a></li>
+            <li><a lang="es" href="/admin_posts/31207">Español</a></li>
+            <li><a lang="fil" href="/admin_posts/31219">Filipino</a></li>
+            <li><a lang="hr" href="/admin_posts/31243">Hrvatski</a></li>
+            <li><a lang="it" href="/admin_posts/31249">Italiano</a></li>
+            <li><a lang="he" href="/admin_posts/31237">עברית</a></li>
+            <li><a lang="lt" href="/admin_posts/31276">Lietuvių kalba</a></li>
+            <li><a lang="nl" href="/admin_posts/31246">Nederlands</a></li>
+            <li><a lang="no" href="/admin_posts/31213">Norsk</a></li>
+            <li><a lang="pl" href="/admin_posts/31252">Polski</a></li>
+            <li><a lang="ptPT" href="/admin_posts/31225">Português europeu</a></li>
+            <li><a lang="ro" href="/admin_posts/31267">Română</a></li>
+            <li><a lang="slv" href="/admin_posts/31234">Slovenščina</a></li>
+            <li><a lang="sr" href="/admin_posts/31210">Српски</a></li>
+            <li><a lang="uk" href="/admin_posts/31270">Українська</a></li>
+            <li><a lang="zh" href="/admin_posts/31273">中文-普通话 國語</a></li>
+        </ul>
+      </dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+            <li><a class="tag" href="/admin_posts?tag=238">site performance</a></li>
+            <li><a class="tag" href="/admin_posts?tag=6">known issues</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p>Since the end of December 2024, AO3 has had numerous periods of slowness, downtime, and related issues such as missing kudos emails and delayed invitations. We've been taking some steps to improve the situation, but we are also working on some highly time-sensitive updates to our infrastructure, so we can't spend as much time as we'd like on performance improvements. <strong>We expect some slowness and downtime to continue until our new servers are delivered and installed in a few months.</strong></p><p>We first noticed some strain on the servers we use for Elasticsearch (which powers searching and filtering) in the middle of last year. The new servers we wanted weren't available yet, so we repurposed some of our other servers to help with the load on Elasticsearch until we could get the hardware.</p><p>Unfortunately, the hardware wasn't available on its October release date, and our temporary fix couldn't hold up to the traffic increase we experience at the end of every year. This has led to periods of noticeable slowness over the last several weeks.</p><p>The servers we wanted finally became available in early January, and we completed the process of getting quotes and requisitioning them by January 15. Our purchase was confirmed on January 28, but it will take a few months for the servers to be delivered and installed.</p><p>We estimate the new Elasticsearch servers will be in place by early April. Until then, you might run into the following issues, especially during busy periods:</p><ul><li>all pages loading more slowly</li>
+<li>Elasticsearch-powered pages like search results and work and bookmark listings taking longer to update</li>
+<li>error pages</li>
+<li>automated checks from Cloudflare's Under Attack mode</li>
+<li>stricter <a href="https://www.cloudflare.com/learning/bots/what-is-rate-limiting/" rel="nofollow">rate limiting</a></li>
+<li>issues with services like the Wayback Machine or Tumblr RSS accounts that rely on bots, scrapers, or other automated tools, which we have deprioritized in favor of traffic from users</li></ul><p>In addition to new Elasticsearch servers, we'll be purchasing five database servers to improve the capacity and resilience of our database cluster. We don't currently have enough database power to handle increased traffic and do certain types of maintenance at the same time. This means we sometimes have to take AO3 offline to resolve database issues, as we did for <a href="https://ao3org.tumblr.com/post/774830047808847872/ao3-is-back-out-of-maintenance-all-database" rel="nofollow">our February 7 maintenance</a>. Additional hardware should help us avoid this situation in the future, but it will take some time for the purchase to be completed and the servers to be installed. We do not anticipate any database issues while we wait and there is no risk of data loss.</p><p>We're very sorry for the disruptions, and we appreciate your patience and <a href="/donate" rel="nofollow">your generous donations</a>, which fund purchases like these.</p><p>For updates on slowness, downtime, or other issues, please follow <a href="https://twitter.com/AO3_Status" rel="nofollow">@AO3_Status on Twitter/X</a> or <a href="https://ao3org.tumblr.com" rel="nofollow">ao3org on Tumblr</a>. We're also in the process of setting up a <a href="https://bsky.app/profile/status.archiveofourown.org" rel="nofollow">status account on Bluesky</a> and a <a href="https://www.otwstatus.org" rel="nofollow">status page</a>, but they're still works in progress and might not receive all updates just yet, so please make sure to check Twitter/X or Tumblr for a fully accurate list of updates.</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31204?show_comments=true#comments">Read 109 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31201">The OTW is Recruiting for Open Doors Technical Volunteers, Policy &amp; Abuse Volunteers, and Tag Wrangling Volunteers</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-19 16:49:20 UTC</dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+            <li><a class="tag" href="/admin_posts?tag=68">call for volunteers</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/recurring/recruitment/tools/recruitment-tools-english.png" alt="OTW recruitment banner" />
+</p><p>Do you know SQL and want to rescue at-risk fan archives? Do you want to help organize tags to help users find works in the Archive? Would you like to assist AO3 users by resolving complaints? The Organization for Transformative Works is recruiting!</p><p>We're excited to announce the opening of applications for:</p><ul>
+<li>Open Doors Technical Volunteer - closing 26 February 2025 at 23:59 UTC [or after 30 applications] </li>
+<li>Policy &amp; Abuse Volunteer - closing 26 February 2025 at 23:59 UTC</li>
+<li>Tag Wrangling Volunteer - closing 26 February 2025 at 23:59 UTC [or after 120 applications]</li>
+<li>Tag Wrangling Volunteer (Chinese) - closing 26 February 2025 at 23:59 UTC [or after 45 applications]</li>
+<li>Tag Wrangling Volunteer (Ukrainian) - closing 26 February 2025 at 23:59 UTC [or after 30 applications]</li></ul><p>We have included more information on each role below. Open roles and applications will always be available at <a href="http://www.transformativeworks.org/volunteer" rel="nofollow">the volunteering page</a>. If you don't see a role that fits with your skills and interests now, keep an eye on the listings. We plan to put up new applications every few weeks, and we will also publicize new roles as they become available.</p><p>All applications generate a confirmation page and an auto-reply to your email address. We encourage you to read the confirmation page and to whitelist our email address in your email client. If you do not receive the auto-reply within 24 hours, please check your spam filters and then <a href="https://www.transformativeworks.org/contact_us/?who=Volunteers%20and%20Recruiting" rel="nofollow">contact us</a>.</p><p>If you have questions regarding volunteering for the OTW, check out our <a href="http://www.transformativeworks.org/volunteer/volunteering-faq/" rel="nofollow">Volunteering FAQ</a>.</p><p>
+  <strong>Open Doors Technical Volunteer</strong>
+</p><p>Do you know SQL and Python or other programming languages and want to rescue at-risk fan archives?</p><p>The Open Doors project receives many requests to rescue fan sites that are at risk of disappearing because their owners can no longer maintain them. The sites we import to the Archive Of Our Own range from database-driven archives based on common software packages like eFiction and Automated Archive to hand-coded HTML sites that are over twenty years old!</p><p>As a technical volunteer for Open Doors, you will process the contents of legacy sites to do the following:</p><ul>
+<li>analyse the original data to find all the content and metadata needed for the import</li>
+<li>remove spam, legacy navigation and personal information from HTML files</li>
+<li>convert tags to official AO3 tags as specified by the Tag Wrangling team</li>
+<li>ensure chapters are correctly combined into complete works</li>
+<li>resolve duplicates, such as works already imported to AO3 by their creators or previous imports</li>
+<li>convert the cleaned data to MySQL tables in a standard format that can be ingested automatically into the Archive</li></ul><p>As the person responsible for ensuring that all the content from the original site is correctly imported to the AO3, you will have an excellent eye for detail and an ability to work independently within the rules of Open Doors. You will also liaise regularly in chat with other Open Doors volunteers, keeping them up to date with your progress on your assigned tasks.</p><p>To apply for this role, you must be at least 18 years old and legally of age to open explicit fanworks in your local jurisdiction.</p><p>Please note that you will be asked to complete a short coding test (which should take you less than 1 hour, to be returned in 1 week) as part of your application.
+</p><p>
+  <em>Applications are due 26 February 2025 [or after 30 applications]</em>
+</p><p>
+  <strong>Policy &amp; Abuse Volunteer</strong>
+</p><p>The Policy &amp; Abuse committee (PAC) is responsible for addressing questions and concerns about potential violations of <a href="https://archiveofourown.org/tos" rel="nofollow">AO3's Terms of Service</a>. We determine whether reports are about legitimate violations of the Terms of Service, and what to do about them if they are. PAC volunteers correspond directly with AO3 users and collaborate on projects both within PAC and with other OTW committees.</p><p>Our main goals as a committee are:
+</p><ul><li>to adhere to the AO3 Terms of Service</li>
+<li>to make our reasoning and processes as clear and transparent as possible</li>
+<li>to handle all user reports consistently, no matter which volunteer is doing the work</li>
+<li>to keep every case we work on completely confidential</li></ul><p>We are seeking people who can:</p><ul><li>Commit to working on cases regularly</li>
+<li>Be patient with rephrasing explanations</li>
+<li>Ask for help when needed</li>
+<li>Collaborate both inside the team and with other committees</li>
+<li>Act in accordance with established rules, policies, and procedures</li>
+<li>Treat confidentiality and user privacy as a priority</li></ul><p><strong>Please note: you must be 18+ in order to apply for this role.</strong> While English proficiency is required, we welcome applicants who are fluent in other languages, especially <strong>Spanish (Español), Brazilian Portuguese (Português brasileiro), Russian (Русский), Chinese (中文), or Indonesian (Bahasa Indonesia)</strong>.</p><p>
+  <em>Applications are due 26 February 2025</em>
+</p><p>
+  <strong>Tag Wrangling Volunteer</strong>
+</p><p>The Tag Wranglers are responsible for helping to connect and sort the tags on AO3! Wranglers follow internal guidelines to choose the tags that appear in the filters and auto-complete, which link related works together. This makes it easier to browse and search on the archive. </p><p>If you’re an experienced AO3 user who likes organizing, working in teams, or having excuses to fact-check your favorite fandoms, you might enjoy tag wrangling! To join us, click through to the job description and fill in our application form. There will also be a short questionnaire that will help us assess whether you have the skills and attributes that will lead to your success in this role. </p><p><strong>Please note: you must be 18+ in order to apply for this role.</strong> For this role, we’re currently looking for wranglers for specific fandoms only, which will change each recruitment round. Please see the application for which fandoms are in need.  </p><p> Wranglers need to be fluent in English but we welcome applicants who are also fluent in other languages, especially Bahasa Indonesia (Indonesian), Čeština (Czech), Español (Spanish), isiZulu (Zulu), Italiano (Italian), Polski (Polish), Português brasileiro (Brazilian Portuguese), Suomi (Finnish), Tiếng Việt (Vietnamese), Türkçe (Turkish), Русский (Russian), and ไทย (Thai) — but help with other languages would be much appreciated! </p><p>
+  <em>Applications are due 26 February 2025 [or after 120 applications]</em>
+</p><p>
+  <strong>Tag Wrangling Volunteer (Chinese)</strong>
+</p><p>The Tag Wranglers are responsible for helping to connect and sort the tags on AO3! Wranglers follow internal guidelines to choose the tags that appear in the filters and auto-complete, which link related works together. This makes it easier to browse and search on the archive.</p><p>If you’re an experienced AO3 user who likes organizing, working in teams, or having excuses to fact-check your favorite fandoms, you might enjoy tag wrangling! To join us, click through to the job description and fill in our application form. There will also be a short questionnaire that will help us assess whether you have the skills and attributes that will lead to your success in this role.</p><p><strong>Please note: you must be 18+ in order to apply for this role.</strong> For this role we’re currently looking for applicants who are fluent in both English and Chinese. We welcome all Chinese dialects! The work will involve both regular Tag Wrangling work and translating tags from Chinese into English.</p><p>
+  <em>Applications are due 26 February 2025 [or after 45 applications]</em>
+</p><p>
+  <strong>Tag Wrangling Volunteer (Ukrainian)</strong>
+</p><p>The Tag Wranglers are responsible for helping to connect and sort the tags on AO3! Wranglers follow internal guidelines to choose the tags that appear in the filters and auto-complete, which link related works together. This makes it easier to browse and search on the archive.</p><p>If you’re an experienced AO3 user who likes organizing, working in teams, or having excuses to fact-check your favorite fandoms, you might enjoy tag wrangling! To join us, click through to the job description and fill in our application form. There will also be a short questionnaire that will help us assess whether you have the skills and attributes that will lead to your success in this role.</p><p><strong>Please note: you must be 18+ in order to apply for this role.</strong> For this role we’re currently looking for applicants who are fluent in both English and Ukrainian. The work will involve both regular Tag Wrangling work and translating tags from Ukrainian into English.</p><p>
+  <em>Applications are due 26 February 2025 [or after 30 applications]</em>
+</p><p><a href="http://www.transformativeworks.org/volunteer" rel="nofollow">Apply at the volunteering page</a>! If you have further questions, please <a href="https://www.transformativeworks.org/contact_us/" rel="nofollow">contact us</a>.</p><hr /><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31201?show_comments=true#comments">Read 23 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31198">Thanks for Participating in #IFD2025</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-16 14:57:15 UTC</dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=109">international fanworks day</a></li>
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/ifd/2025-fancrafts/ifd-fancrafts-green-white-english.png" alt="International Fanworks Day" />
+</p><p>This International Fanworks Day (IFD), we once again celebrated fandom and its myriad communities. Now that the festivities are over, we at the OTW want to thank everyone who participated in making IFD2025 happen!</p><p>Be it by posting works tagged with the <a href="https://archiveofourown.org/tags/International%20Fanworks%20Day%202025" rel="nofollow">International Fanworks Day 2025</a> tag on AO3, by taking part in the <a href="https://fanlore.org/wiki/Help:IFD_Fanlore_Challenge" rel="nofollow">IFD 2025 Fanlore Challenge</a>, or by participating in Feedback Fest <a href="https://archiveofourown.org/admin_posts/31120" rel="nofollow">on AO3</a> or the <a href="https://www.transformativeworks.org/welcome-to-feedback-fest-2025/" rel="nofollow">OTW website</a>, and sharing your favorite fanfics with fellow fans; we appreciate every single one of you for contributing!</p><p>Over on Discord, we spent 30 hours playing games and chatting about all things fandom. Besides IFD classics like List Builder and Five Things, we also tried some new games like Fandom Emoji Quiz, and brought back Poetry Round Robin! You can find our fan-written poems, as well as re-written song texts from Lyrics Round Robin on our <a href="https://archiveofourown.org/users/otwcommunications_ifd" rel="nofollow">IFD account on AO3</a>.</p><p>Let us know in the comments what your favorite part of this year's IFD was!</p><p>We hope to see you again at next year's 12th International Fanworks Day, where we will come together once more to celebrate fandom and fan culture.</p><hr /><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31198?show_comments=true#comments">Read 9 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31174">It's International Fanworks Day 2025!</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-14 12:56:10 UTC</dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+            <li><a class="tag" href="/admin_posts?tag=109">international fanworks day</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/ifd/2025-fancrafts/ifd-fancrafts-green-red-border-white-english.png" alt="International Fanworks Day" />
+</p><p>
+  <span>For anyone who’s missed our earlier posts, you can find all of our activities for this year's International Fanworks Day <a href="https://www.transformativeworks.org/what-were-doing-for-ifd25/" rel="nofollow">here</a>. </span>
+</p><p>
+  <span>The OTW’s chatroom games session is a 30-hour party that lasts from February 14th, 21:00 UTC until February 16th, 03:00 UTC. The game times listed below are all in UTC, but you can click the links to find out how that converts to your own timezone.</span>
+</p><p>
+  <span>The games will be hosted on our dedicated Discord server and moderated by OTW volunteers throughout the day. Every hour you will be able to participate in a different fandom-themed game! The timetable and game descriptions are posted below; <a href="https://discord.gg/yBaMaBwf" rel="nofollow">join us on Discord</a> for the games you’d like to play!</span>
+</p><p>
+  <span>NOTE: The games will be played and moderated in English.</span>
+</p><p>
+  <strong>February 14th</strong>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=List+Builder+Round+1+--+14+Feb%2C+21%3A00+UTC&amp;iso=20250214T21&amp;p1=%3A&amp;am=50" rel="nofollow">21:00</a> List Builder</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=AO3+Trivia+--+14+Feb%2C+22%3A00+UTC&amp;iso=20250214T22&amp;p1=1440&amp;am=50" rel="nofollow">22:00</a> AO3 Trivia</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Two+Truths+One+Lie+Round+1+--+Feb+14%2C+23%3A00+UTC&amp;iso=20250214T23&amp;p1=1440&amp;am=50" rel="nofollow">23:00</a> Two Truths, One Lie</span>
+</p><p>
+  <strong>February 15th</strong>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=20+Questions+Round+1+--+Feb+15%2C+00%3A00+UTC&amp;iso=20250215T00&amp;p1=1440&amp;am=50" rel="nofollow">00:00</a> 20 Questions</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Fandom+Emoji+Quiz+Round+1+--+Feb+15%2C+01%3A00+UTC&amp;iso=20250215T01&amp;p1=1440&amp;am=45" rel="nofollow">01:00</a> Fandom Emoji Quiz</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Lyrics+Round+Robin+Round+1+--+Feb+15%2C+02%3A00+UTC&amp;iso=20250215T02&amp;p1=1440&amp;am=50" rel="nofollow">02:00</a> Lyrics Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Five+Things+Round+1+--+Feb+15%2C+03%3A00+UTC&amp;iso=20250215T03&amp;p1=1440&amp;am=50" rel="nofollow">03:00</a> Five Things</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=20+Questions+Round+2+--+Feb+15%2C+04%3A00+UTC&amp;iso=20250215T04&amp;p1=1440&amp;am=50" rel="nofollow">04:00</a> 20 Questions</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=List+Builder+Round+2+--+15+Feb%2C+05%3A00+UTC&amp;iso=20250215T05&amp;p1=%3A&amp;am=50" rel="nofollow">05:00</a> List Builder</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Two+Truths+One+Lie+Round+2+--+Feb+15%2C+06%3A00+UTC&amp;iso=20250215T06&amp;p1=1440&amp;am=50" rel="nofollow">06:00</a> Two Truths, One Lie</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Poetry+Round+Robin+Round+1+--+Feb+15%2C+07%3A00+UTC&amp;iso=20250215T07&amp;p1=1440&amp;am=50" rel="nofollow">07:00</a> Poetry Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Fandom+Emoji+Quiz+Round+2+--+Feb+15%2C+08%3A00+UTC&amp;iso=20250215T08&amp;p1=1440&amp;am=50" rel="nofollow">08:00</a> Fandom Emoji Quiz</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Five+Things+Round+2+--+Feb+15%2C+09%3A00+UTC&amp;iso=20250215T09&amp;p1=1440&amp;am=50" rel="nofollow">09:00</a> Five Things</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Lyrics+Round+Robin+Round+2+--+Feb+15%2C+10%3A00+UTC&amp;iso=20250215T10&amp;p1=1440&amp;am=50" rel="nofollow">10:00</a> Lyrics Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=List+Builder+Round+3+--+15+Feb%2C+11%3A00+UTC&amp;iso=20250215T11&amp;p1=%3A&amp;am=50" rel="nofollow">11:00</a> List Builder</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=20+Questions+Round+3+--+Feb+15%2C+12%3A00+UTC&amp;iso=20250215T12&amp;p1=1440&amp;am=50" rel="nofollow">12:00</a> 20 Questions</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=OTW+Trivia+--+Feb+15%2C+13%3A00+UTC&amp;iso=20250215T13&amp;p1=1440&amp;am=50" rel="nofollow">13:00</a> OTW Trivia</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Poetry+Round+Robin+Round+2+--+Feb+15%2C+14%3A00+UTC&amp;iso=20250215T14&amp;p1=1440&amp;am=50" rel="nofollow">14:00</a> Poetry Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=20+Questions+Round+4+--+Feb+15%2C+15%3A00+UTC&amp;iso=20250215T15&amp;p1=1440&amp;am=50" rel="nofollow">15:00</a> 20 Questions</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Five+Things+Round+3+--+Feb+15%2C+16%3A00+UTC&amp;iso=20250215T16&amp;am=50" rel="nofollow">16:00</a> Five Things</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Lyrics+Round+Robin+Round+3+--+Feb+15%2C+17%3A00+UTC&amp;iso=20250215T17&amp;p1=%3A&amp;am=50" rel="nofollow">17:00</a> Lyrics Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=List+Builder+Round+4+--+Feb+15%2C+18%3A00+UTC&amp;iso=20250215T18&amp;p1=1440&amp;am=50" rel="nofollow">18:00</a> List Builder</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Fandom+Emoji+Quiz+Round+3+--+Feb+15%2C+19%3A00+UTC&amp;iso=20250215T19&amp;p1=1440&amp;am=50" rel="nofollow">19:00</a> Fandom Emoji Quiz</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Five+Things+Round+4+--+Feb+15%2C+20%3A00+UTC&amp;iso=20250215T20&amp;p1=1440&amp;am=50" rel="nofollow">20:00</a> Five Things</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=20+Questions+Round+5+--+Feb+15%2C+21%3A00+UTC&amp;iso=20250215T21&amp;p1=1440&amp;am=50" rel="nofollow">21:00</a> 20 Questions</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Poetry+Round+Robin+Round+3+--+Feb+15%2C+22%3A00+UTC&amp;iso=20250215T22&amp;p1=1440&amp;am=50" rel="nofollow">22:00</a> Poetry Round Robin</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Fandom+Trivia+--+Feb+15%2C+23%3A00+UTC&amp;iso=20250215T23&amp;p1=1440&amp;am=50" rel="nofollow">23:00</a> Fandom Trivia</span>
+</p><p>
+  <strong>February 16th</strong>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=List+Builder+Round+5+--+Feb+16%2C+00%3A00+UTC&amp;iso=20250216T00&amp;p1=1440&amp;am=50" rel="nofollow">00:00</a> List Builder</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Five+Things+Round+5+--+Feb+16%2C+01%3A00+UTC&amp;iso=20250216T01&amp;p1=1440&amp;am=50" rel="nofollow">01:00</a> Five Things</span>
+</p><p>
+  <span><a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Fandom+Emoji+Quiz+Round+4+--+Feb+16%2C+02%3A00+UTC&amp;iso=20250216T02&amp;p1=1440&amp;am=50" rel="nofollow">02:00</a> Fandom Emoji Quiz</span>
+</p><h3>Game Guidelines</h3><p>
+  <b>5 Things</b>
+  <span> (5 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: During this game, the host will name a topic and players in the room will call out examples from their favorite fandoms. This will repeat for at least 5 rounds. Be prepared to explain why your answer counts (maybe you’ll recruit someone new to your fandom!)</span>
+</p><p>
+  <b>20 Questions</b>
+  <span> (5 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: One person thinks of an object, animal, or person, but instead of answering questions, they ask them. Other players must deduce what the thing is based on the questions. </span>
+</p><p>
+  <b>Fandom Emoji Quiz</b>
+  <span> (4 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: The host will paste into the chat 3 emojis that represent a fandom. The first person to guess a fandom correctly wins the round, and the person with the most points after all rounds wins the game.</span>
+</p><p>
+  <b>List Builder</b>
+  <span> (5 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: List Builder is a collaborative game in which players work together to come up with a list of fandom characters or items belonging to a particular genre, starting with consecutive letters of the alphabet. Start at A and work your way through to Z (you can be as flexible as required on the difficult letters!)</span>
+</p><p>
+  <b>Lyrics Round Robin</b>
+  <span> (3 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: During this game, we’ll collectively write FANDOM lyrics to replace those of a familiar song. The host will choose the song and type out an alternate first two lines. Then those in the room will write the next lines until the song is finished.</span>
+</p><p>
+  <b>Poetry Round Robin</b>
+  <span> (3 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: During this game, we'll collectively write FANDOM poetry! The host posts a poem as an example of a specific poetic form (like sonnet, haiku, etc.), as well as a title. The players then write one (or more) original poems of that form together, one line at a time.</span>
+</p><p>
+  <b>Trivia</b>
+  <span> (3 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: Like most trivia games, the host will ask a question and the first person to answer correctly wins that round. Because we’re online and you’re free to do searches we’re going to add another factor, which is time — you must answer within 2 minutes. But you can call out your answer as soon as you think you know. If you’re the first to have the correct answer, the host will type your name and award you a point. At the end of the game, whoever has gotten the most points will be named the winner!</span>
+</p><p>
+  <b>Two Truths, One Lie</b>
+  <span> (2 scheduled)</span>
+</p><p>
+  <i>
+    <span>How to Play</span>
+  </i>
+  <span>: The host will paste into the chat 3 statements. Because we’re online and you’re free to do searches we’re going to add another factor, which is time — you must answer within 30 seconds after the third statement!</span>
+</p><p>
+  <b>We also want to hear from you about other celebrations taking place today. Leave us a comment here to tell us about what your fandom communities are doing!</b>
+</p><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31174?show_comments=true#comments">Read 89 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31120">Welcome to Feedback Fest 2025</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-13 17:26:42 UTC</dd>
+      <dt class="translations">Translations:</dt>
+      <dd class="translations">
+        <ul class="languages commas">
+            <li><a lang="id" href="/admin_posts/31150">Bahasa Indonesia</a></li>
+            <li><a lang="bg" href="/admin_posts/31186">Български</a></li>
+            <li><a lang="cs" href="/admin_posts/31171">Čeština</a></li>
+            <li><a lang="da" href="/admin_posts/31168">Dansk</a></li>
+            <li><a lang="de" href="/admin_posts/31159">Deutsch</a></li>
+            <li><a lang="el" href="/admin_posts/31156">Ελληνικά</a></li>
+            <li><a lang="es" href="/admin_posts/31129">Español</a></li>
+            <li><a lang="fil" href="/admin_posts/31195">Filipino</a></li>
+            <li><a lang="fr" href="/admin_posts/31162">Français</a></li>
+            <li><a lang="hr" href="/admin_posts/31183">Hrvatski</a></li>
+            <li><a lang="it" href="/admin_posts/31147">Italiano</a></li>
+            <li><a lang="hu" href="/admin_posts/31153">Magyar</a></li>
+            <li><a lang="mr" href="/admin_posts/31192">मराठी</a></li>
+            <li><a lang="nl" href="/admin_posts/31165">Nederlands</a></li>
+            <li><a lang="no" href="/admin_posts/31144">Norsk</a></li>
+            <li><a lang="pl" href="/admin_posts/31141">Polski</a></li>
+            <li><a lang="ptBR" href="/admin_posts/31138">Português brasileiro</a></li>
+            <li><a lang="ru" href="/admin_posts/31279">Русский</a></li>
+            <li><a lang="slv" href="/admin_posts/31132">Slovenščina</a></li>
+            <li><a lang="sr" href="/admin_posts/31135">Српски</a></li>
+            <li><a lang="fi" href="/admin_posts/31189">suomi</a></li>
+            <li><a lang="sv" href="/admin_posts/31126">Svenska</a></li>
+            <li><a lang="vi" href="/admin_posts/31123">Tiếng Việt</a></li>
+            <li><a lang="zh" href="/admin_posts/31180">中文-普通话 國語</a></li>
+        </ul>
+      </dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=109">international fanworks day</a></li>
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/ifd/feedback-fest-word-cloud/feedback-fest-word-cloud-english.png" alt="A word bubble made up of feedback phrases in many different languages that surround the title Feedback Fest" />
+</p><p>Welcome to the <a href="https://archiveofourown.org/admin_posts/31039" rel="nofollow">International Fanworks Day</a> (IFD) Feedback Fest of 2025!</p><p>Our theme for IFD 2025 is <strong>Fan Communities are Ecosystems</strong>, where we celebrate diversity in fandom and fanworks, and the unique fan ecosystem it creates.</p><p>Want to participate in this year's Feedback Fest? Here’s how to do it!</p><p>Leave a comment under this post recommending 10 fanworks. Tell everyone why you love these works and why they should check them out. You can also link to a recommendation post you've made elsewhere, or create a new recommendation post on your social media accounts using the #FeedbackFest2025 tag. Keep the diversity of fanworks in mind when making recommendations – you can share fics, podfics, fanart, zines, archives, collections, newsletters, and anything that sparks joy in you about fandom. The sky is the limit!</p><p>While going through the recommendations, it’s nice to leave feedback – comments, kudos, likes – for the creators as well! Feel free to boost the recommendations from other people that you enjoyed. This year’s #FeedbackFest is all about being a part of a fandom ecosystem, so spread the joy!</p><p>Start your reccing, and we’ll see you on the other side – we wish you a happy #IFD2025 again!</p><hr /><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31120?show_comments=true#comments">Read 69 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31039">What We’re Doing for #IFD2025</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-08 16:57:54 UTC</dd>
+      <dt class="translations">Translations:</dt>
+      <dd class="translations">
+        <ul class="languages commas">
+            <li><a lang="afr" href="/admin_posts/31108">Afrikaans</a></li>
+            <li><a lang="id" href="/admin_posts/31066">Bahasa Indonesia</a></li>
+            <li><a lang="cs" href="/admin_posts/31084">Čeština</a></li>
+            <li><a lang="da" href="/admin_posts/31105">Dansk</a></li>
+            <li><a lang="de" href="/admin_posts/31072">Deutsch</a></li>
+            <li><a lang="el" href="/admin_posts/31069">Ελληνικά</a></li>
+            <li><a lang="es" href="/admin_posts/31045">Español</a></li>
+            <li><a lang="fil" href="/admin_posts/31078">Filipino</a></li>
+            <li><a lang="fr" href="/admin_posts/31075">Français</a></li>
+            <li><a lang="hr" href="/admin_posts/31087">Hrvatski</a></li>
+            <li><a lang="it" href="/admin_posts/31063">Italiano</a></li>
+            <li><a lang="hu" href="/admin_posts/31102">Magyar</a></li>
+            <li><a lang="mr" href="/admin_posts/31099">मराठी</a></li>
+            <li><a lang="nl" href="/admin_posts/31081">Nederlands</a></li>
+            <li><a lang="no" href="/admin_posts/31060">Norsk</a></li>
+            <li><a lang="pl" href="/admin_posts/31057">Polski</a></li>
+            <li><a lang="ptBR" href="/admin_posts/31054">Português brasileiro</a></li>
+            <li><a lang="ru" href="/admin_posts/31096">Русский</a></li>
+            <li><a lang="slv" href="/admin_posts/31048">Slovenščina</a></li>
+            <li><a lang="sr" href="/admin_posts/31051">Српски</a></li>
+            <li><a lang="fi" href="/admin_posts/31177">suomi</a></li>
+            <li><a lang="sv" href="/admin_posts/31042">Svenska</a></li>
+            <li><a lang="vi" href="/admin_posts/31117">Tiếng Việt</a></li>
+            <li><a lang="zh" href="/admin_posts/31090">中文-普通话 國語</a></li>
+        </ul>
+      </dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=109">international fanworks day</a></li>
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/ifd/2025-fancrafts/ifd-fancrafts-green-red-border-green-english.png" alt="International Fanworks Day" />
+</p><p>There are only a few days left for February 15th, meaning it’s almost time for the eleventh annual International Fanworks Day (IFD)! For #IFD2025, we have planned plenty of activities for fans around the globe. Take a look at them today to find out which activities you can participate in!</p><ol>
+<li>Feedback Fest: As per usual, we are holding our annual feedback fest! This is your chance to tell others about your favorite works related to your fandoms, fic dynamics, or things you believe have strongly impacted the fandom ecosystem! Look for our Feedback Fest post on February 13th, then leave a comment with 10 fanwork recommendations! On social media, use the tag #FeedbackFest when posting.</li>
+<li>Using the #IFD2025 or #IFDChallenge2025 tags, share your experience with fandoms as ecosystems on social media!</li>
+<li>Tag your works on AO3 centered around fan communities with our <a href="https://archiveofourown.org/tags/International%20Fanworks%20Day%202025" rel="nofollow">International Fanworks Day 2025</a> tag!</li>
+<li>The festivities aren’t just on AO3: <a href="https://fanlore.org/wiki/Main_Page" rel="nofollow">Fanlore</a>, the OTW’s fannish history and culture wiki, will be celebrating as well! The challenge runs February 10-16 and involves a new editing challenge to complete every day. To participate, refer to the <a href="https://fanlore.org/wiki/Help:IFD_Fanlore_Challenge" rel="nofollow">IFD 2025 Fanlore Challenge</a> page for more information.</li>
+<li>Games and Fan Chat: On February 15th, we’ll be hosting a chat on <a href="https://discord.gg/eRcddbvdyp" rel="nofollow">the OTW’s Discord</a>. Join us between 21:00 UTC February 14th (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=IFD+Chat+and+Games&amp;iso=20250214T21&amp;p1=1440&amp;ah=23" rel="nofollow">What time is that for me?</a>) and 03:00 UTC February 16th (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=IFD+Chat+and+Games&amp;iso=20250216T03&amp;p1=1440&amp;ah=23" rel="nofollow">What time is that for me?</a>) to play trivia games and chat with other fans! The chat room will be moderated in English, and we’ll post a detailed schedule on the 15th.</li>
+</ol><p>Thank you so much for engaging in and being a part of fan culture throughout the year. See you at #IFD2025!</p><hr /><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31039?show_comments=true#comments">Read 54 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+
+      <div class="news module group" role="article">
+        <div  class="header">
+  <h3 class="heading">
+    <a href="/admin_posts/31027">January 2025 Newsletter, Volume 196</a>
+  </h3>
+</div>
+<h4 class="landmark heading">Post Header</h4>
+<div class="wrapper">
+  <dl class="meta">
+    <dt class="published">Published:</dt>
+    <dd class="published">2025-02-05 17:21:49 UTC</dd>
+      <dt class="tags">Tags:</dt>
+      <dd class="tags">
+        <ul class="tags commas">
+            <li><a class="tag" href="/admin_posts?tag=274">2025</a></li>
+            <li><a class="tag" href="/admin_posts?tag=22">newsletter</a></li>
+        </ul>
+      </dd>
+  </dl>
+</div>
+<div  class="userstuff">
+  <p align="center">
+  <img src="https://media.archiveofourown.org/news/recurring/newsletter/paperplane/newsletter-paperplane-english.png" alt="Banner of a paper airplane emerging from an envelope with the words 'OTW Newsletter: Organization for Transformative Works'" />
+</p><h3>I. SPOTLIGHT ON OPEN DOORS</h3><p>In December, <strong>Open Doors</strong> completed imports for <a href="https://archiveofourown.org/collections/ElysejskyKlic" rel="nofollow">Elysejský klíč</a>, a Czech-language Harry Potter archive; <a href="https://archiveofourown.org/collections/vinxperience" rel="nofollow">VinXperience</a>, a message board with fanfiction featuring characters played by actor Vin Diesel; <a href="https://archiveofourown.org/collections/BetweentheLines" rel="nofollow">Between the Lines</a>, an archive of JAG fanfiction including a great deal of Mac/Harm fic; <a href="https://archiveofourown.org/collections/Smoochies" rel="nofollow">Smoochies</a>, a site dedicated to bishounen, shounen-ai, and yaoi fanworks; and <a href="https://archiveofourown.org/collections/AllAboutSpike" rel="nofollow">All About Spike</a>, a Buffy and Angel archive focussing on the character Spike.</p><p><a href="https://archiveofourown.org/admin_posts/30949" rel="nofollow">Their annual announcement</a> celebrated the completion of nine archive import projects in 2024, with over 13,000 works!</p><p>They also announced the upcoming imports of <a href="https://archiveofourown.org/admin_posts/30625" rel="nofollow">Slash Advent Calendar</a>, a multifandom slash challenge that ran every December from 2002 to 2005; <a href="https://archiveofourown.org/admin_posts/30736" rel="nofollow">MuggleNet Fan Fiction</a>, a Harry Potter fanfiction archive; and <a href="https://archiveofourown.org/admin_posts/30844" rel="nofollow">Remembering Tiger Lily Roar</a>, a memorial archive for a well-loved fanfiction writer.</p><h3>II. AT THE AO3</h3><p>In January, <strong>Accessibility, Design &amp; Technology</strong> <a href="https://archiveofourown.org/admin_posts/30901" rel="nofollow">published release notes detailing recent AO3 code updates</a>. They also migrated their library to store collection, skin, and pseud icons.</p><p><strong>Support</strong> received 2,207 tickets in December; ticket levels remain high due to ongoing server issues and site disruptions.</p><p><strong>Tag Wrangling</strong> finalized another round of <a href="https://archiveofourown.org/admin_posts/30937" rel="nofollow">updates to some Additional Tags</a> not specific to any fandom, otherwise known as No Fandom tags. They have also continued work behind the scenes on a streamlined process for dealing with small synonym changes to No Fandom tags, an alteration on their existing fast-track procedures.</p><p>In December, volunteers wrangled more than 560,000 tags across more than 69,000 fandoms - more than 1,300 tags per wrangling volunteer!</p><p>Also in December, <strong>Policy &amp; Abuse</strong> received 2,559 tickets, totalling to just over 28,000 tickets in 2024! Check out the pie chart for more details.</p><center>
+  <figure><img src="https://media.archiveofourown.org/news/others/pac-stats/2025-01-pac-stats.png" width="750" alt="Pie chart of Policy &amp; Abuse tickets submitted in 2024, divided by type of complaint. Non-fanworks: 48%; Rejected complaints about offensive content: 15%; Plagiarism and copyright infringement: 9%; Commercial promotion: 8%; Harassment: 7%; Spam comments, 3%; Incorrect fandom tags: 2%; Policy questions: 2%; Insufficient ratings or warnings: 2%; Other: 2%." />
+<figcaption><em>Policy &amp; Abuse received approximately 28,000 tickets in 2024. These categories reflect the subject of the complaint, and (with the exception of Offensive Content), do not indicate whether the report was upheld or rejected.</em></figcaption></figure>
+</center><h3>III. ELSEWHERE AT THE OTW</h3><p><strong>Communications</strong> has been working hard this month preparing for International Fanworks Day (IFD) in February! They’ve been collaborating with <strong>Translation</strong> to make IFD news posts available in many languages. Communications also celebrated the <a href="https://www.tiktok.com/@transformativeworks" rel="nofollow">OTW TikTok</a> passing 10,000 followers! Last but not least, they’ve been busy scoring the trivia game held to celebrate AO3’s fifteenth anniversary.</p><p>To close out 2024, <strong>Fanlore</strong> ran an editing chat, and it was a lot of fun! They are also preparing for the annual <a href="https://fanlore.org/wiki/IFD_Fanlore_Challenge" rel="nofollow">IFD Fanlore Challenge</a>, as well as Femslash February this month! Keep an eye on their <a href="https://twitter.com/fanlore_wiki" rel="nofollow">Twitter/X</a> and <a href="https://fanlore-wiki.tumblr.com/" rel="nofollow">Tumblr</a> for more details.</p><p>In January, <strong>TWC</strong> began preparations to publish two special issues: <a href="https://journal.transformativeworks.org/index.php/twc/announcement/view/149" rel="nofollow">Gaming Fandom</a> and <a href="https://journal.transformativeworks.org/index.php/twc/announcement/view/147" rel="nofollow">Disability and Fandom</a>. They also counted down their top 20 #TWCHits over on <a href="https://bsky.app/profile/journal.transformativeworks.org" rel="nofollow">Bluesky</a>!</p><p>Also in January, <strong>Development &amp; Membership's</strong> convention outreach coordinated OTW's <a href="https://www.arisia.org/" rel="nofollow">attendance at Arisia</a> in Boston, Massachusetts, US! Keep an eye on the OTW's social media, such as our <a href="https://transformativeworks.tumblr.com/" rel="nofollow">Tumblr</a> and <a href="https://bsky.app/profile/transformativeworks.org" rel="nofollow">Bluesky</a>, for future convention attendance updates.</p><h3>IV. GOVERNANCE</h3><p><strong>Board</strong>, in conjunction with the <strong>Board Assistants Team</strong> held <a href="https://www.transformativeworks.org/otw-board-meeting-january-26-2025/" rel="nofollow">their first quarterly meeting of 2025</a> in <a href="https://discord.gg/zahuzdfA3a" rel="nofollow">the Board Discord server</a>. During the meeting, they shared decisions made since the last meeting, a wrap-up on the AO3 Terms of Service update, updates on the 2024 Culture Roadmap, and the new 2025 Board Roadmap. They also received a number of questions, both those submitted asynchronously in advance and those asked during the meeting, and all were answered live. Meeting minutes will be <a href="https://www.transformativeworks.org/board_minutes/" rel="nofollow">made available on the OTW website</a> soon.</p><p><strong>Legal</strong> spent December and January closely monitoring new laws, lawmaking proposals, and legal developments around the world that could affect fans. They answered a number of queries from fans about legal developments, and also answered concerns about unauthorized apps or sites that may purport to be related to the AO3.</p><h3>V. IT'S ALL ABOUT THE PEEPS</h3><p>On December 5, <strong>Volunteers &amp; Recruiting</strong> celebrated <a href="https://www.transformativeworks.org/celebrating-international-volunteer-day-2024/" rel="nofollow">International Volunteer Day 2024</a> and ran their organization-wide email and graphics campaign recognizing OTW volunteers' work.</p><p>From November 22 to January 21, Volunteers &amp; Recruiting received 215 new requests and completed 321, leaving them with 37 open requests. As of January 21, 2025, the OTW has 889 volunteers. \o/ Recent personnel movements are listed below.</p><p><strong>New Committee Chairs:</strong> Indes and The Professor (Fanlore), xeno (News Post Moderation Lead)<br />
+<strong>New Communications Volunteers:</strong> Tal and 2 other TikTok Moderators<br />
+<strong>New Development &amp; Membership Volunteers:</strong> 1 Shipping Assistant<br />
+<strong>New Elections Volunteers:</strong> Kasia Sophia Vahtera and Elle Thompson (Communication Specialists); Caira, Harold Liu, Kriti, RIMI, and 1 other Voting Process Architect; and 1 Team Coordinator<br />
+<strong>New Fanlore Volunteers:</strong> Patchlamb (Gardener), Silarona and 1 other Team Coordinator, and 1 Policy &amp; Admin Volunteer<br />
+<strong>New Open Doors Volunteers:</strong> 1 Technical Volunteer and 1 Import Assistant<br />
+<strong>New Policy &amp; Abuse Volunteers:</strong> 2 Chair Assistants, Irina and 3 other Supervisors<br />
+<strong>New Support Volunteers:</strong> 1 Volunteer<br />
+<strong>New Tag Wrangling Volunteers:</strong> Lute, Sobriquett, Soppon, and 1 other Tag Wrangling Supervisor<br />
+<strong>New Translation Volunteers:</strong> 1 Translator<br />
+<strong>New User Response Translation Volunteers:</strong> Jennifer D2 and 3 other Liaisons</p><p><strong>Departing Committee Chairs:</strong> 1 Fanlore Chair<br />
+<strong>Departing Development &amp; Membership Volunteers:</strong> 1 Graphic Designer<br />
+<strong>Departing Fanlore Volunteers:</strong> hheyhalley (Chair Track Volunteer), 1 Policy &amp; Admin Volunteer, 1 Social Media &amp; Outreach Volunteer, 1 Social Media Moderator, and 1 Outreach Analyst<br />
+<strong>Departing Finance Volunteers:</strong> 1 Financial Analyst<br />
+<strong>Departing Open Doors Volunteers:</strong> Amanda Hartley and 1 other Administrative Volunteer, 3 Import Assistants, and 1 Technical Volunteer<br />
+<strong>Departing Policy &amp; Abuse Volunteers:</strong> 3 Volunteers<br />
+<strong>Departing Support Volunteers:</strong> Luthor<br />
+<strong>Departing Tag Wrangling Volunteers:</strong> Echo H and 10 other Tag Wranglers<br />
+<strong>Departing Translation Volunteers:</strong> angrytomato, Maya Habee, Sina, yohanna, and 2 other Translators<br />
+<strong>Departing TWC Volunteers:</strong> 1 Proofreader<br />
+<strong>Departing Volunteers &amp; Recruiting Volunteers:</strong> aliceslantern<br />
+<strong>Departing Webs Volunteers:</strong> 1 Webs Volunteer</p><p><em>For more information about our committees and their regular activities, you can refer to the <a href="https://www.transformativeworks.org/committees/" rel="nofollow">committee pages</a> on our website</em>.</p><hr /><p>
+  <i>The Organization for Transformative Works is the non-profit parent organization of multiple projects including Archive of Our Own, Fanlore, Open Doors, Transformative Works and Cultures, and OTW Legal Advocacy. We are a fan-run, entirely donor-supported organization staffed by volunteers. Find out more about us on <a href="http://www.transformativeworks.org/about_otw/" rel="nofollow">our website</a>.</i>
+</p>
+</div>
+
+        <!-- BEGIN comment section -->
+        <h3 class="landmark heading">Comment</h3>
+        <ul class="actions" role="navigation">
+            <li><a href="/admin_posts/31027?show_comments=true#comments">Read 25 Comments</a></li>
+        </ul>
+        <!-- END comment section -->
+      </div>
+    <!--/content-->
+    <hr class="clear" />
+
+    <!--subnav-->
+    <h4 class="landmark heading">Pages Navigation</h4><ol role="navigation" aria-label="Pagination" class="pagination actions" title="pagination"><li class="previous" title="previous"><span class="disabled">&#8592; Previous</span></li> <li><span class="current">1</span></li> <li><a rel="next" href="/admin_posts?page=2">2</a></li> <li><a href="/admin_posts?page=3">3</a></li> <li><a href="/admin_posts?page=4">4</a></li> <li><a href="/admin_posts?page=5">5</a></li> <li><a href="/admin_posts?page=6">6</a></li> <li><a href="/admin_posts?page=7">7</a></li> <li><a href="/admin_posts?page=8">8</a></li> <li><a href="/admin_posts?page=9">9</a></li> <li class="gap">…</li> <li><a href="/admin_posts?page=169">169</a></li> <li><a href="/admin_posts?page=170">170</a></li> <li class="next" title="next"><a rel="next" href="/admin_posts?page=2">Next &#8594;</a></li></ol>
+    <!--/subnav-->
+</div>
+
+          <div class="clear"><!--presentational--></div>
+        </div>
+        <!-- END main -->
+      </div>
+      <!-- BEGIN footer -->
+<div id="footer" role="contentinfo" class="region">
+  <h3 class="landmark heading">Footer</h3>
+  <ul class="navigation actions" role="navigation">
+    <li class="module group">
+      <h4 class="heading">About the Archive</h4>
+      <ul class="menu">
+        <li><a href="/site_map">Site Map</a></li>
+        <li><a href="/diversity">Diversity Statement</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/content">Content Policy</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/dmca">DMCA Policy</a> </li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Contact Us</h4>
+      <ul class="menu">
+        <li><a href="/abuse_reports/new">Policy Questions &amp; Abuse Reports</a></li>
+        <li><a href="/support">Technical Support &amp; Feedback</a></li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Development</h4>
+      <ul class="menu">
+          <li>
+            <a href="https://github.com/otwcode/otwarchive/commits/v0.9.398.5">otwarchive v0.9.398.5</a>
+          </li>
+        <li><a href="/known_issues">Known Issues</a></li>
+        <li>
+          <a title="View License" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL-2.0-or-later</a> by the <a title="Organization for Transformative Works" href="https://transformativeworks.org/">OTW</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!-- END footer -->
+
+    </div>
+    <!-- check to see if this controller/action allow tinymce before we load the gigantor js; see application_helper -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js" type="text/javascript"></script>
+<!-- if user has googleapis blocked for some reason we need a fallback -->
+<script type="text/javascript">
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='/javascripts/jquery-ui.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+</script>
+
+
+<script type="text/javascript">$j = jQuery.noConflict();</script>
+<script src="/javascripts/jquery.scrollTo.min.js"></script>
+<script src="/javascripts/jquery.livequery.min.js"></script>
+<script src="/javascripts/rails.js"></script>
+<script src="/javascripts/application.js"></script>
+<script src="/javascripts/bootstrap/bootstrap-dropdown.min.js"></script>
+<script src="/javascripts/jquery-shuffle.js"></script>
+<script src="/javascripts/jquery.tokeninput.min.js"></script>
+<script src="/javascripts/jquery.trap.min.js"></script>
+<script src="/javascripts/ao3modal.min.js"></script>
+<script src="/javascripts/js.cookie.min.js"></script>
+
+<script src="/javascripts/filters.min.js"></script>
+
+
+  <script>
+//<![CDATA[
+
+    // We can't rely on !window.localStorage to test localStorage support in
+    // browsers like Safari 9, which technically support it, but which have a
+    // storage length of 0 in private mode.
+    // Credit: https://github.com/getgrav/grav-plugin-admin/commit/cfe2188f10c4ca604e03c96f3e21537fda1cdf9a
+    function isSupported() {
+        var item = "localStoragePolyfill";
+        try {
+            localStorage.setItem(item, item);
+            localStorage.removeItem(item);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function acceptTOS() {
+      if (isSupported()) {
+        localStorage.setItem("accepted_tos", "20241119");
+      } else {
+        Cookies.set("accepted_tos", "20241119", { expires: 365 });
+      }
+    }
+
+    $j(document).ready(function() {
+        if (localStorage.getItem("accepted_tos") !== "20241119" && Cookies.get("accepted_tos") !== "20241119") {
+          $j("body").prepend("<div id=\"tos_prompt\" class=\"hidden\">\n  <h2 class=\"heading\">\n    <span>Archive of Our Own<\/span>\n  <\/h2>\n  <div class=\"agreement\">\n    <p>\n      On the Archive of Our Own (AO3), users can create works, bookmarks, comments, tags, and other <a href=\"/tos_faq#define_content\">Content<\/a>. Any information you publish on AO3 may be accessible by the public, AO3 users, and/or AO3 personnel. Be mindful when sharing personal information, including but not limited to your name, email, age, location, personal relationships, gender or sexual identity, racial or ethnic background, religious or political views, and/or account usernames for other sites.\n    <\/p>\n    <p>\n      To learn more, check out our <a href=\"/tos\">Terms of Service<\/a>, including the <a href=\"/content\">Content Policy<\/a> and <a href=\"/privacy\">Privacy Policy<\/a>.\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"tos_agree\" />\n      <label for=\"tos_agree\">I have read &amp; understood the 2024 Terms of Service, including the Content Policy and Privacy Policy.<\/label>\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"data_processing_agree\" />\n      <label for=\"data_processing_agree\">By checking this box, you consent to the processing of your personal data in the United States and other jurisdictions in connection with our provision of AO3 and its related services to you. You acknowledge that the data privacy laws of such jurisdictions may differ from those provided in your jurisdiction. For more information about how your personal data will be processed, please refer to our Privacy Policy.<\/label>\n    <\/p>\n\n      <p class=\"submit\">\n        <button name=\"button\" type=\"button\" disabled=\"disabled\" id=\"accept_tos\">I agree/consent to these Terms<\/button>\n      <\/p>\n\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    var container = \$j(\"#tos_prompt\");\n    var outer = \$j(\"#outer\");\n    var button = \$j(\"#accept_tos\");\n    var tosCheckbox = document.getElementById(\"tos_agree\");\n    var dataProcessingCheckbox = document.getElementById(\"data_processing_agree\");\n\n    var checkboxClicked = function() {\n      button.attr(\"disabled\", !tosCheckbox.checked || !dataProcessingCheckbox.checked);\n      if (this.checked) {\n        button.on(\"click\", function() {\n          acceptTOS();\n          outer.removeClass(\"hidden\").removeAttr(\"aria-hidden\");\n          \$j.when(container.fadeOut(500)).done(function() {\n            container.remove();\n          });\n        });\n      };\n    };\n\n    setTimeout(showTOSPrompt, 1500);\n\n    function showTOSPrompt() {\n      \$j.when(container.fadeIn(500)).done(function() {\n        outer.addClass(\"hidden\").attr(\"aria-hidden\", \"true\");\n      });\n\n      \$j(\"#tos_agree\").on(\"click\", checkboxClicked).change();\n      \$j(\"#data_processing_agree\").on(\"click\", checkboxClicked).change();\n    };\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+        }
+    });
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+    $j(document).ready(function() {
+      var permitted_hosts = ["104.153.64.122","208.85.241.152","208.85.241.157","ao3.org","archiveofourown.com","archiveofourown.gay","archiveofourown.net","archiveofourown.org","download.archiveofourown.org","insecure.archiveofourown.org","secure.archiveofourown.org","www.archiveofourown.com","www.archiveofourown.net","www.archiveofourown.org","www.ao3.org","archive.transformativeworks.org","xn--iao3-lw4b.ws"];
+      var current_host = window.location.hostname;
+
+      if (!permitted_hosts.includes(current_host) && Cookies.get("proxy_notice") !== "0" && window.location.protocol !== "file:") {
+        $j("#skiplinks").after("<div id=\"proxy-notice\">\n  <div class=\"userstuff\">\n    <p class=\"important\">Important message:<\/p>\n    <ol>\n      <li>You are using a proxy site that is not part of the Archive of Our Own.<\/li>\n      <li>The entity that set up the proxy site can see what you submit, including your IP address. If you log in through the proxy site, it can see your password.<\/li>\n    <\/ol>\n    <p class=\"important\">Важная информация:<\/p>\n    <ol>\n      <li>Вы используете прокси-сайт, который не является частью AO3 (Нашего Архива).<\/li>\n      <li>Субъект, настроивший прокси-сайт, может видеть, что вы отправляете, включая ваш IP-адрес. Если вы авторизуетесь через прокси-сайт, он может видеть ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">Важливе повідомлення:<\/p>\n    <ol>\n      <li>Ви використовуєте проксі-сайт, який не є частиною Archive of Our Own (Нашого Власного Архіву).<\/li>\n      <li>Творці цього проксі-сайту можуть бачити Ваші дані та дії, а також Вашу IP-адресу. Якщо Ви входите до свого облікового запису, використовуючи проксі-сайт, його творці можуть бачити Ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">重要提示：<\/p>\n    <ol>\n      <li>您使用的是第三方开发的反向代理网站，此网站并非Archive of Our Own - AO3（AO3作品库）原站。<\/li>\n      <li>代理网站的开发者能够获取您上传至该站点的全部内容，包括您的ip地址。如您通过代理登录AO3，对方将获得您的密码。<\/li>\n    <\/ol>\n    <p class=\"submit\"><button class=\"action\" type=\"button\" id=\"proxy-notice-dismiss\">Dismiss Notice<\/button><\/p>\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    \$j(\"#proxy-notice-dismiss\").on(\"click\", function() {\n      Cookies.set(\"proxy_notice\", \"0\");\n      \$j(\"#proxy-notice\").slideUp();\n    });\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+      }
+    });
+
+//]]>
+</script>
+
+
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9193e85b284ed471',t:'MTc0MDc4MjMzNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

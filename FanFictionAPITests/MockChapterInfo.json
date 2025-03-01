@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="keywords" content="fanfiction, transformative works, otw, fair use, archive" />
+    <meta name="language" content="en-US" />
+    <meta name="subject" content="fandom" />
+    <meta name="description" content="An Archive of Our Own, a project of the
+    Organization for Transformative Works" />
+    <meta name="distribution" content="GLOBAL" />
+    <meta name="classification" content="transformative works" />
+    <meta name="author" content="Organization for Transformative Works" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        Catch the Thunder - Chapter 1 - Rhov - Fairy Tail [Archive of Our Own]
+    </title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/1_site_screen_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 62em), handheld" href="/stylesheets/skins/skin_1_default/4_site_midsize.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 42em), handheld" href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="speech" href="/stylesheets/skins/skin_1_default/6_site_speech_.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/stylesheets/skins/skin_1_default/7_site_print_.css" />
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/8_site_screen_IE8_or_lower.css" /><![endif]-->
+<!--[if IE 5]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/9_site_screen_IE5.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/10_site_screen_IE6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/11_site_screen_IE7.css" /><![endif]-->
+
+
+<!--sandbox for developers    -->
+<link rel="stylesheet" href="/stylesheets/sandbox.css" />
+
+
+
+<script src="/javascripts/livevalidation_standalone.js"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="cN1iHfaaYkyAJSXNfv1zlYl6dfJFOJV6Eyifs4epoXhifGer-PSOEm7UMCtXalIweQJM33uV6YJQ6lXirg3K6w" />
+
+    
+  </head>
+
+  <body class="logged-out" >
+    <div id="outer" class="wrapper">
+      <ul id="skiplinks"><li><a href="#main">Main Content</a></li></ul>
+      <noscript><p id="javascript-warning">While we&#39;ve done our best to make the core functionality of this site accessible without JavaScript, it will work better with it enabled. Please consider turning it on!</p></noscript>
+
+<!-- BEGIN header -->
+
+<header id="header" class="region">
+
+  <h1 class="heading">
+    <a href="/"><span>Archive of Our Own</span><sup> beta</sup><img alt="Archive of Our Own" class="logo" src="/images/ao3_logos/logo_42.png" /></a>
+  </h1>
+
+    <div id="login" class="dropdown">
+      <p class="user actions">
+        <a id="login-dropdown" href="/users/login">Log In</a>
+      </p>
+      <div id="small_login" class="simple login">
+    <form class="new_user" id="new_user_session_small" action="/users/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4tisOxw3AGU7FGM5OMFe5NXuMO3ArJgqhtTIJp9MsqPCh6PN_AkE7GZDtuBoXFwetjuKp-FiRD95bm7ezss2DQ" autocomplete="off" />
+    <dl>
+    <dt>
+      <label for="user_session_login_small">User name or email:</label></dt>
+    <dd><input id="user_session_login_small" type="text" name="user[login]" /></dd>
+    <dt><label for="user_session_password_small">Password:</label></dt>
+    <dd><input id="user_session_password_small" type="password" name="user[password]" /></dd>
+  </dl>
+  <p class="submit actions">
+    <label for="user_remember_me_small" class="action"><input type="checkbox" name="user[remember_me]" id="user_remember_me_small" value="1" />Remember Me</label>
+    <input type="submit" name="commit" value="Log In" />
+  </p>
+</form>
+<ul class="footnote actions">
+  <li><a href="/users/password/new">Forgot password?</a></li>
+    <li>
+      <a href="/invite_requests">Get an Invitation</a>
+    </li>
+</ul>
+
+</div>
+
+    </div>
+
+  <nav aria-label="Site">
+    <ul class="primary navigation actions">
+      <li class="dropdown">
+        <a href="/menu/fandoms">Fandoms</a>
+        <ul class="menu">
+  <li><a href="/media">All Fandoms</a></li>
+        <li id="medium_5"><a href="/media/Anime%20*a*%20Manga/fandoms">Anime &amp; Manga</a></li>
+        <li id="medium_3"><a href="/media/Books%20*a*%20Literature/fandoms">Books &amp; Literature</a></li>
+        <li id="medium_4"><a href="/media/Cartoons%20*a*%20Comics%20*a*%20Graphic%20Novels/fandoms">Cartoons &amp; Comics &amp; Graphic Novels</a></li>
+        <li id="medium_7"><a href="/media/Celebrities%20*a*%20Real%20People/fandoms">Celebrities &amp; Real People</a></li>
+        <li id="medium_2"><a href="/media/Movies/fandoms">Movies</a></li>
+        <li id="medium_6"><a href="/media/Music%20*a*%20Bands/fandoms">Music &amp; Bands</a></li>
+        <li id="medium_8"><a href="/media/Other%20Media/fandoms">Other Media</a></li>
+        <li id="medium_30198"><a href="/media/Theater/fandoms">Theater</a></li>
+        <li id="medium_1"><a href="/media/TV%20Shows/fandoms">TV Shows</a></li>
+        <li id="medium_476"><a href="/media/Video%20Games/fandoms">Video Games</a></li>
+        <li id="medium_9971"><a href="/media/Uncategorized%20Fandoms/fandoms">Uncategorized Fandoms</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/browse">Browse</a>
+        <ul class="menu">
+  <li><a href="/works">Works</a></li>
+  <li><a href="/bookmarks">Bookmarks</a></li>
+  <li><a href="/tags">Tags</a></li>
+  <li><a href="/collections">Collections</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/search">Search</a>
+        <ul class="menu">
+  <li><a href="/works/search">Works</a></li>
+  <li><a href="/bookmarks/search">Bookmarks</a></li>
+  <li><a href="/tags/search">Tags</a></li>
+  <li><a href="/people/search">People</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/about">About</a>
+        <ul class="menu">
+  <li><a href="/about">About Us</a></li>
+  <li><a href="/admin_posts">News</a></li>
+  <li><a href="/faq">FAQ</a></li>
+  <li><a href="/wrangling_guidelines">Wrangling Guidelines</a></li>
+  <li><a href="/donate">Donate or Volunteer</a></li>
+</ul>
+
+      </li>
+      <li class="search"><form class="search" id="search" role="search" aria-label="Work" action="/works/search" accept-charset="UTF-8" method="get">
+  <fieldset>
+    <p>
+      <label class="landmark" for="site_search">Work Search</label>
+      <input class="text" id="site_search" aria-describedby="site_search_tooltip" type="text" name="work_search[query]" />
+      <span class="tip" role="tooltip" id="site_search_tooltip">tip: lex m/m (mature OR explicit)</span>
+      <span class="submit actions"><input type="submit" value="Search" class="button" /></span>
+    </p>
+  </fieldset>
+</form></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="clear"></div>
+
+</header>
+
+
+
+<!-- END header -->
+
+      <div id="inner" class="wrapper">
+        <!-- BEGIN sidebar -->
+        <!-- END sidebar -->
+
+        <!-- BEGIN main -->
+        <div id="main" class="chapters-show region" role="main">
+          
+          <div class="flash"></div>
+          <!--page description, messages-->
+<!--/descriptions-->
+
+<!--subnav-->
+<!--/subnav-->
+
+  <!-- BEGIN work -->
+  <div class="work"><p class="landmark"><a name="top">&nbsp;</a></p>
+      <!-- BEGIN navigation -->
+<h3 class="landmark heading">Actions</h3>
+<ul class="work navigation actions" role="menu">
+
+
+
+    <li class="chapter entire"><a href="/works/2226570?view_full_work=true">Entire Work</a></li>
+
+
+      <li class="chapter next"><a href="/works/2226570/chapters/4967817#workskin">Next Chapter &#8594;</a></li>
+
+    <li class="chapter" aria-haspopup="true">
+      <noscript>
+        <a href="/works/2226570/navigate">Chapter Index</a>
+      </noscript>
+      <a class="hidden" href="#">Chapter Index</a>
+      <ul id="chapter_index" class="expandable secondary hidden">
+        <li>
+          <form action="/works/2226570/chapters/4884561" accept-charset="UTF-8" method="get">
+            <p>
+              <select name="selected_id" id="selected_id"><option selected="selected" value="4884561">1. The Thunder God</option>
+<option value="4967817">2. Lap Dance</option>
+<option value="5060405">3. A Cheap Motel</option>
+<option value="5139209">4. Whiskey and Gin</option>
+<option value="5276015">5. Supplies and Surprise</option>
+<option value="5399777">6. Electric Blue</option>
+<option value="5464922">7. Sparks Inside</option>
+<option value="5554448">8. Thunderstorm Fading</option>
+<option value="5664194">9. Always Greener on the Other Side</option>
+<option value="5721938">10. VIP Room</option>
+<option value="5817422">11. Master and Slave</option>
+<option value="5873621">12. Opera Date</option>
+<option value="5933738">13. Can't Be Caught</option>
+<option value="5984453">14. First and Only</option>
+<option value="6020504">15. You Really Don't Want to Know</option>
+<option value="6089714">16. The Justines</option>
+<option value="6178385">17. Compromises</option>
+<option value="6341255">18. Everywhere, Everything</option>
+<option value="7050035">19. An Awkward Family Reunion</option>
+<option value="7272374">20. A Very Merry Christmas</option>
+<option value="7652912">21. Passing Storm</option>
+<option value="7774223">22. The Lonely Angel</option>
+<option value="7916802">23. To Guys</option>
+<option value="8034597">24. Master's Return</option>
+<option value="8143164">25. In Front of Everyone</option>
+<option value="8226691">26. Corvette Kinks</option>
+<option value="8289154">27. Wash Away the Sins</option>
+<option value="8560882">28. Couch Cuddles</option>
+<option value="8710390">29. Bright Flashes of Lightning</option>
+<option value="9705033">30. Angel of the Morning</option>
+<option value="9764541">31. Blessing</option>
+<option value="10495239">32. Morning Preparations</option>
+<option value="11098649">33. Ride Atop the Storm</option>
+<option value="11213779">34. An Angel or a Devil</option>
+<option value="11488570">35. I've Got You Under My Skin</option>
+<option value="11664895">36. White Bird in a Golden Cage</option>
+<option value="12584855">37. A Paddle For Two</option>
+<option value="12726704">38. You're Freed</option>
+<option value="13309810">39. Night's End</option>
+<option value="13597660">40. Drop</option>
+<option value="14151055">41. Angel of Music</option>
+<option value="14505124">42. A New Storm Rolls In</option>
+<option value="15028759">43. Hear Your Voice</option>
+<option value="15230077">44. Dream Lover</option>
+<option value="15396082">45. The Bowels of Hell</option>
+<option value="15623728">46. Sadistic Orders</option>
+<option value="16370608">47. Like No Tomorrow</option>
+<option value="16665076">48. Dirty Money</option>
+<option value="16965408">49. Shelter From the Storm</option>
+<option value="17336224">50. Storm From the Shelter</option>
+<option value="18314119">51. Return Home</option>
+<option value="18531616">52. Playroom</option>
+<option value="18719008">53. Make My Angel Fly</option>
+<option value="19175632">54. For Storm or Shine</option>
+<option value="20674690">55. One Day More</option>
+<option value="21279038">56. Master of the House</option>
+<option value="22866285">57. Summer Garden Party</option>
+<option value="23426958">58. A Special Punishment</option>
+<option value="25675869">59. Hunter/Prey</option>
+<option value="26104161">60. Pet Training</option>
+<option value="26452407">61. Marking Territory</option>
+<option value="28539888">62. Camping in Style</option>
+<option value="32975490">63. S'mores and More</option>
+<option value="33140820">64. As Angry As a Bear</option>
+<option value="40161104">65. The Words We Can't Yet Say</option>
+<option value="44809123">66. Watches and Stones</option>
+<option value="46844287">67. The Best Sub</option>
+<option value="47361271">68. Next Round</option>
+<option value="48533798">69. More Than Just a Lick</option>
+<option value="49809755">70. Say My Name</option>
+<option value="50835772">71. Pinkie and Greenie</option>
+<option value="55999267">72. Italian Tour</option>
+<option value="73998495">73. Roman Holiday</option>
+<option value="104374470">74. Like an Emperor</option>
+<option value="158890885">75. Capri Sun</option>
+<option value="160997128">76. Reloaded</option>
+<option value="162633568">77. Childhood Bedroom</option></select>
+              <span class="submit actions"><input type="submit" name="commit" value="Go" /></span>
+            </p>
+</form>        </li>
+        <li><a href="/works/2226570/navigate">Full-page index</a></li>
+      </ul>
+    </li>
+
+
+
+  <li class="comments" id="show_comments_link_top">
+      <a data-remote="true" href="/comments/show_comments?chapter_id=4884561">Comments </a>
+  </li>
+
+
+
+    <li class="share hidden">
+      <a class=" modal" title="Share Work" href="/works/2226570/share">Share</a>
+    </li>
+
+
+    <li class="download" aria-haspopup="true">
+      <a href="#">Download</a>
+      <ul class="expandable secondary">
+          <li><a href="/downloads/2226570/Catch_the_Thunder.azw3?updated_at=1740748468">AZW3</a></li>
+          <li><a href="/downloads/2226570/Catch_the_Thunder.epub?updated_at=1740748468">EPUB</a></li>
+          <li><a href="/downloads/2226570/Catch_the_Thunder.mobi?updated_at=1740748468">MOBI</a></li>
+          <li><a href="/downloads/2226570/Catch_the_Thunder.pdf?updated_at=1740748468">PDF</a></li>
+          <li><a href="/downloads/2226570/Catch_the_Thunder.html?updated_at=1740748468">HTML</a></li>
+      </ul>
+    </li>
+</ul>
+<!-- END navigation -->
+
+
+<h3 class="landmark heading">Work Header</h3>
+
+<div class="wrapper">
+
+  <dl class="work meta group">
+          <dt class="rating tags">
+
+              Rating:
+          </dt>
+
+          <dd class="rating tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Explicit/works">Explicit</a></li>
+            </ul>
+          </dd>
+          <dt class="warning tags">
+
+              <a href="/tos_faq#tags">Archive Warning</a>:
+          </dt>
+
+          <dd class="warning tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Graphic%20Depictions%20Of%20Violence/works">Graphic Depictions Of Violence</a></li>
+            </ul>
+          </dd>
+          <dt class="category tags">
+
+              Category:
+          </dt>
+
+          <dd class="category tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/M*s*M/works">M/M</a></li>
+            </ul>
+          </dd>
+          <dt class="fandom tags">
+
+              Fandom:
+          </dt>
+
+          <dd class="fandom tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Fairy%20Tail/works">Fairy Tail</a></li>
+            </ul>
+          </dd>
+          <dt class="relationship tags">
+
+              Relationship:
+          </dt>
+
+          <dd class="relationship tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Laxus%20Dreyar*s*Freed%20Justine/works">Laxus Dreyar/Freed Justine</a></li>
+            </ul>
+          </dd>
+          <dt class="character tags">
+
+              Characters:
+          </dt>
+
+          <dd class="character tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Laxus%20Dreyar/works">Laxus Dreyar</a></li><li><a class="tag" href="/tags/Freed%20Justine/works">Freed Justine</a></li><li><a class="tag" href="/tags/Gray%20Fullbuster/works">Gray Fullbuster</a></li><li><a class="tag" href="/tags/Natsu%20Dragneel/works">Natsu Dragneel</a></li><li><a class="tag" href="/tags/Evergreen%20(Fairy%20Tail)/works">Evergreen (Fairy Tail)</a></li><li><a class="tag" href="/tags/Bickslow%20(Fairy%20Tail)/works">Bickslow (Fairy Tail)</a></li>
+            </ul>
+          </dd>
+          <dt class="freeform tags">
+
+              Additional Tags:
+          </dt>
+
+          <dd class="freeform tags">
+            <ul class="commas">
+               <li><a class="tag" href="/tags/Alternate%20Universe%20-%20Modern%20Setting/works">Alternate Universe - Modern Setting</a></li><li><a class="tag" href="/tags/Strippers%20*a*%20Strip%20Clubs/works">Strippers &amp; Strip Clubs</a></li><li><a class="tag" href="/tags/Lapdance/works">Lapdance</a></li><li><a class="tag" href="/tags/Premature%20Ejaculation/works">Premature Ejaculation</a></li><li><a class="tag" href="/tags/Coming%20In%20Pants/works">Coming In Pants</a></li><li><a class="tag" href="/tags/BDSM/works">BDSM</a></li><li><a class="tag" href="/tags/Riding%20Crops/works">Riding Crops</a></li><li><a class="tag" href="/tags/Safe%20Sane%20and%20Consensual/works">Safe Sane and Consensual</a></li><li><a class="tag" href="/tags/Master*s*Slave/works">Master/Slave</a></li><li><a class="tag" href="/tags/Butt%20Plugs/works">Butt Plugs</a></li><li><a class="tag" href="/tags/Erotic%20Electrostimulation/works">Erotic Electrostimulation</a></li><li><a class="tag" href="/tags/Orgasm%20Delay*s*Denial/works">Orgasm Delay/Denial</a></li><li><a class="tag" href="/tags/Humiliation/works">Humiliation</a></li><li><a class="tag" href="/tags/Bondage/works">Bondage</a></li><li><a class="tag" href="/tags/Spanking/works">Spanking</a></li><li><a class="tag" href="/tags/Hand%20Jobs/works">Hand Jobs</a></li><li><a class="tag" href="/tags/Strip%20Tease/works">Strip Tease</a></li><li><a class="tag" href="/tags/Frottage/works">Frottage</a></li><li><a class="tag" href="/tags/Oral%20Sex/works">Oral Sex</a></li><li><a class="tag" href="/tags/Exhibitionism/works">Exhibitionism</a></li><li><a class="tag" href="/tags/Public%20Claiming/works">Public Claiming</a></li><li><a class="tag" href="/tags/Sex%20in%20a%20Dorm/works">Sex in a Dorm</a></li><li><a class="tag" href="/tags/Collars/works">Collars</a></li><li><a class="tag" href="/tags/Sex%20Toys/works">Sex Toys</a></li><li><a class="tag" href="/tags/Body%20Worship/works">Body Worship</a></li><li><a class="tag" href="/tags/Claiming%20Bites/works">Claiming Bites</a></li><li><a class="tag" href="/tags/Role%20Reversal/works">Role Reversal</a></li><li><a class="tag" href="/tags/Handcuffs/works">Handcuffs</a></li><li><a class="tag" href="/tags/Goodbye%20Sex/works">Goodbye Sex</a></li><li><a class="tag" href="/tags/Reunion%20Sex/works">Reunion Sex</a></li><li><a class="tag" href="/tags/Closet%20Sex/works">Closet Sex</a></li><li><a class="tag" href="/tags/Cock%20Rings/works">Cock Rings</a></li><li><a class="tag" href="/tags/Public%20Hand%20Jobs/works">Public Hand Jobs</a></li><li><a class="tag" href="/tags/Coming%20in%20Public/works">Coming in Public</a></li><li><a class="tag" href="/tags/Car%20Sex/works">Car Sex</a></li><li><a class="tag" href="/tags/Mutual%20Masturbation/works">Mutual Masturbation</a></li><li><a class="tag" href="/tags/Shower%20Sex/works">Shower Sex</a></li><li><a class="tag" href="/tags/Cock%20Worship/works">Cock Worship</a></li><li><a class="tag" href="/tags/Nude%20Modeling/works">Nude Modeling</a></li><li><a class="tag" href="/tags/Mirror%20Sex/works">Mirror Sex</a></li><li><a class="tag" href="/tags/Multiple%20Orgasms/works">Multiple Orgasms</a></li><li><a class="tag" href="/tags/Morning%20Sex/works">Morning Sex</a></li><li><a class="tag" href="/tags/Topping%20from%20the%20Bottom/works">Topping from the Bottom</a></li><li><a class="tag" href="/tags/Kitchen%20Sex/works">Kitchen Sex</a></li><li><a class="tag" href="/tags/Foreskin%20Play/works">Foreskin Play</a></li><li><a class="tag" href="/tags/Docking/works">Docking</a></li><li><a class="tag" href="/tags/Cock%20Cages/works">Cock Cages</a></li><li><a class="tag" href="/tags/Ball%20Gags/works">Ball Gags</a></li><li><a class="tag" href="/tags/Blindfolds/works">Blindfolds</a></li><li><a class="tag" href="/tags/Public%20Nudity/works">Public Nudity</a></li><li><a class="tag" href="/tags/Chastity%20Device/works">Chastity Device</a></li><li><a class="tag" href="/tags/Paddling/works">Paddling</a></li><li><a class="tag" href="/tags/Fetish%20Clothing/works">Fetish Clothing</a></li><li><a class="tag" href="/tags/Violet%20Wand/works">Violet Wand</a></li><li><a class="tag" href="/tags/Impact%20Play/works">Impact Play</a></li><li><a class="tag" href="/tags/Daddy%20Kink/works">Daddy Kink</a></li><li><a class="tag" href="/tags/Sexting/works">Sexting</a></li><li><a class="tag" href="/tags/Rope%20Bondage/works">Rope Bondage</a></li><li><a class="tag" href="/tags/Shibari/works">Shibari</a></li><li><a class="tag" href="/tags/Catheters/works">Catheters</a></li><li><a class="tag" href="/tags/Diapers/works">Diapers</a></li><li><a class="tag" href="/tags/Desperation%20Play/works">Desperation Play</a></li><li><a class="tag" href="/tags/Master*s*Pet/works">Master/Pet</a></li><li><a class="tag" href="/tags/Muzzle%20Kink/works">Muzzle Kink</a></li><li><a class="tag" href="/tags/Sounding/works">Sounding</a></li><li><a class="tag" href="/tags/Animal%20Play/works">Animal Play</a></li><li><a class="tag" href="/tags/Beach%20Sex/works">Beach Sex</a></li>
+            </ul>
+          </dd>
+
+      <dt class="language">
+        Language:
+      </dt>
+      <dd class="language" lang="en">
+        English
+      </dd>
+
+
+      <dt class="collections">
+        Collections:
+      </dt>
+      <dd class="collections">
+        <a href="/collections/Reading1_LOW">Reading 1</a>
+      </dd>
+
+    <dt class="stats">Stats:</dt>
+    <dd class="stats">
+<!-- end of cache -->
+
+      <dl class="stats"><dt class="published">Published:</dt><dd class="published">2014-08-30</dd><dt class="status">Updated:</dt><dd class="status">2025-02-28</dd><dt class="words">Words:</dt><dd class="words">491,525</dd><dt class="chapters">Chapters:</dt><dd class="chapters">77/?</dd><dt class="comments">Comments:</dt><dd class="comments">1,451</dd><dt class="kudos">Kudos:</dt><dd class="kudos">2,549</dd><dt class="bookmarks">Bookmarks:</dt><dd class="bookmarks"><a href="/works/2226570/bookmarks">349</a></dd><dt class="hits">Hits:</dt><dd class="hits">130,379</dd></dl>
+      </dd>
+  </dl>
+</div>
+
+
+
+<!-- BEGIN section where work skin applies -->
+<div id="workskin">
+  <div class="preface group">
+    <h2 class="title heading">
+      Catch the Thunder
+    </h2>
+    <h3 class="byline heading">
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+    </h3>
+
+
+        <div class="summary module">
+          <h3 class="heading">Summary:</h3>
+            <blockquote class="userstuff">
+              <p>Laxus is a strip dancer; Freed is a loyal customer who prefers to admire this erotic, muscular man from afar. When Freed hears that his favorite dancer is about to get fired, he finally gets the nerve to hire him. What starts as a simple lap dance turns into a night of sensual fetishes and complicated emotions. Freed wants to get to know this enigmatic man more.</p><p>Does he dare try to "catch the thunder"?</p>
+            </blockquote>
+        </div>
+
+
+  </div>
+
+
+
+    <div id="chapters">
+      <!-- This partial requires local variable 'chapter' -->
+<div class="chapter" id="chapter-1">
+  <!-- chapter management -->
+
+
+  <div class="chapter preface group">
+    <h3 class="title">
+      <a href="/works/2226570/chapters/4884561">Chapter 1</a>: The Thunder God
+    </h3>
+
+    <!-- only display byline if different from the main byline -->
+
+        <div id="summary" class="summary module">
+          <h3 class="heading">Summary:</h3>
+          <blockquote class="userstuff">
+            <p>Freed, a regular patron of the South Pole Club, learns that there's trouble with his favorite dancer, a hulking blond with the stage name THOR. Freed is determined to help Thor keep his job, even if that means finally building up the nerve to ask for a lap dance.</p>
+          </blockquote>
+        </div>
+
+      <div id="notes" class="notes module">
+        <h3 class="heading">Notes:</h3>
+          <blockquote class="userstuff"><p>Modern AU. I'll be honest, I've never written for Laxus and Freed before. I hope it's okay.</p><p>It's been recommended that I add a disclaimer that the following chapter uses descriptions that are from Freed's POV. They are not meant to be offensive. Freed's observations are tainted by his experiences. I will try to make that clearer in the future.</p><p align="center"><img src="https://i.imgur.com/hgYNvDn.png" alt="Zelkam book cover" width="400" height="587" /><br />
+(<a href="https://wildrhov.tumblr.com/post/639094548236206080/zelkams-art-catch-the-thunder-nsfw-a-fraxus" rel="nofollow">fan art by Zelkam</a>)</p></blockquote>
+            <p>
+            (See the end of the chapter for  <a href="#chapter_1_endnotes">more notes</a>.)
+            </p>
+      </div>
+  </div>
+
+  <!--main content-->
+  <div class="userstuff module" role="article">
+    <h3 class="landmark heading" id="work">Chapter Text</h3>
+    <p>"I think I get it, Bob," Freed said as he stared at a red-lit stage. "I'm a masochist."</p><p>The bald bartender with too much makeup giggled at the confession. "Nothing wrong with being an M. I've seen your fencing matches on the tele. A swordsman like you takes pain well."</p><p>"Nah, not that type … I think," he added, really unsure what he thought about the kinkier aspects of sex. He never tried handcuffs and such, so Freed really was unsure if he would like that. "I'm the type who likes to be teased and denied."</p><p>"Well, that's why you're here," the cross-dressing bartender said cheerfully.</p><p>Freed just grunted. "Yeah. Here." The South Pole Club, a gay strip club, sitting with a bartender he knew by first name, waiting for a dancer whose real name he did not even know. "When will <em>he</em> be on?"</p><p>"Second act, same as always," Bob replied.</p><p>"Second," the green-haired man grumbled.</p><p>He wanted his favorite stripper to be the opening act, but that coveted spot was only for the club's darling, a true professional named Ice Prince. That man made everyone else look terrible, but he riled up the crowd every time. The man Freed was waiting for was a polar opposite to Ice Prince. They called him Thor, probably due to the lightning-shaped scar that ran down his face and over one eye. It was a frightening scar, plus the man was a massive blond, more like a body builder than a stripper, and when the clothes came off, all of his tattoos made for a stunning visual. "Threatening Thor" was what some in the audience called him, but that was what made Freed fall for him.</p><p>Bob brought over another martini without even needing to be asked. He knew this regular customer that well. "You should request him this time. I don't think you've ever spoken a word to <em>Thor</em>."</p><p>Freed blushed a little. Oh yes, it was tempting, but … "I wouldn't even know what to say to him. I'd choke up, stare like some idiot, act like a totally smitten fool. No," he sighed, picking up the new drink. "Like I said, I'm a masochist. I'd rather watch him from afar. After all, lightning is beautiful when seen in the clouds, but terrifying when it strikes right in front of you."</p><p>Bob's jiggling face pouted until his cherry red lipstick looked like a blooming rose. "Oh dear! I really shouldn't say this. We're not supposed to push customers into something they don't want but … oh dear."</p><p>Freed took his eyes off the empty stage and looked back at the bartender. "What it is?"</p><p>"Well, you see … <em>Thor</em> hasn't been doing well."</p><p>The green-haired man jolted. "What? Is he sick?"</p><p>"Oh, no, nothing like that at all. I mean work-wise. He's a good man, but his sort of personality appeals to only certain types of people, folks like yourself. Timid and masochistic, that's his pull. The thing is, those sorts also don't call on dancers for a personal session. The owner had some harsh words for Thor just yesterday. He said he'd better get at least one lap dance today or he's out."</p><p>Freed felt his heart drop. "They'd fire him? But he's good!"</p><p>"Talent and success aren't always hand in hand. Thor is a good man and a great dancer, but if he doesn't make this club money, Mr. Fernandes will show him to the door."</p><p>"Jellal Fernandes," Freed seethed.</p><p>He had seen the club owner plenty of times, coming out on stage to welcome good crowds, sometimes introducing if the club was having a theme for the day. He had a charming smile and either a tattoo or facial paint that really stuck out in some mystical sort of way, but there was something about the glint in his eyes. He looked at the crowd like looking at slaves that were moving to his will. Maybe that was a good comparison. The audience fell under Jellal's spell, enchanted by sex appeal and thumping music, driven to spend their hard-earned money on alcohol and lap dances.</p><p>"Bob," Freed said as softly as he could while still being heard. The bald bartender leaned in a bit closer. "What do I have to do to … um … to <em>request</em> Thor?"</p><p>Bob looked like he pitied Freed. He had broken the rules, but he liked Thor. He was a good man. If they lost Thor, they lost Freed and many others who came to sit in their seats, squirming with unfulfilled desire, too shy to tuck away the dollar bills, but still buying up the booze.</p><p>Deftly, the obese man pulled out a card and explained how to fill it out, including just how much <em>attention</em> Freed wanted. It was $10 standard, plus Bob explained that there were differences in <em>contact</em>. $10 was what he described as an <em>air dance</em>. No actual physical contact. $15 got a person one-way contact, but you had to keep your hands to yourself. $30 was two-way contact. Both dancer and receiver could touch one another. To splurge, he could get a private VIP room at $180 for half an hour of erotic dancing. Freed shook his head at that. He had money, but that seemed like too much for his first time. Also, Bob advised, he should tip the dancer. Some of that tip went to the manager to pay for costumes and makeup, but the rest went to the dancer himself. Strippers made most of their money in tips.</p><p>Freed filled out the card, blushing fiercely. Then he took his usual seat. His heart was pounding now, knowing he would finally get to talk with Thor. He drank a little faster until his head began to spin. He needed to slow down, breathe easier, and not make himself sick with anxiety. Thor's career was at stake!</p><p>The lights finally dimmed. Jellal came out to welcome everyone. A joke, a smarmy grin, and that glint in his eyes as he practically ordered everyone to "enjoy yourselves to the fullest." Then he moved aside, the stage curtain pulled back, music began, and the spotlight shined on the opening act: Ice Prince.</p><p>Freed had to admire this dancer. He was pure talent. He danced because stripping was something he loved to do. You could see it in the way he moved his body. This raven-haired rogue rallied the rabble, getting cheers and catcalls. His greatest talent was to tease, tease, tease, and then suddenly go from fully dressed to nothing but a thong in three seconds flat. It wowed every person there … everyone but Freed. What was so amazing about removing clothes that fast? He preferred more stripteasing to the dance.</p><p>Freed glanced around at the audience. There were regulars, himself included. He had given nicknames to most of them, just like the dancers on stage had nicknames to hide their true identity. As Ice Prince danced, the loudest hooter was "Pinkie," named because the kid (he looked barely old enough to be let inside) had bright pink hair. Really, could he scream "Hey look, I'm gay" any louder? Then there was "Beastman." Freed overheard his name was really Elfman, but he thought Beastman fit the hulking giant better. There was "Smelly," because the short gentleman with a super-firm chin always reeked of expensive perfume. Then there were some newcomers who had just begun frequenting the club within the past few weeks. Freed nicknamed them "The Dragon Twins" because they both wore the leather jackets of a biker gang with two black and white Asian dragons embroidered on the back. Really … gay men dressed in tight leather! One even had an earring and sometimes came in wearing a feathered boa. Could they get any more homosexually stereotyped?</p><p>Then … there was "Scarlet." In a bar full of gay men, <em>she</em> stood out as brightly as her ruby-colored hair. Freed had been stunned the first time he saw her arrive, so much so that he had to ask Bob the bartender if Scarlet was really a woman or one hell of a cross-dresser. The bald Bob giggled and said she was "Mr. Fernandes's woman." Apparently, Scarlet had a kink for observing gay men, which her lover fed by letting her sit in what was otherwise a club exclusively for men. Freed also heard rumors amongst the staff that Scarlet was even further indulged privately by Jellal and his identical twin, Siegrain. Freed really did not want to think about just how this woman got her homosexual kicks through twin brother incest. He supposed Jellal preferred to let the woman get her fill inside the club rather than risking the career of his rather popular politician brother by having wild rumors fly around.</p><p>The music ended, the blue light that accented Ice Prince faded as the crowd cheered wildly. The raven-haired dancer slipped backstage, but in no time he was roaming the audience, immediately going to Pinkie's booth for a lap dance. Freed did not know what Pinkie did for a living, but he was loose with his money when it came to Ice Prince.</p><p>Watching the darling dancer take his seat and start to gyrate reminded Freed of what he had ordered. He blushed brightly, and once again his heart pounded rapidly.</p><p>When the lights changed from blue to yellow, Freed actually gasped. It was coming, as sure as thunder after a lightning strike. The music rumbled to reinforce that concept. Then suddenly, the lights went out, a strobe light flashed with the sound of a thunderclap, and when the yellow light was back on, Thor was on stage.</p><p align="center">
+  <a href="https://www.deviantart.com/sainth91/art/Catch-the-thunder-god-of-thunder-824860935" rel="nofollow"> <img title="Thunderstruck" src="https://i.imgur.com/dFm852o.jpeg" alt="Thunderstruck" width="249" height="400" /></a>
+  <br />
+  <a href="https://www.deviantart.com/sainth91/art/Catch-the-thunder-god-of-thunder-824860935" rel="nofollow">Fanart by Sainth91</a>
+</p><p>Freed's throat went dry. It was always a flashy entrance, but newcomers were initially a bit shocked by the large man. The yellow light highlighted golden hair and made his eyes appear orange. Freed often wondered what his real eye color was, but the yellow-orange gleam was predatory and thrilling. Scarlet especially squirmed under that hard gaze. Freed glared at her. If she was so intrigued, why didn't she buy a lap dance? Or maybe she was not allowed to, since this was a gay club.</p><p>Unlike nearly every other dancer, "Thor" rarely used the brass pole. He could <em>dance</em>. The pole was only to stabilize him if he slid down, his back resting on the pole, while his knees bent to the sides, showing off the crotch hidden behind leather trousers.</p><p>Damn, he looked hot in leather!</p><p>Freed stared and thought about how those legs would soon be around him, how that crotch would soon be rubbing against him, teasing him. Already, he was hard, and his breath came panting fast. Then slowly, teasingly, Thor began to unbutton his white shirt. It was not the fast stripping of Ice Prince, but deliberate, drawing out the painful anticipation with a sadistic smile on his face. Under that white shirt, black tattoos, like some sort of tribal design, curled around the bulging muscles.</p><p>Freed watched the muscles work as Thor did a routine that was more like graceful fighting than erotic dancing. Sometimes, he caught movements that were definitely Tai Chi, and other times the gyration of his hips was beyond breathtaking. When he did that, with that firm gaze reaching the whole audience, the crowd gave a collective gasp. He was the god of thunder on that stage, hammering at the groins of men.</p><p>Even slower were the trousers. He took almost a solid minute just caressing the belt out, pulling it slowly from the buckle, slithering it from the belt loops, until the whole belt was in his hands. He folded it together, and then snapped it. It gave the sound of a leather whip, and Freed moaned.</p><p>Fuck, maybe he really was a masochist. Getting whipped by this sexual beast would be pure joy.</p><p>Thor never actually took off his trousers, and Freed guessed they were too tight to do so easily. Instead, he undid the button and unzipped the fly. It was just enough to show to the audience that, indeed, he was wearing <em>nothing</em> underneath. That happy trail went down, down, down, to a blond patch. The treasure was just below, hidden by black leather, a hint of a thick root nestled in those blond hairs, just enough to tease at a full monty without providing it.</p><p>Far too quickly, the song was over, the lights went out, the strobe light flashed like lightning again, and thunder rolled over the speakers. When the lights were back on, Thor was gone.</p><p>Freed was left breathless. His throat was dry, his hands sweaty, and his arousal was so painful, he was tempted to race off to the bathroom for a quick release. He would have, but there was one issue.</p><p>"Thor" was coming!</p><p align="center">
+  <strong>Next Chapter: "Lap Dance"</strong>
+</p>
+  </div>
+  <!--/main-->
+
+    <div class="chapter preface group">
+      <div class="end notes module" id="chapter_1_endnotes">
+        <h3 class="heading">Notes:</h3>
+        <blockquote class="userstuff">
+          <p>So, can you guess all the people who hang out at the South Pole Club?</p><p>I want to share this phenomenal fan art with you from <a href="https://www.deviantart.com/sainth91/art/Catch-the-thunder-god-of-thunder-824860935" rel="nofollow">Sainth91</a>. OMG so hot!</p><p align="center">
+  <img src="https://i.imgur.com/dFm852o.jpeg" width="125" height="200" title="Thunderstruck" />
+</p>
+        </blockquote>
+      </div>
+    </div>
+
+</div>
+
+<!-- end of cache -->
+
+    </div>
+
+
+    </div>
+    <!-- END work skin -->
+  </div>
+  <!-- END work -->
+
+  <!-- BEGIN comment section -->
+  <!-- Gets embedded anywhere we need to list comments on a top-level commentable. We need the local variable "commentable" here. -->
+<div id="feedback" class="feedback">
+
+  <h3 class="landmark heading">Actions</h3>
+
+  <ul class="actions" role="navigation">
+      <li><a href="#main">&#8593; Top</a></li>
+
+
+      <li><a href="/works/2226570/chapters/4967817#workskin">Next Chapter &#8594;</a></li>
+
+
+
+
+      <li>
+        <form id="new_kudo" action="/kudos" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ZSYbsTU-AxJmHeZB6IzbsuBp3F1jZaMEUrTlJy3HgeUECAFkJu9EQ39PKKn_fVRdegUQmE0riMPRDA0fDf7ZWw" autocomplete="off" />
+          <input value="2226570" autocomplete="off" type="hidden" name="kudo[commentable_id]" id="kudo_commentable_id" />
+          <input value="Work" autocomplete="off" type="hidden" name="kudo[commentable_type]" id="kudo_commentable_type" />
+          <input type="submit" name="commit" value="Kudos ♥" id="kudo_submit" />
+</form>      </li>
+
+
+
+
+        <li id="show_comments_link"><a data-remote="true" href="/comments/show_comments?chapter_id=4884561">Comments (48)</a></li>
+  </ul>
+
+
+  <div id="kudos_message"></div>
+  
+
+    <h3 class="landmark heading">Kudos</h3>
+<div id="kudos">
+      <p class="kudos">
+          <a href="/users/Silky_John">Silky_John</a>, <a href="/users/Pussytightcleanfresh">Pussytightcleanfresh</a>, <a href="/users/paperbackfetish">paperbackfetish</a>, <a href="/users/sarahsly">sarahsly</a>, <a href="/users/ASassyCupcake">ASassyCupcake</a>, <a href="/users/Kokobunny09">Kokobunny09</a>, <a href="/users/Browsing_123456">Browsing_123456</a>, <a href="/users/toastedkwassant">toastedkwassant</a>, <a href="/users/Onhonhon">Onhonhon</a>, <a href="/users/Idk_anymoreal">Idk_anymoreal</a>, <a href="/users/b_chocolatecity">b_chocolatecity</a>, <a href="/users/omiomiesmio">omiomiesmio</a>, <a href="/users/theoncelerrulez">theoncelerrulez</a>, <a href="/users/Whisperdrop">Whisperdrop</a>, <a href="/users/The_stars_have_fallen">The_stars_have_fallen</a>, <a href="/users/thatsirengirl">thatsirengirl</a>, <a href="/users/DemonSoul">DemonSoul</a>, <a href="/users/Sugar_t1ts">Sugar_t1ts</a>, <a href="/users/Connoisseur_of_Taste">Connoisseur_of_Taste</a>, <a href="/users/skiland">skiland</a>, <a href="/users/MeganLovesFanfiction">MeganLovesFanfiction</a>, <a href="/users/soliloqyu">soliloqyu</a>, <a href="/users/Yellow_guiding_lantern">Yellow_guiding_lantern</a>, <a href="/users/chewpez">chewpez</a>, <a href="/users/Sherleenieeee">Sherleenieeee</a>, <a href="/users/DandelionConstellation">DandelionConstellation</a>, <a href="/users/weiuwu98">weiuwu98</a>, <a href="/users/LittleAxolotl">LittleAxolotl</a>, <a href="/users/raynaheart23">raynaheart23</a>, <a href="/users/EmoPunkDeath">EmoPunkDeath</a>, <a href="/users/Lacertaeh">Lacertaeh</a>, <a href="/users/naruhoe">naruhoe</a>, <a href="/users/LittleFox_12">LittleFox_12</a>, <a href="/users/Hika47">Hika47</a>, <a href="/users/Silva_6711">Silva_6711</a>, <a href="/users/bfkaj">bfkaj</a>, <a href="/users/awtevs">awtevs</a>, <a href="/users/Mrs_Snape_Leonhart">Mrs_Snape_Leonhart</a>, <a href="/users/Just_A_Fan_Im_Sorry">Just_A_Fan_Im_Sorry</a>, <a href="/users/MedeaSolon">MedeaSolon</a>, <a href="/users/Andandurum">Andandurum</a>, <a href="/users/Lookatyoustrawberrynerd">Lookatyoustrawberrynerd</a>, <a href="/users/Happy_unbirthday">Happy_unbirthday</a>, <a href="/users/shawd667">shawd667</a>, <a href="/users/OXGhost_PrincessXO">OXGhost_PrincessXO</a>, <a href="/users/FreedME">FreedME</a>, <a href="/users/Dildal">Dildal</a>, <a href="/users/OtakuSam">OtakuSam</a>, <a href="/users/KakaPaKaKa">KakaPaKaKa</a>, <a href="/users/AbrilAdriel">AbrilAdriel</a><span id="kudos_more_connector">, and </span><a id="kudos_more_link" data-remote="true" href="/works/2226570/kudos?before=4906638817">559 more users</a>
+             as well as
+          1940 guests
+         left kudos on this work!
+      </p>
+</div>
+
+
+
+  <h3 class="landmark heading"><a id="comments">Comments</a></h3>
+  
+
+    <div id="add_comment_placeholder" title="top level comment">
+      <div id="add_comment">
+        <!-- expects the local variables comment, commentable, and button_name -->
+<div class="post comment" id="comment_form_for_4884561">
+  <form class="new_comment" id="comment_for_4884561" action="/chapters/4884561/comments" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uC3ZM82CzNctzlLGa0cnWSouErQZh8qM-LGA1hRd2OTkA2q5H7QLGF9edoVEHcvQBg3QdzADCcGglr7plhanZA" autocomplete="off" />
+    <fieldset>
+      <legend>Post Comment</legend>
+
+
+
+
+
+
+        <dl>
+          <dt class="landmark">Note:</dt>
+          <dd class="instructions comment_form">All fields are required. Your email address will not be published.</dd>
+          <dt><label for="comment_name_for_4884561">Guest name</label></dt>
+          <dd>
+            <input id="comment_name_for_4884561" type="text" name="comment[name]" />
+            <script>
+//<![CDATA[
+var validation_for_comment_name_for_4884561 = new LiveValidation('comment_name_for_4884561', { wait: 500, onlyOnBlur: false });
+validation_for_comment_name_for_4884561.add(Validate.Presence, {"failureMessage":"Please enter your name.","validMessage":""});
+//]]>
+</script>
+          </dd>
+          <dt><label for="comment_email_for_4884561">Guest email</label></dt>
+          <dd>
+            <input id="comment_email_for_4884561" type="text" name="comment[email]" />
+            <script>
+//<![CDATA[
+var validation_for_comment_email_for_4884561 = new LiveValidation('comment_email_for_4884561', { wait: 500, onlyOnBlur: false });
+validation_for_comment_email_for_4884561.add(Validate.Presence, {"failureMessage":"Please enter your email address.","validMessage":""});
+//]]>
+</script>
+          </dd>
+        </dl>
+        <p class="footnote">(Plain text with limited HTML <a class="help symbol question modal" title="Html help" href="/help/html-help.html"><span class="symbol question"><span>?</span></span></a>)</p>
+
+      <p>
+        <label for="comment_content_for_4884561" class="landmark">Comment</label>
+        <textarea id="comment_content_for_4884561" class="comment_form observe_textlength" title="Enter Comment" name="comment[comment_content]">
+</textarea>
+        <input type="hidden" id="controller_name_for_4884561" name="controller_name" value="chapters" />
+      </p>
+      <p class="character_counter" tabindex="0"><span id="comment_content_for_4884561_counter" class="value" data-maxlength="10000">10000</span> characters left</p>
+      <script>
+//<![CDATA[
+var validation_for_comment_content_for_4884561 = new LiveValidation('comment_content_for_4884561', { wait: 500, onlyOnBlur: false });
+validation_for_comment_content_for_4884561.add(Validate.Presence, {"failureMessage":"Brevity is the soul of wit, but we need your comment to have text in it.","validMessage":""});
+validation_for_comment_content_for_4884561.add(Validate.Length, {"maximum":"10000","tooLongMessage":"must be less than 10000 characters long."});
+//]]>
+</script>
+      <p class="submit actions">
+          <input type="submit" name="commit" value="Comment" id="comment_submit_for_4884561" data-disable-with="Please wait..." />
+        </p>
+    </fieldset>
+</form></div>
+<div class="clear"></div>
+
+      </div>
+    </div>
+
+  <!-- If we have javascript, here is where the comments will be spiffily inserted -->
+  <!-- If not, and show_comments is true, here is where the comments will be rendered -->
+  <div id="comments_placeholder" style="display:none;">
+  </div>
+
+
+</div>
+<!-- END comments -->
+
+  <!-- END comment section -->
+
+    <script type="speculationrules">
+      {
+        "prerender": [
+          {
+            "source": "list",
+            "urls": ["/works/2226570/chapters/4967817#workskin"]
+          }
+        ]
+      }
+    </script>
+
+
+
+          <div class="clear"><!--presentational--></div>
+        </div>
+        <!-- END main -->
+      </div>
+      <!-- BEGIN footer -->
+<div id="footer" role="contentinfo" class="region">
+  <h3 class="landmark heading">Footer</h3>
+  <ul class="navigation actions" role="navigation">
+    <li class="module group">
+      <h4 class="heading">About the Archive</h4>
+      <ul class="menu">
+        <li><a href="/site_map">Site Map</a></li>
+        <li><a href="/diversity">Diversity Statement</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/content">Content Policy</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/dmca">DMCA Policy</a> </li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Contact Us</h4>
+      <ul class="menu">
+        <li><a href="/abuse_reports/new">Policy Questions &amp; Abuse Reports</a></li>
+        <li><a href="/support">Technical Support &amp; Feedback</a></li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Development</h4>
+      <ul class="menu">
+          <li>
+            <a href="https://github.com/otwcode/otwarchive/commits/v0.9.398.5">otwarchive v0.9.398.5</a>
+          </li>
+        <li><a href="/known_issues">Known Issues</a></li>
+        <li>
+          <a title="View License" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL-2.0-or-later</a> by the <a title="Organization for Transformative Works" href="https://transformativeworks.org/">OTW</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!-- END footer -->
+
+    </div>
+    <!-- check to see if this controller/action allow tinymce before we load the gigantor js; see application_helper -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js" type="text/javascript"></script>
+<!-- if user has googleapis blocked for some reason we need a fallback -->
+<script type="text/javascript">
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='/javascripts/jquery-ui.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+</script>
+
+
+<script type="text/javascript">$j = jQuery.noConflict();</script>
+<script src="/javascripts/jquery.scrollTo.min.js"></script>
+<script src="/javascripts/jquery.livequery.min.js"></script>
+<script src="/javascripts/rails.js"></script>
+<script src="/javascripts/application.js"></script>
+<script src="/javascripts/bootstrap/bootstrap-dropdown.min.js"></script>
+<script src="/javascripts/jquery-shuffle.js"></script>
+<script src="/javascripts/jquery.tokeninput.min.js"></script>
+<script src="/javascripts/jquery.trap.min.js"></script>
+<script src="/javascripts/ao3modal.min.js"></script>
+<script src="/javascripts/js.cookie.min.js"></script>
+
+<script src="/javascripts/filters.min.js"></script>
+
+
+  <script>
+//<![CDATA[
+
+    // We can't rely on !window.localStorage to test localStorage support in
+    // browsers like Safari 9, which technically support it, but which have a
+    // storage length of 0 in private mode.
+    // Credit: https://github.com/getgrav/grav-plugin-admin/commit/cfe2188f10c4ca604e03c96f3e21537fda1cdf9a
+    function isSupported() {
+        var item = "localStoragePolyfill";
+        try {
+            localStorage.setItem(item, item);
+            localStorage.removeItem(item);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function acceptTOS() {
+      if (isSupported()) {
+        localStorage.setItem("accepted_tos", "20241119");
+      } else {
+        Cookies.set("accepted_tos", "20241119", { expires: 365 });
+      }
+    }
+
+    $j(document).ready(function() {
+        if (localStorage.getItem("accepted_tos") !== "20241119" && Cookies.get("accepted_tos") !== "20241119") {
+          $j("body").prepend("<div id=\"tos_prompt\" class=\"hidden\">\n  <h2 class=\"heading\">\n    <span>Archive of Our Own<\/span>\n  <\/h2>\n  <div class=\"agreement\">\n    <p>\n      On the Archive of Our Own (AO3), users can create works, bookmarks, comments, tags, and other <a href=\"/tos_faq#define_content\">Content<\/a>. Any information you publish on AO3 may be accessible by the public, AO3 users, and/or AO3 personnel. Be mindful when sharing personal information, including but not limited to your name, email, age, location, personal relationships, gender or sexual identity, racial or ethnic background, religious or political views, and/or account usernames for other sites.\n    <\/p>\n    <p>\n      To learn more, check out our <a href=\"/tos\">Terms of Service<\/a>, including the <a href=\"/content\">Content Policy<\/a> and <a href=\"/privacy\">Privacy Policy<\/a>.\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"tos_agree\" />\n      <label for=\"tos_agree\">I have read &amp; understood the 2024 Terms of Service, including the Content Policy and Privacy Policy.<\/label>\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"data_processing_agree\" />\n      <label for=\"data_processing_agree\">By checking this box, you consent to the processing of your personal data in the United States and other jurisdictions in connection with our provision of AO3 and its related services to you. You acknowledge that the data privacy laws of such jurisdictions may differ from those provided in your jurisdiction. For more information about how your personal data will be processed, please refer to our Privacy Policy.<\/label>\n    <\/p>\n\n      <p class=\"submit\">\n        <button name=\"button\" type=\"button\" disabled=\"disabled\" id=\"accept_tos\">I agree/consent to these Terms<\/button>\n      <\/p>\n\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    var container = \$j(\"#tos_prompt\");\n    var outer = \$j(\"#outer\");\n    var button = \$j(\"#accept_tos\");\n    var tosCheckbox = document.getElementById(\"tos_agree\");\n    var dataProcessingCheckbox = document.getElementById(\"data_processing_agree\");\n\n    var checkboxClicked = function() {\n      button.attr(\"disabled\", !tosCheckbox.checked || !dataProcessingCheckbox.checked);\n      if (this.checked) {\n        button.on(\"click\", function() {\n          acceptTOS();\n          outer.removeClass(\"hidden\").removeAttr(\"aria-hidden\");\n          \$j.when(container.fadeOut(500)).done(function() {\n            container.remove();\n          });\n        });\n      };\n    };\n\n    setTimeout(showTOSPrompt, 1500);\n\n    function showTOSPrompt() {\n      \$j.when(container.fadeIn(500)).done(function() {\n        outer.addClass(\"hidden\").attr(\"aria-hidden\", \"true\");\n      });\n\n      \$j(\"#tos_agree\").on(\"click\", checkboxClicked).change();\n      \$j(\"#data_processing_agree\").on(\"click\", checkboxClicked).change();\n    };\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+        }
+    });
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+    $j(document).ready(function() {
+      var permitted_hosts = ["104.153.64.122","208.85.241.152","208.85.241.157","ao3.org","archiveofourown.com","archiveofourown.gay","archiveofourown.net","archiveofourown.org","download.archiveofourown.org","insecure.archiveofourown.org","secure.archiveofourown.org","www.archiveofourown.com","www.archiveofourown.net","www.archiveofourown.org","www.ao3.org","archive.transformativeworks.org","xn--iao3-lw4b.ws"];
+      var current_host = window.location.hostname;
+
+      if (!permitted_hosts.includes(current_host) && Cookies.get("proxy_notice") !== "0" && window.location.protocol !== "file:") {
+        $j("#skiplinks").after("<div id=\"proxy-notice\">\n  <div class=\"userstuff\">\n    <p class=\"important\">Important message:<\/p>\n    <ol>\n      <li>You are using a proxy site that is not part of the Archive of Our Own.<\/li>\n      <li>The entity that set up the proxy site can see what you submit, including your IP address. If you log in through the proxy site, it can see your password.<\/li>\n    <\/ol>\n    <p class=\"important\">Важная информация:<\/p>\n    <ol>\n      <li>Вы используете прокси-сайт, который не является частью AO3 (Нашего Архива).<\/li>\n      <li>Субъект, настроивший прокси-сайт, может видеть, что вы отправляете, включая ваш IP-адрес. Если вы авторизуетесь через прокси-сайт, он может видеть ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">Важливе повідомлення:<\/p>\n    <ol>\n      <li>Ви використовуєте проксі-сайт, який не є частиною Archive of Our Own (Нашого Власного Архіву).<\/li>\n      <li>Творці цього проксі-сайту можуть бачити Ваші дані та дії, а також Вашу IP-адресу. Якщо Ви входите до свого облікового запису, використовуючи проксі-сайт, його творці можуть бачити Ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">重要提示：<\/p>\n    <ol>\n      <li>您使用的是第三方开发的反向代理网站，此网站并非Archive of Our Own - AO3（AO3作品库）原站。<\/li>\n      <li>代理网站的开发者能够获取您上传至该站点的全部内容，包括您的ip地址。如您通过代理登录AO3，对方将获得您的密码。<\/li>\n    <\/ol>\n    <p class=\"submit\"><button class=\"action\" type=\"button\" id=\"proxy-notice-dismiss\">Dismiss Notice<\/button><\/p>\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    \$j(\"#proxy-notice-dismiss\").on(\"click\", function() {\n      Cookies.set(\"proxy_notice\", \"0\");\n      \$j(\"#proxy-notice\").slideUp();\n    });\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+      }
+    });
+
+//]]>
+</script>
+    <script>
+      $j(document).on("loadedCSRF", function() {
+        function send() {
+          $j.post("/works/2226570/hit_count.json")
+        }
+
+        // If a browser doesn't support prerendering, then document.prerendering
+        // will be undefined, and we'll just send the hit count immediately.
+        if (document.prerendering) {
+          document.addEventListener("prerenderingchange", send);
+        } else {
+          send();
+        }
+      })
+    </script>
+
+
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'919417496c5028a4',t:'MTc0MDc4NDI1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

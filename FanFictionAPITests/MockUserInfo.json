@@ -1,0 +1,990 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="keywords" content="fanfiction, transformative works, otw, fair use, archive" />
+    <meta name="language" content="en-US" />
+    <meta name="subject" content="fandom" />
+    <meta name="description" content="An Archive of Our Own, a project of the
+    Organization for Transformative Works" />
+    <meta name="distribution" content="GLOBAL" />
+    <meta name="classification" content="transformative works" />
+    <meta name="author" content="Organization for Transformative Works" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+          Rhov
+        |
+        Archive of Our Own
+    </title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/1_site_screen_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 62em), handheld" href="/stylesheets/skins/skin_1_default/4_site_midsize.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 42em), handheld" href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css" />
+<link rel="stylesheet" type="text/css" media="speech" href="/stylesheets/skins/skin_1_default/6_site_speech_.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/stylesheets/skins/skin_1_default/7_site_print_.css" />
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/8_site_screen_IE8_or_lower.css" /><![endif]-->
+<!--[if IE 5]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/9_site_screen_IE5.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/10_site_screen_IE6.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/skins/skin_1_default/11_site_screen_IE7.css" /><![endif]-->
+
+
+<!--sandbox for developers    -->
+<link rel="stylesheet" href="/stylesheets/sandbox.css" />
+
+
+
+<script src="/javascripts/livevalidation_standalone.js"></script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="dYKEAdAxMMl76sKVzQistyRVV9lvLZ6TYk81RwHuJMVnI4G33l_cl5Ub13Pkn40S1C1u9FGA4mshjf8WKEpPVg" />
+
+    
+  </head>
+
+  <body class="logged-out" >
+    <div id="outer" class="wrapper">
+      <ul id="skiplinks"><li><a href="#main">Main Content</a></li></ul>
+      <noscript><p id="javascript-warning">While we&#39;ve done our best to make the core functionality of this site accessible without JavaScript, it will work better with it enabled. Please consider turning it on!</p></noscript>
+
+<!-- BEGIN header -->
+
+<header id="header" class="region">
+
+  <h1 class="heading">
+    <a href="/"><span>Archive of Our Own</span><sup> beta</sup><img alt="Archive of Our Own" class="logo" src="/images/ao3_logos/logo_42.png" /></a>
+  </h1>
+
+    <div id="login" class="dropdown">
+      <p class="user actions">
+        <a id="login-dropdown" href="/users/login">Log In</a>
+      </p>
+      <div id="small_login" class="simple login">
+    <form class="new_user" id="new_user_session_small" action="/users/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="xIA4oZxrC4aKfR7eFMXLHHUqUNj9Xwei1iouR8K5iuXk3zdXfFUPD9cqywdEWMnmFv_qktyR27cpkIi_kz4OSw" autocomplete="off" />
+    <dl>
+    <dt>
+      <label for="user_session_login_small">User name or email:</label></dt>
+    <dd><input id="user_session_login_small" type="text" name="user[login]" /></dd>
+    <dt><label for="user_session_password_small">Password:</label></dt>
+    <dd><input id="user_session_password_small" type="password" name="user[password]" /></dd>
+  </dl>
+  <p class="submit actions">
+    <label for="user_remember_me_small" class="action"><input type="checkbox" name="user[remember_me]" id="user_remember_me_small" value="1" />Remember Me</label>
+    <input type="submit" name="commit" value="Log In" />
+  </p>
+</form>
+<ul class="footnote actions">
+  <li><a href="/users/password/new">Forgot password?</a></li>
+    <li>
+      <a href="/invite_requests">Get an Invitation</a>
+    </li>
+</ul>
+
+</div>
+
+    </div>
+
+  <nav aria-label="Site">
+    <ul class="primary navigation actions">
+      <li class="dropdown">
+        <a href="/menu/fandoms">Fandoms</a>
+        <ul class="menu">
+  <li><a href="/media">All Fandoms</a></li>
+        <li id="medium_5"><a href="/media/Anime%20*a*%20Manga/fandoms">Anime &amp; Manga</a></li>
+        <li id="medium_3"><a href="/media/Books%20*a*%20Literature/fandoms">Books &amp; Literature</a></li>
+        <li id="medium_4"><a href="/media/Cartoons%20*a*%20Comics%20*a*%20Graphic%20Novels/fandoms">Cartoons &amp; Comics &amp; Graphic Novels</a></li>
+        <li id="medium_7"><a href="/media/Celebrities%20*a*%20Real%20People/fandoms">Celebrities &amp; Real People</a></li>
+        <li id="medium_2"><a href="/media/Movies/fandoms">Movies</a></li>
+        <li id="medium_6"><a href="/media/Music%20*a*%20Bands/fandoms">Music &amp; Bands</a></li>
+        <li id="medium_8"><a href="/media/Other%20Media/fandoms">Other Media</a></li>
+        <li id="medium_30198"><a href="/media/Theater/fandoms">Theater</a></li>
+        <li id="medium_1"><a href="/media/TV%20Shows/fandoms">TV Shows</a></li>
+        <li id="medium_476"><a href="/media/Video%20Games/fandoms">Video Games</a></li>
+        <li id="medium_9971"><a href="/media/Uncategorized%20Fandoms/fandoms">Uncategorized Fandoms</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/browse">Browse</a>
+        <ul class="menu">
+  <li><a href="/works">Works</a></li>
+  <li><a href="/bookmarks">Bookmarks</a></li>
+  <li><a href="/tags">Tags</a></li>
+  <li><a href="/collections">Collections</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/search">Search</a>
+        <ul class="menu">
+  <li><a href="/works/search">Works</a></li>
+  <li><a href="/bookmarks/search">Bookmarks</a></li>
+  <li><a href="/tags/search">Tags</a></li>
+  <li><a href="/people/search">People</a></li>
+</ul>
+
+      </li>
+      <li class="dropdown">
+        <a href="/menu/about">About</a>
+        <ul class="menu">
+  <li><a href="/about">About Us</a></li>
+  <li><a href="/admin_posts">News</a></li>
+  <li><a href="/faq">FAQ</a></li>
+  <li><a href="/wrangling_guidelines">Wrangling Guidelines</a></li>
+  <li><a href="/donate">Donate or Volunteer</a></li>
+</ul>
+
+      </li>
+      <li class="search"><form class="search" id="search" role="search" aria-label="Work" action="/works/search" accept-charset="UTF-8" method="get">
+  <fieldset>
+    <p>
+      <label class="landmark" for="site_search">Work Search</label>
+      <input class="text" id="site_search" aria-describedby="site_search_tooltip" type="text" name="work_search[query]" />
+      <span class="tip" role="tooltip" id="site_search_tooltip">tip: &quot;sherlock (tv)&quot; m/m NOT &quot;sherlock holmes/john watson&quot;</span>
+      <span class="submit actions"><input type="submit" value="Search" class="button" /></span>
+    </p>
+  </fieldset>
+</form></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="clear"></div>
+
+</header>
+
+
+
+<!-- END header -->
+
+      <div id="inner" class="wrapper">
+        <!-- BEGIN sidebar -->
+          <div id="dashboard" class="region " role="navigation region">
+<h4 class="landmark heading">Choices</h4>
+<ul class="navigation actions">
+  <li><span class="current">Dashboard</span></li>
+  <li><a href="/users/Rhov/profile">Profile</a></li>
+
+</ul>
+
+
+<h4 class="landmark heading">Pitch</h4>
+<ul class="navigation actions">
+    <li><a href="/users/Rhov/works">Works (183)</a></li>
+    <li><a href="/users/Rhov/series">Series (1)</a></li>
+
+      <li><a href="/users/Rhov/bookmarks">Bookmarks (1)</a></li>
+
+  <li><a href="/users/Rhov/collections">Collections (7)</a></li>
+</ul>
+
+
+<h4 class="landmark heading">Switch</h4>
+<ul class="navigation actions">
+  <li><a href="/users/Rhov/gifts">Gifts (6)</a></li>
+</ul>
+
+</div>
+
+        <!-- END sidebar -->
+
+        <!-- BEGIN main -->
+        <div id="main" class="users-show dashboard region" role="main">
+          
+          <div class="flash"></div>
+          
+<div class="user home">
+  <!--Descriptive page name, messages and instructions-->
+<div class="primary header module">
+  <h2 class="heading">
+    Rhov
+  </h2>
+  <p class="icon"><a href="/users/Rhov"><img alt="" class="icon" src="https://archiveofourown.org/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDJsTkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1260a9f85d38609b4d1b68ddc93faf3b7e3b52be/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVdscGFRPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--2401a9da663c39f06bf5df2b685caa549a8169fa/original.png" /></a></p>
+<!--/descriptions-->
+
+  <!--subnav-->
+  <!--/subnav-->
+
+</div>
+
+  ﻿<!--main content-->
+<!-- expects @fandoms, @works, @series, @bookmarks -->
+  <div class="fandom listbox group" id="user-fandoms">
+    <h3 class="heading">Fandoms</h3>
+    <ol class="index group">
+          <li>
+            <a href="/users/Rhov/works?fandom_id=55873">Fairy Tail</a> (146)
+        </li>
+          <li>
+            <a href="/users/Rhov/works?fandom_id=721553">Shingeki no Kyojin | Attack on Titan</a> (9)
+        </li>
+          <li>
+            <a href="/users/Rhov/works?fandom_id=86392389">One Piece (Anime &amp; Manga)</a> (8)
+        </li>
+          <li>
+            <a href="/users/Rhov/works?fandom_id=13052407">Naruto (Anime &amp; Manga)</a> (5)
+        </li>
+          <li>
+            <a href="/users/Rhov/works?fandom_id=114340207">Hetalia (Anime &amp; Manga)</a> (4)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=81955308">Bleach (Anime &amp; Manga)</a> (3)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=45808">Yankee-kun to Megane-chan</a> (3)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=99731947">電撃デイジー | Dengeki Daisy (Manga)</a> (2)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=18771444">あの夜からキミに恋してた | Ano Yoru Kara Kimi ni Koi Shiteta | Irresistible Mistakes (Visual Novel)</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=103133482">Crimson Spell (Manga 2004)</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=155456">Kuroshitsuji | Black Butler</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=74699904">Quantum Leap (TV 1989)</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=115169">Cendrillon ou La petite Pantoufle de Verre | Cinderella - Charles Perrault</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=25739286">Bakuman (Anime &amp; Manga)</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=23272734">Okane ga Nai (Anime)</a> (1)
+        </li>
+          <li class="more hidden">
+            <a href="/users/Rhov/works?fandom_id=156816">Heart no Kuni no Alice | Alice in the Country of Hearts</a> (1)
+        </li>
+    </ol>
+      <p class="actions">
+        <noscript>
+            <a href="/users/Rhov?expand_fandoms=true">Expand Fandoms List</a>
+        </noscript>
+        <a class="hidden" id="expand-fandoms" href="#">Expand Fandoms List</a>
+        <a class="hidden" id="collapse-fandoms" href="#">Collapse Fandoms List</a>
+      </p>
+  </div>
+              
+  <div class="work listbox group" id="user-works">
+    <h3 class="heading">Recent works</h3>
+    <ul class="index group">
+      <li id="work_2226570" class="work blurb group work-2226570 user-54613" role="article">
+  
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/2226570">Catch the Thunder</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+
+
+
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Fairy%20Tail/works">Fairy Tail</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-yes warnings" title="Graphic Depictions Of Violence"><span class="text">Graphic Depictions Of Violence</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Work in Progress"><span class="text">Work in Progress</span></span></a></li>
+</ul>
+    <p class="datetime">28 Feb 2025</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/Graphic%20Depictions%20Of%20Violence/works">Graphic Depictions Of Violence</a></strong></li><li class='relationships'><a class="tag" href="/tags/Laxus%20Dreyar*s*Freed%20Justine/works">Laxus Dreyar/Freed Justine</a></li><li class='characters'><a class="tag" href="/tags/Laxus%20Dreyar/works">Laxus Dreyar</a></li> <li class='characters'><a class="tag" href="/tags/Freed%20Justine/works">Freed Justine</a></li> <li class='characters'><a class="tag" href="/tags/Gray%20Fullbuster/works">Gray Fullbuster</a></li> <li class='characters'><a class="tag" href="/tags/Natsu%20Dragneel/works">Natsu Dragneel</a></li> <li class='characters'><a class="tag" href="/tags/Evergreen%20(Fairy%20Tail)/works">Evergreen (Fairy Tail)</a></li> <li class='characters'><a class="tag" href="/tags/Bickslow%20(Fairy%20Tail)/works">Bickslow (Fairy Tail)</a></li><li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20Modern%20Setting/works">Alternate Universe - Modern Setting</a></li> <li class='freeforms'><a class="tag" href="/tags/Strippers%20*a*%20Strip%20Clubs/works">Strippers &amp; Strip Clubs</a></li> <li class='freeforms'><a class="tag" href="/tags/Lapdance/works">Lapdance</a></li> <li class='freeforms'><a class="tag" href="/tags/Premature%20Ejaculation/works">Premature Ejaculation</a></li> <li class='freeforms'><a class="tag" href="/tags/Coming%20In%20Pants/works">Coming In Pants</a></li> <li class='freeforms'><a class="tag" href="/tags/BDSM/works">BDSM</a></li> <li class='freeforms'><a class="tag" href="/tags/Riding%20Crops/works">Riding Crops</a></li> <li class='freeforms'><a class="tag" href="/tags/Safe%20Sane%20and%20Consensual/works">Safe Sane and Consensual</a></li> <li class='freeforms'><a class="tag" href="/tags/Master*s*Slave/works">Master/Slave</a></li> <li class='freeforms'><a class="tag" href="/tags/Butt%20Plugs/works">Butt Plugs</a></li> <li class='freeforms'><a class="tag" href="/tags/Erotic%20Electrostimulation/works">Erotic Electrostimulation</a></li> <li class='freeforms'><a class="tag" href="/tags/Orgasm%20Delay*s*Denial/works">Orgasm Delay/Denial</a></li> <li class='freeforms'><a class="tag" href="/tags/Humiliation/works">Humiliation</a></li> <li class='freeforms'><a class="tag" href="/tags/Bondage/works">Bondage</a></li> <li class='freeforms'><a class="tag" href="/tags/Spanking/works">Spanking</a></li> <li class='freeforms'><a class="tag" href="/tags/Hand%20Jobs/works">Hand Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Strip%20Tease/works">Strip Tease</a></li> <li class='freeforms'><a class="tag" href="/tags/Frottage/works">Frottage</a></li> <li class='freeforms'><a class="tag" href="/tags/Oral%20Sex/works">Oral Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Exhibitionism/works">Exhibitionism</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Claiming/works">Public Claiming</a></li> <li class='freeforms'><a class="tag" href="/tags/Sex%20in%20a%20Dorm/works">Sex in a Dorm</a></li> <li class='freeforms'><a class="tag" href="/tags/Collars/works">Collars</a></li> <li class='freeforms'><a class="tag" href="/tags/Sex%20Toys/works">Sex Toys</a></li> <li class='freeforms'><a class="tag" href="/tags/Body%20Worship/works">Body Worship</a></li> <li class='freeforms'><a class="tag" href="/tags/Claiming%20Bites/works">Claiming Bites</a></li> <li class='freeforms'><a class="tag" href="/tags/Role%20Reversal/works">Role Reversal</a></li> <li class='freeforms'><a class="tag" href="/tags/Handcuffs/works">Handcuffs</a></li> <li class='freeforms'><a class="tag" href="/tags/Goodbye%20Sex/works">Goodbye Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Reunion%20Sex/works">Reunion Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Closet%20Sex/works">Closet Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Cock%20Rings/works">Cock Rings</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Hand%20Jobs/works">Public Hand Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Coming%20in%20Public/works">Coming in Public</a></li> <li class='freeforms'><a class="tag" href="/tags/Car%20Sex/works">Car Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Mutual%20Masturbation/works">Mutual Masturbation</a></li> <li class='freeforms'><a class="tag" href="/tags/Shower%20Sex/works">Shower Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Cock%20Worship/works">Cock Worship</a></li> <li class='freeforms'><a class="tag" href="/tags/Nude%20Modeling/works">Nude Modeling</a></li> <li class='freeforms'><a class="tag" href="/tags/Mirror%20Sex/works">Mirror Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Multiple%20Orgasms/works">Multiple Orgasms</a></li> <li class='freeforms'><a class="tag" href="/tags/Morning%20Sex/works">Morning Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Topping%20from%20the%20Bottom/works">Topping from the Bottom</a></li> <li class='freeforms'><a class="tag" href="/tags/Kitchen%20Sex/works">Kitchen Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Foreskin%20Play/works">Foreskin Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Docking/works">Docking</a></li> <li class='freeforms'><a class="tag" href="/tags/Cock%20Cages/works">Cock Cages</a></li> <li class='freeforms'><a class="tag" href="/tags/Ball%20Gags/works">Ball Gags</a></li> <li class='freeforms'><a class="tag" href="/tags/Blindfolds/works">Blindfolds</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Nudity/works">Public Nudity</a></li> <li class='freeforms'><a class="tag" href="/tags/Chastity%20Device/works">Chastity Device</a></li> <li class='freeforms'><a class="tag" href="/tags/Paddling/works">Paddling</a></li> <li class='freeforms'><a class="tag" href="/tags/Fetish%20Clothing/works">Fetish Clothing</a></li> <li class='freeforms'><a class="tag" href="/tags/Violet%20Wand/works">Violet Wand</a></li> <li class='freeforms'><a class="tag" href="/tags/Impact%20Play/works">Impact Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Daddy%20Kink/works">Daddy Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Sexting/works">Sexting</a></li> <li class='freeforms'><a class="tag" href="/tags/Rope%20Bondage/works">Rope Bondage</a></li> <li class='freeforms'><a class="tag" href="/tags/Shibari/works">Shibari</a></li> <li class='freeforms'><a class="tag" href="/tags/Catheters/works">Catheters</a></li> <li class='freeforms'><a class="tag" href="/tags/Diapers/works">Diapers</a></li> <li class='freeforms'><a class="tag" href="/tags/Desperation%20Play/works">Desperation Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Master*s*Pet/works">Master/Pet</a></li> <li class='freeforms'><a class="tag" href="/tags/Muzzle%20Kink/works">Muzzle Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Sounding/works">Sounding</a></li> <li class='freeforms'><a class="tag" href="/tags/Animal%20Play/works">Animal Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Beach%20Sex/works">Beach Sex</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>Laxus is a strip dancer; Freed is a loyal customer who prefers to admire this erotic, muscular man from afar. When Freed hears that his favorite dancer is about to get fired, he finally gets the nerve to hire him. What starts as a simple lap dance turns into a night of sensual fetishes and complicated emotions. Freed wants to get to know this enigmatic man more.</p><p>Does he dare try to "catch the thunder"?</p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">491,525</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters"><a href="/works/2226570/chapters/162633568">77</a>/?</dd>
+
+
+    <dt class="collections">Collections:</dt>
+    <dd class="collections"><a href="/works/2226570/collections">1</a></dd>
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/2226570?show_comments=true&amp;view_full_work=true#comments">1,451</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/2226570?view_full_work=true#kudos">2,549</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/2226570/bookmarks">349</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">130,375</dd>
+
+  </dl>
+
+
+</li>
+<li id="work_52725805" class="work blurb group work-52725805 user-54613" role="article">
+  
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/52725805">Stay With Me</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+
+
+
+        for <a href="/users/Moonlessnight126/gifts">Moonlessnight126</a>
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Shingeki%20no%20Kyojin%20%7C%20Attack%20on%20Titan/works">Shingeki no Kyojin | Attack on Titan</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-no warnings" title="No Archive Warnings Apply"><span class="text">No Archive Warnings Apply</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Work in Progress"><span class="text">Work in Progress</span></span></a></li>
+</ul>
+    <p class="datetime">19 Feb 2025</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/No%20Archive%20Warnings%20Apply/works">No Archive Warnings Apply</a></strong></li><li class='relationships'><a class="tag" href="/tags/Jean%20Kirstein*s*Eren%20Yeager/works">Jean Kirstein/Eren Yeager</a></li><li class='characters'><a class="tag" href="/tags/Eren%20Yeager/works">Eren Yeager</a></li> <li class='characters'><a class="tag" href="/tags/Jean%20Kirstein/works">Jean Kirstein</a></li> <li class='characters'><a class="tag" href="/tags/Reiner%20Braun/works">Reiner Braun</a></li> <li class='characters'><a class="tag" href="/tags/Bertolt%20Hoover/works">Bertolt Hoover</a></li> <li class='characters'><a class="tag" href="/tags/Carla%20Yeager/works">Carla Yeager</a></li> <li class='characters'><a class="tag" href="/tags/Grisha%20Yeager/works">Grisha Yeager</a></li> <li class='characters'><a class="tag" href="/tags/Jean%20Kirstein&#39;s%20Mother/works">Jean Kirstein&#39;s Mother</a></li> <li class='characters'><a class="tag" href="/tags/Jean%20Kirstein&#39;s%20Father/works">Jean Kirstein&#39;s Father</a></li> <li class='characters'><a class="tag" href="/tags/Armin%20Arlert/works">Armin Arlert</a></li> <li class='characters'><a class="tag" href="/tags/Mikasa%20Ackerman/works">Mikasa Ackerman</a></li> <li class='characters'><a class="tag" href="/tags/Levi%20Ackerman/works">Levi Ackerman</a></li> <li class='characters'><a class="tag" href="/tags/Petra%20Ral/works">Petra Ral</a></li> <li class='characters'><a class="tag" href="/tags/Hange%20Zo%C3%AB/works">Hange Zoë</a></li><li class='freeforms'><a class="tag" href="/tags/Enemies%20to%20Lovers/works">Enemies to Lovers</a></li> <li class='freeforms'><a class="tag" href="/tags/Rivalry/works">Rivalry</a></li> <li class='freeforms'><a class="tag" href="/tags/Homophobic%20Language/works">Homophobic Language</a></li> <li class='freeforms'><a class="tag" href="/tags/Derogatory%20Language/works">Derogatory Language</a></li> <li class='freeforms'><a class="tag" href="/tags/Amnesia/works">Amnesia</a></li> <li class='freeforms'><a class="tag" href="/tags/Bully%20Jean%20Kirstein/works">Bully Jean Kirstein</a></li> <li class='freeforms'><a class="tag" href="/tags/Mentions%20of%20Cancer/works">Mentions of Cancer</a></li> <li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20Office/works">Alternate Universe - Office</a></li> <li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20Modern%20Setting/works">Alternate Universe - Modern Setting</a></li> <li class='freeforms'><a class="tag" href="/tags/Set%20in%202003/works">Set in 2003</a></li> <li class='freeforms'><a class="tag" href="/tags/Emotional%20Hurt*s*Comfort/works">Emotional Hurt/Comfort</a></li> <li class='freeforms'><a class="tag" href="/tags/Emotional%20Eren%20Yeager/works">Emotional Eren Yeager</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>Eren's routine life comes crashing down when Jean Kirschtein, a bully from his childhood, gets hired. Jean can’t help but pick on Eren at work. As he realizes Eren is hiding a lot of private pain, he turns from childhood tormentor to a cautiously sympathetic friend… and maybe more?</p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">78,149</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters"><a href="/works/52725805/chapters/161929858">16</a>/?</dd>
+
+
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/52725805?show_comments=true&amp;view_full_work=true#comments">150</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/52725805?view_full_work=true#kudos">237</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/52725805/bookmarks">23</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">5,270</dd>
+
+  </dl>
+
+
+</li>
+<li id="work_22068379" class="work blurb group work-22068379 user-54613" role="article">
+  
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/22068379">Dangerous Territory</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+
+
+
+        for <a href="/users/Moonlessnight126/gifts">Moonlessnight126</a>
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Shingeki%20no%20Kyojin%20%7C%20Attack%20on%20Titan/works">Shingeki no Kyojin | Attack on Titan</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-yes warnings" title="Graphic Depictions Of Violence"><span class="text">Graphic Depictions Of Violence</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Work in Progress"><span class="text">Work in Progress</span></span></a></li>
+</ul>
+    <p class="datetime">23 Jan 2025</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/Graphic%20Depictions%20Of%20Violence/works">Graphic Depictions Of Violence</a></strong></li><li class='relationships'><a class="tag" href="/tags/Levi*s*Eren%20Yeager/works">Levi/Eren Yeager</a></li><li class='characters'><a class="tag" href="/tags/Eren%20Yeager/works">Eren Yeager</a></li> <li class='characters'><a class="tag" href="/tags/Levi%20Ackerman/works">Levi Ackerman</a></li> <li class='characters'><a class="tag" href="/tags/Jean%20Kirstein/works">Jean Kirstein</a></li> <li class='characters'><a class="tag" href="/tags/Connie%20Springer/works">Connie Springer</a></li> <li class='characters'><a class="tag" href="/tags/Armin%20Arlert/works">Armin Arlert</a></li> <li class='characters'><a class="tag" href="/tags/Kitz%20Weilman/works">Kitz Weilman</a></li> <li class='characters'><a class="tag" href="/tags/Franz%20Kefka/works">Franz Kefka</a></li> <li class='characters'><a class="tag" href="/tags/Thomas%20Wagner/works">Thomas Wagner</a></li> <li class='characters'><a class="tag" href="/tags/Reiner%20Braun/works">Reiner Braun</a></li> <li class='characters'><a class="tag" href="/tags/Caven%20(Shingeki%20no%20Kyojin)/works">Caven (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Sasha%20Blouse/works">Sasha Blouse</a></li> <li class='characters'><a class="tag" href="/tags/Braun%20%7C%20Moses/works">Braun | Moses</a></li> <li class='characters'><a class="tag" href="/tags/Gunther%20Schultz/works">Gunther Schultz</a></li> <li class='characters'><a class="tag" href="/tags/Ian%20Dietrich/works">Ian Dietrich</a></li> <li class='characters'><a class="tag" href="/tags/Krista%20Lenz%20%7C%20Historia%20Reiss/works">Krista Lenz | Historia Reiss</a></li> <li class='characters'><a class="tag" href="/tags/Ymir%20Fritz/works">Ymir Fritz</a></li> <li class='characters'><a class="tag" href="/tags/Marlo%20Sand%20%7C%20Marlowe%20Freudenberg/works">Marlo Sand | Marlowe Freudenberg</a></li> <li class='characters'><a class="tag" href="/tags/Dot%20Pixis/works">Dot Pixis</a></li> <li class='characters'><a class="tag" href="/tags/Dimo%20Reeves/works">Dimo Reeves</a></li> <li class='characters'><a class="tag" href="/tags/Flegel%20Reeves/works">Flegel Reeves</a></li> <li class='characters'><a class="tag" href="/tags/Mina%20Carolina/works">Mina Carolina</a></li> <li class='characters'><a class="tag" href="/tags/Floch%20Forster/works">Floch Forster</a></li> <li class='characters'><a class="tag" href="/tags/Daz%20(Shingeki%20no%20Kyojin)/works">Daz (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Samuel%20Linke-Jackson/works">Samuel Linke-Jackson</a></li> <li class='characters'><a class="tag" href="/tags/Phil%20(Shingeki%20no%20Kyojin)/works">Phil (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Wim%20(Shingeki%20no%20Kyojin)/works">Wim (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Holger%20(Shingeki%20no%20Kyojin)/works">Holger (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Surma%20(Shingeki%20no%20Kyojin)/works">Surma (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Gabi%20Braun/works">Gabi Braun</a></li> <li class='characters'><a class="tag" href="/tags/Falco%20Grice/works">Falco Grice</a></li> <li class='characters'><a class="tag" href="/tags/Colt%20Grice/works">Colt Grice</a></li> <li class='characters'><a class="tag" href="/tags/Niccolo%20(Shingeki%20no%20Kyojin)/works">Niccolo (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Onyankopon%20(Shingeki%20no%20Kyojin)/works">Onyankopon (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Carly%20Stratmann/works">Carly Stratmann</a></li> <li class='characters'><a class="tag" href="/tags/Louise%20(Shingeki%20no%20Kyojin)/works">Louise (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Yelena%20(Shingeki%20no%20Kyojin)/works">Yelena (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Eld%20Jinn/works">Eld Jinn</a></li> <li class='characters'><a class="tag" href="/tags/Oluo%20Bozado/works">Oluo Bozado</a></li> <li class='characters'><a class="tag" href="/tags/Moblit%20Berner/works">Moblit Berner</a></li> <li class='characters'><a class="tag" href="/tags/Mitabi%20Jarnach/works">Mitabi Jarnach</a></li> <li class='characters'><a class="tag" href="/tags/Flagon%20(Shingeki%20no%20Kyojin)/works">Flagon (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Duran%20(Shingeki%20no%20Kyojin)/works">Duran (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Theo%20Magath/works">Theo Magath</a></li> <li class='characters'><a class="tag" href="/tags/Annie%20Leonhart/works">Annie Leonhart</a></li> <li class='characters'><a class="tag" href="/tags/Udo%20(Shingeki%20no%20Kyojin)/works">Udo (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Pieck%20Finger/works">Pieck Finger</a></li> <li class='characters'><a class="tag" href="/tags/Porco%20Galliard/works">Porco Galliard</a></li> <li class='characters'><a class="tag" href="/tags/Koslo%20(Shingeki%20no%20Kyojin)/works">Koslo (Shingeki no Kyojin)</a></li> <li class='characters'><a class="tag" href="/tags/Zofia%20(Shingeki%20no%20Kyojin)/works">Zofia (Shingeki no Kyojin)</a></li><li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20Nazi%20Germany/works">Alternate Universe - Nazi Germany</a></li> <li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20World%20War%20II/works">Alternate Universe - World War II</a></li> <li class='freeforms'><a class="tag" href="/tags/Alternate%20Universe%20-%20Historical/works">Alternate Universe - Historical</a></li> <li class='freeforms'><a class="tag" href="/tags/German%20Eren%20Yeager/works">German Eren Yeager</a></li> <li class='freeforms'><a class="tag" href="/tags/Jewish%20Levi%20Ackerman/works">Jewish Levi Ackerman</a></li> <li class='freeforms'><a class="tag" href="/tags/Historical%20Accuracy/works">Historical Accuracy</a></li> <li class='freeforms'><a class="tag" href="/tags/Language%20Barrier/works">Language Barrier</a></li> <li class='freeforms'><a class="tag" href="/tags/Antisemitism/works">Antisemitism</a></li> <li class='freeforms'><a class="tag" href="/tags/Homophobic%20Language/works">Homophobic Language</a></li> <li class='freeforms'><a class="tag" href="/tags/Blood%20and%20Violence/works">Blood and Violence</a></li> <li class='freeforms'><a class="tag" href="/tags/Torture/works">Torture</a></li> <li class='freeforms'><a class="tag" href="/tags/Rape*s*Non-con%20Elements/works">Rape/Non-con Elements</a></li> <li class='freeforms'><a class="tag" href="/tags/Post-Traumatic%20Stress%20Disorder%20-%20PTSD/works">Post-Traumatic Stress Disorder - PTSD</a></li> <li class='freeforms'><a class="tag" href="/tags/Grief*s*Mourning/works">Grief/Mourning</a></li> <li class='freeforms'><a class="tag" href="/tags/Angst%20and%20Tragedy/works">Angst and Tragedy</a></li> <li class='freeforms'><a class="tag" href="/tags/Jewish%20Holidays/works">Jewish Holidays</a></li> <li class='freeforms'><a class="tag" href="/tags/Mental%20Breakdown/works">Mental Breakdown</a></li> <li class='freeforms'><a class="tag" href="/tags/Slow%20Burn/works">Slow Burn</a></li> <li class='freeforms'><a class="tag" href="/tags/References%20to%20Drugs/works">References to Drugs</a></li> <li class='freeforms'><a class="tag" href="/tags/Religious%20Imagery%20*a*%20Symbolism/works">Religious Imagery &amp; Symbolism</a></li> <li class='freeforms'><a class="tag" href="/tags/Trauma/works">Trauma</a></li> <li class='freeforms'><a class="tag" href="/tags/Depression/works">Depression</a></li> <li class='freeforms'><a class="tag" href="/tags/Suicidal%20Thoughts/works">Suicidal Thoughts</a></li> <li class='freeforms'><a class="tag" href="/tags/Antisemitism%20is%20not%20welcome%20and%20shall%20be%20reported%20and%20deleted/works">Antisemitism is not welcome and shall be reported and deleted</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>France, 1944. In the midst of the worst war the world has ever seen, an unlikely friendship strikes up between Levi Ackerman, a widowed French Jew, and Eren Jäger, a lieutenant in the German Wehrmacht who hides a dangerous secret. The two must work together as they deal with love, loss, dignity, and the horrors all around them.</p><p>This multi-novel story stays faithful to the real history of World War II, covering from just before the Normandy Landing, the Battle of Metz, and the Ardennes Offensive (AKA, the Battle of the Bulge).</p><p>BOOK 1: NORMANDY - Chapter 1-23<br />BOOK 2: LORRAINE - Chapter 24-41<br />BOOK 3: METZ - Chapter 42-67<br />BOOK 4: MOSELLE - Chapter 68-83<br />BOOK 5: QUEULEU - Chapter 84-100<br />BOOK 6: LIBRAMONT - Chapter 101-?<br />BOOK 7: ARDENNES - Chapter ???<br />BOOK 8: ?????<br /></p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">945,410</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters"><a href="/works/22068379/chapters/159815758">109</a>/?</dd>
+
+
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/22068379?show_comments=true&amp;view_full_work=true#comments">3,701</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/22068379?view_full_work=true#kudos">3,671</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/22068379/bookmarks">504</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">165,291</dd>
+
+  </dl>
+
+
+</li>
+<li id="work_501714" class="work blurb group work-501714 user-54613" role="article">
+  
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/501714">Wheels of Fire</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+
+
+
+        for <a href="/gifts?recipient=Serena+Starling">Serena Starling</a>
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Fairy%20Tail/works">Fairy Tail</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-no warnings" title="No Archive Warnings Apply"><span class="text">No Archive Warnings Apply</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-het category" title="F/M"><span class="text">F/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Work in Progress"><span class="text">Work in Progress</span></span></a></li>
+</ul>
+    <p class="datetime">29 Aug 2024</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/No%20Archive%20Warnings%20Apply/works">No Archive Warnings Apply</a></strong></li><li class='relationships'><a class="tag" href="/tags/Natsu%20Dragion*s*Lucy%20Heartfilia/works">Natsu Dragion/Lucy Heartfilia</a></li> <li class='relationships'><a class="tag" href="/tags/Natsu%20Dragneel*s*Lucy%20Ashley/works">Natsu Dragneel/Lucy Ashley</a></li> <li class='relationships'><a class="tag" href="/tags/Natsu%20Dragneel*s*Edo-Wendy/works">Natsu Dragneel/Edo-Wendy</a></li> <li class='relationships'><a class="tag" href="/tags/Erza%20Knightwalker*s*Mystogan/works">Erza Knightwalker/Mystogan</a></li><li class='characters'><a class="tag" href="/tags/Lucy%20Heartfilia/works">Lucy Heartfilia</a></li> <li class='characters'><a class="tag" href="/tags/Natsu%20Dragion/works">Natsu Dragion</a></li> <li class='characters'><a class="tag" href="/tags/Natsu%20Dragneel/works">Natsu Dragneel</a></li> <li class='characters'><a class="tag" href="/tags/Lucy%20Ashley/works">Lucy Ashley</a></li> <li class='characters'><a class="tag" href="/tags/Gray%20Fullbuster/works">Gray Fullbuster</a></li> <li class='characters'><a class="tag" href="/tags/Erza%20Scarlet/works">Erza Scarlet</a></li> <li class='characters'><a class="tag" href="/tags/Erza%20Knightwalker/works">Erza Knightwalker</a></li> <li class='characters'><a class="tag" href="/tags/Mystogan/works">Mystogan</a></li> <li class='characters'><a class="tag" href="/tags/Edo-Wendy/works">Edo-Wendy</a></li> <li class='characters'><a class="tag" href="/tags/Gray%20Surge/works">Gray Surge</a></li> <li class='characters'><a class="tag" href="/tags/Edo-Cana/works">Edo-Cana</a></li><li class='freeforms'><a class="tag" href="/tags/Mirror%20Universe/works">Mirror Universe</a></li> <li class='freeforms'><a class="tag" href="/tags/Angst/works">Angst</a></li> <li class='freeforms'><a class="tag" href="/tags/Fluff/works">Fluff</a></li> <li class='freeforms'><a class="tag" href="/tags/Massage/works">Massage</a></li> <li class='freeforms'><a class="tag" href="/tags/Masturbation/works">Masturbation</a></li> <li class='freeforms'><a class="tag" href="/tags/Light%20Sadism/works">Light Sadism</a></li> <li class='freeforms'><a class="tag" href="/tags/Aphrodisiacs/works">Aphrodisiacs</a></li> <li class='freeforms'><a class="tag" href="/tags/Cat%20Fight/works">Cat Fight</a></li> <li class='freeforms'><a class="tag" href="/tags/Jealousy/works">Jealousy</a></li> <li class='freeforms'><a class="tag" href="/tags/Oral%20Sex/works">Oral Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Blow%20Jobs/works">Blow Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Cuddling%20*a*%20Snuggling/works">Cuddling &amp; Snuggling</a></li> <li class='freeforms'><a class="tag" href="/tags/Morning%20Kisses/works">Morning Kisses</a></li> <li class='freeforms'><a class="tag" href="/tags/Warm%20and%20Fuzzy%20Feelings/works">Warm and Fuzzy Feelings</a></li> <li class='freeforms'><a class="tag" href="/tags/Road%20Trips/works">Road Trips</a></li> <li class='freeforms'><a class="tag" href="/tags/Fingerfucking/works">Fingerfucking</a></li> <li class='freeforms'><a class="tag" href="/tags/Vaginal%20Fingering/works">Vaginal Fingering</a></li> <li class='freeforms'><a class="tag" href="/tags/Lemon/works">Lemon</a></li> <li class='freeforms'><a class="tag" href="/tags/Sexual%20Content/works">Sexual Content</a></li> <li class='freeforms'><a class="tag" href="/tags/Loss%20of%20Virginity/works">Loss of Virginity</a></li> <li class='freeforms'><a class="tag" href="/tags/Car%20Sex/works">Car Sex</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>In a freak accident of technology and magic, Natsu is blasted into Edolas while Edo-Natsu is transported to Earthland. Now Fairy Tail must figure out how to get the two back. Lucy is put in charge of protecting timid Fireball Natsu and discovers his bashful side is "rather cute." Meanwhile, Natsu is having his own trouble with Lucy Ashley and the guild in Edolas.</p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">148,947</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters"><a href="/works/501714/chapters/149175844">36</a>/?</dd>
+
+
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/501714?show_comments=true&amp;view_full_work=true#comments">283</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/501714?view_full_work=true#kudos">431</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/501714/bookmarks">90</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">22,641</dd>
+
+  </dl>
+
+
+</li>
+<li id="work_911674" class="work blurb group work-911674 user-54613" role="article">
+  
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/911674">Fight Me, Bite Me</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+
+
+
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Fairy%20Tail/works">Fairy Tail</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-yes warnings" title="Graphic Depictions Of Violence, Rape/Non-Con"><span class="text">Graphic Depictions Of Violence, Rape/Non-Con</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Work in Progress"><span class="text">Work in Progress</span></span></a></li>
+</ul>
+    <p class="datetime">19 Jul 2024</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/Graphic%20Depictions%20Of%20Violence/works">Graphic Depictions Of Violence</a></strong></li> <li class='warnings'><strong><a class="tag" href="/tags/Rape*s*Non-Con/works">Rape/Non-Con</a></strong></li><li class='relationships'><a class="tag" href="/tags/Natsu%20Dragneel*s*Gray%20Fullbuster/works">Natsu Dragneel/Gray Fullbuster</a></li><li class='characters'><a class="tag" href="/tags/Natsu%20Dragneel/works">Natsu Dragneel</a></li> <li class='characters'><a class="tag" href="/tags/Gray%20Fullbuster/works">Gray Fullbuster</a></li> <li class='characters'><a class="tag" href="/tags/Lucy%20Heartfilia/works">Lucy Heartfilia</a></li> <li class='characters'><a class="tag" href="/tags/Loke%20(Fairy%20Tail)/works">Loke (Fairy Tail)</a></li> <li class='characters'><a class="tag" href="/tags/Happy%20(Fairy%20Tail)/works">Happy (Fairy Tail)</a></li><li class='freeforms'><a class="tag" href="/tags/BDSM/works">BDSM</a></li> <li class='freeforms'><a class="tag" href="/tags/Bondage/works">Bondage</a></li> <li class='freeforms'><a class="tag" href="/tags/Ice%20Play/works">Ice Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Shower%20Sex/works">Shower Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Rough%20Sex/works">Rough Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Rimming/works">Rimming</a></li> <li class='freeforms'><a class="tag" href="/tags/Rape%20Fantasy/works">Rape Fantasy</a></li> <li class='freeforms'><a class="tag" href="/tags/Spanking/works">Spanking</a></li> <li class='freeforms'><a class="tag" href="/tags/Orgasm%20Delay/works">Orgasm Delay</a></li> <li class='freeforms'><a class="tag" href="/tags/Bloodplay/works">Bloodplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Exhibitionism/works">Exhibitionism</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Masturbation/works">Public Masturbation</a></li> <li class='freeforms'><a class="tag" href="/tags/Anal%20Fingering/works">Anal Fingering</a></li> <li class='freeforms'><a class="tag" href="/tags/Handcuffs/works">Handcuffs</a></li> <li class='freeforms'><a class="tag" href="/tags/Safeword%20Use/works">Safeword Use</a></li> <li class='freeforms'><a class="tag" href="/tags/Voyeurism/works">Voyeurism</a></li> <li class='freeforms'><a class="tag" href="/tags/Belting/works">Belting</a></li> <li class='freeforms'><a class="tag" href="/tags/Begging/works">Begging</a></li> <li class='freeforms'><a class="tag" href="/tags/Painplay/works">Painplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Orgasm%20Denial/works">Orgasm Denial</a></li> <li class='freeforms'><a class="tag" href="/tags/Omorashi/works">Omorashi</a></li> <li class='freeforms'><a class="tag" href="/tags/Desperation%20Play/works">Desperation Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Blow%20Jobs/works">Blow Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Aftercare/works">Aftercare</a></li> <li class='freeforms'><a class="tag" href="/tags/Wax%20Play/works">Wax Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Collars/works">Collars</a></li> <li class='freeforms'><a class="tag" href="/tags/Cock%20Rings/works">Cock Rings</a></li> <li class='freeforms'><a class="tag" href="/tags/Riding%20Crops/works">Riding Crops</a></li> <li class='freeforms'><a class="tag" href="/tags/Pet%20Play/works">Pet Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Bad%20BDSM%20Etiquette/works">Bad BDSM Etiquette</a></li> <li class='freeforms'><a class="tag" href="/tags/Implied%20Childhood%20Sexual%20Abuse/works">Implied Childhood Sexual Abuse</a></li> <li class='freeforms'><a class="tag" href="/tags/Chastity%20Device/works">Chastity Device</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Hand%20Jobs/works">Public Hand Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Butt%20Plugs/works">Butt Plugs</a></li> <li class='freeforms'><a class="tag" href="/tags/Impact%20Play/works">Impact Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Dark%20Fantasy/works">Dark Fantasy</a></li> <li class='freeforms'><a class="tag" href="/tags/Rape%20Roleplay/works">Rape Roleplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Choking/works">Choking</a></li> <li class='freeforms'><a class="tag" href="/tags/Hand%20*a*%20Finger%20Kink/works">Hand &amp; Finger Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Foot%20Fetish/works">Foot Fetish</a></li> <li class='freeforms'><a class="tag" href="/tags/Peeing%20on%20Each%20Other/works">Peeing on Each Other</a></li> <li class='freeforms'><a class="tag" href="/tags/Drinking%20Piss/works">Drinking Piss</a></li> <li class='freeforms'><a class="tag" href="/tags/Coming%20in%20Underwear/works">Coming in Underwear</a></li> <li class='freeforms'><a class="tag" href="/tags/Sensory%20Deprivation/works">Sensory Deprivation</a></li> <li class='freeforms'><a class="tag" href="/tags/Underwater%20Sex/works">Underwater Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Non-Consensual%20Voyeurism/works">Non-Consensual Voyeurism</a></li> <li class='freeforms'><a class="tag" href="/tags/Cock%20Bondage/works">Cock Bondage</a></li> <li class='freeforms'><a class="tag" href="/tags/Underwater%20Blow%20Jobs/works">Underwater Blow Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Sex%20in%20a%20Hot%20Spring/works">Sex in a Hot Spring</a></li> <li class='freeforms'><a class="tag" href="/tags/Blood%20Kink/works">Blood Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Sounding/works">Sounding</a></li> <li class='freeforms'><a class="tag" href="/tags/Snowballing/works">Snowballing</a></li> <li class='freeforms'><a class="tag" href="/tags/Armpit%20Kink/works">Armpit Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Crossdressing/works">Crossdressing</a></li> <li class='freeforms'><a class="tag" href="/tags/Threats%20of%20Rape*s*Non-Con/works">Threats of Rape/Non-Con</a></li> <li class='freeforms'><a class="tag" href="/tags/Flogging/works">Flogging</a></li> <li class='freeforms'><a class="tag" href="/tags/Sub-Drop/works">Sub-Drop</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Collaring/works">Public Collaring</a></li> <li class='freeforms'><a class="tag" href="/tags/Partner%20Swapping/works">Partner Swapping</a></li> <li class='freeforms'><a class="tag" href="/tags/Sex%20In%20A%20Cave/works">Sex In A Cave</a></li> <li class='freeforms'><a class="tag" href="/tags/Blow%20Job%20in%20a%20Shower/works">Blow Job in a Shower</a></li> <li class='freeforms'><a class="tag" href="/tags/Mating%20Bites/works">Mating Bites</a></li> <li class='freeforms'><a class="tag" href="/tags/Strangulation/works">Strangulation</a></li> <li class='freeforms'><a class="tag" href="/tags/Past%20Rape*s*Non-con/works">Past Rape/Non-con</a></li> <li class='freeforms'><a class="tag" href="/tags/Threesome%20-%20M*s*M*s*M/works">Threesome - M/M/M</a></li> <li class='freeforms'><a class="tag" href="/tags/Spitroasting/works">Spitroasting</a></li> <li class='freeforms'><a class="tag" href="/tags/Implied*s*Referenced%20Self-Harm/works">Implied/Referenced Self-Harm</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>Gray has a secret kink for immobilizing people. Natsu is too scared to let himself get intimate with anyone unless he is restrained. When a nightmare brings them together, the two rivals realize that the only partner who could handle their bizarre fetishes... is each other!</p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">613,494</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters"><a href="/works/911674/chapters/146341555">79</a>/?</dd>
+
+
+    <dt class="collections">Collections:</dt>
+    <dd class="collections"><a href="/works/911674/collections">2</a></dd>
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/911674?show_comments=true&amp;view_full_work=true#comments">2,519</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/911674?view_full_work=true#kudos">4,457</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/911674/bookmarks">654</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">281,539</dd>
+
+  </dl>
+
+
+</li>
+
+    </ul>
+        <ul class="actions" role="navigation"><li><a href="/users/Rhov/works">Works (183)</a></li></ul>
+  </div>
+  
+  <div class="series listbox group" id="user-series">
+    <h3 class="heading">Recent series</h3>
+    <ol class="index group">
+      <li id="series_1511636" class="series blurb group series-1511636 user-54613" role="article">
+  
+<!--title etc-->
+<div class="header module">
+  <h4 class="heading">
+    <a href="/series/1511636">Kinktober 2019</a>
+    by
+    <a rel="author" href="/users/Rhov/pseuds/Rhov">Rhov</a>
+  </h4>
+  <h5 class="fandoms heading">
+    <span class="landmark">Fandom:</span>
+    <a class="tag" href="/tags/Fairy%20Tail/works">Fairy Tail</a>, <a class="tag" href="/tags/Shingeki%20no%20Kyojin%20%7C%20Attack%20on%20Titan/works">Shingeki no Kyojin | Attack on Titan</a>
+  </h5>
+  <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-no warnings" title="No Archive Warnings Apply"><span class="text">No Archive Warnings Apply</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-no iswip" title="Series in Progress"><span class="text">Series in Progress</span></span></a></li>
+</ul>
+  <p class="datetime">31 Oct 2019</p>
+</div>
+
+<!--tags-->
+<ul class="tags commas">
+  <li class='warnings'><strong><a class="tag" href="/tags/No%20Archive%20Warnings%20Apply/works">No Archive Warnings Apply</a></strong></li><li class='relationships'><a class="tag" href="/tags/Laxus%20Dreyar*s*Freed%20Justine/works">Laxus Dreyar/Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Rogue%20Cheney*s*Sting%20Eucliffe/works">Rogue Cheney/Sting Eucliffe</a></li> <li class='relationships'><a class="tag" href="/tags/Natsu%20Dragneel*s*Gray%20Fullbuster/works">Natsu Dragneel/Gray Fullbuster</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow%20*a*%20Laxus%20Dreyar%20*a*%20Evergreen%20*a*%20Freed%20Justine/works">Bickslow &amp; Laxus Dreyar &amp; Evergreen &amp; Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow%20*a*%20Evergreen%20*a*%20Freed%20Justine/works">Bickslow &amp; Evergreen &amp; Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Laxus%20Dreyar*s*Evergreen/works">Laxus Dreyar/Evergreen</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow*s*Evergreen%20(Fairy%20Tail)/works">Bickslow/Evergreen (Fairy Tail)</a></li> <li class='relationships'><a class="tag" href="/tags/Evergreen*s*Freed%20Justine/works">Evergreen/Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow*s*Freed%20Justine/works">Bickslow/Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow*s*Laxus%20Dreyar/works">Bickslow/Laxus Dreyar</a></li> <li class='relationships'><a class="tag" href="/tags/Laxus%20Dreyar%20*a*%20Raijinshuu/works">Laxus Dreyar &amp; Raijinshuu</a></li> <li class='relationships'><a class="tag" href="/tags/Bickslow*s*Laxus%20Dreyar*s*Freed%20Justine/works">Bickslow/Laxus Dreyar/Freed Justine</a></li> <li class='relationships'><a class="tag" href="/tags/Jean%20Kirstein*s*Eren%20Yeager/works">Jean Kirstein/Eren Yeager</a></li> <li class='relationships'><a class="tag" href="/tags/Gray%20Fullbuster*s*Lyon%20Vastia/works">Gray Fullbuster/Lyon Vastia</a></li><li class='characters'><a class="tag" href="/tags/Laxus%20Dreyar/works">Laxus Dreyar</a></li> <li class='characters'><a class="tag" href="/tags/Freed%20Justine/works">Freed Justine</a></li> <li class='characters'><a class="tag" href="/tags/Rogue%20Cheney/works">Rogue Cheney</a></li> <li class='characters'><a class="tag" href="/tags/Sting%20Eucliffe/works">Sting Eucliffe</a></li> <li class='characters'><a class="tag" href="/tags/Gray%20Fullbuster/works">Gray Fullbuster</a></li> <li class='characters'><a class="tag" href="/tags/Natsu%20Dragneel/works">Natsu Dragneel</a></li> <li class='characters'><a class="tag" href="/tags/Evergreen%20(Fairy%20Tail)/works">Evergreen (Fairy Tail)</a></li> <li class='characters'><a class="tag" href="/tags/Bickslow%20(Fairy%20Tail)/works">Bickslow (Fairy Tail)</a></li> <li class='characters'><a class="tag" href="/tags/Raijinshuu%20(Fairy%20Tail)/works">Raijinshuu (Fairy Tail)</a></li> <li class='characters'><a class="tag" href="/tags/Eren%20Yeager/works">Eren Yeager</a></li> <li class='characters'><a class="tag" href="/tags/Jean%20Kirstein/works">Jean Kirstein</a></li> <li class='characters'><a class="tag" href="/tags/Erza%20Scarlet/works">Erza Scarlet</a></li> <li class='characters'><a class="tag" href="/tags/Lyon%20Vastia/works">Lyon Vastia</a></li><li class='freeforms'><a class="tag" href="/tags/Kinktober%202019/works">Kinktober 2019</a></li> <li class='freeforms'><a class="tag" href="/tags/Deepthroating/works">Deepthroating</a></li> <li class='freeforms'><a class="tag" href="/tags/Face-Sitting/works">Face-Sitting</a></li> <li class='freeforms'><a class="tag" href="/tags/Teabagging/works">Teabagging</a></li> <li class='freeforms'><a class="tag" href="/tags/Oral%20Sex/works">Oral Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Shower%20Sex/works">Shower Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Dom*s*sub/works">Dom/sub</a></li> <li class='freeforms'><a class="tag" href="/tags/Humiliation/works">Humiliation</a></li> <li class='freeforms'><a class="tag" href="/tags/Praise%20Kink/works">Praise Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Watersports/works">Watersports</a></li> <li class='freeforms'><a class="tag" href="/tags/Desperation%20Play/works">Desperation Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Medical%20Kink/works">Medical Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Begging/works">Begging</a></li> <li class='freeforms'><a class="tag" href="/tags/Body%20Worship/works">Body Worship</a></li> <li class='freeforms'><a class="tag" href="/tags/Dildos/works">Dildos</a></li> <li class='freeforms'><a class="tag" href="/tags/Anal%20Fingering/works">Anal Fingering</a></li> <li class='freeforms'><a class="tag" href="/tags/Prostate%20Massage/works">Prostate Massage</a></li> <li class='freeforms'><a class="tag" href="/tags/Urination/works">Urination</a></li> <li class='freeforms'><a class="tag" href="/tags/Anal%20Sex/works">Anal Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Barebacking/works">Barebacking</a></li> <li class='freeforms'><a class="tag" href="/tags/Doctor*s*Patient/works">Doctor/Patient</a></li> <li class='freeforms'><a class="tag" href="/tags/Roleplay/works">Roleplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Omorashi/works">Omorashi</a></li> <li class='freeforms'><a class="tag" href="/tags/Knifeplay/works">Knifeplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Edgeplay/works">Edgeplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Bondage/works">Bondage</a></li> <li class='freeforms'><a class="tag" href="/tags/Ankle%20Cuffs/works">Ankle Cuffs</a></li> <li class='freeforms'><a class="tag" href="/tags/Sensory%20Deprivation/works">Sensory Deprivation</a></li> <li class='freeforms'><a class="tag" href="/tags/Blood%20Kink/works">Blood Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Ice%20Play/works">Ice Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Orgasm%20Delay*s*Denial/works">Orgasm Delay/Denial</a></li> <li class='freeforms'><a class="tag" href="/tags/Hand%20Jobs/works">Hand Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Blow%20Jobs/works">Blow Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Temperature%20Play/works">Temperature Play</a></li> <li class='freeforms'><a class="tag" href="/tags/Foursome%20-%20F*s*M*s*M*s*M/works">Foursome - F/M/M/M</a></li> <li class='freeforms'><a class="tag" href="/tags/Vaginal%20Fingering/works">Vaginal Fingering</a></li> <li class='freeforms'><a class="tag" href="/tags/Vibrators/works">Vibrators</a></li> <li class='freeforms'><a class="tag" href="/tags/Spitroasting/works">Spitroasting</a></li> <li class='freeforms'><a class="tag" href="/tags/Mirror%20Sex/works">Mirror Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Dacryphilia/works">Dacryphilia</a></li> <li class='freeforms'><a class="tag" href="/tags/Spanking/works">Spanking</a></li> <li class='freeforms'><a class="tag" href="/tags/Cunnilingus/works">Cunnilingus</a></li> <li class='freeforms'><a class="tag" href="/tags/Consent%20Issues/works">Consent Issues</a></li> <li class='freeforms'><a class="tag" href="/tags/Gay%20Freed/works">Gay Freed</a></li> <li class='freeforms'><a class="tag" href="/tags/Pansexual%20Laxus%20Dreyar/works">Pansexual Laxus Dreyar</a></li> <li class='freeforms'><a class="tag" href="/tags/Bisexual%20Bickslow/works">Bisexual Bickslow</a></li> <li class='freeforms'><a class="tag" href="/tags/Panromantic%20Freed%20Justine/works">Panromantic Freed Justine</a></li> <li class='freeforms'><a class="tag" href="/tags/Domme%20Evergreen/works">Domme Evergreen</a></li> <li class='freeforms'><a class="tag" href="/tags/Voyeurism/works">Voyeurism</a></li> <li class='freeforms'><a class="tag" href="/tags/Erotic%20Electrostimulation/works">Erotic Electrostimulation</a></li> <li class='freeforms'><a class="tag" href="/tags/Multiple%20Orgasms/works">Multiple Orgasms</a></li> <li class='freeforms'><a class="tag" href="/tags/Multiple%20Partners/works">Multiple Partners</a></li> <li class='freeforms'><a class="tag" href="/tags/Sloppy%20Seconds/works">Sloppy Seconds</a></li> <li class='freeforms'><a class="tag" href="/tags/Facials/works">Facials</a></li> <li class='freeforms'><a class="tag" href="/tags/Squirting/works">Squirting</a></li> <li class='freeforms'><a class="tag" href="/tags/Come%20Shot/works">Come Shot</a></li> <li class='freeforms'><a class="tag" href="/tags/Come%20Eating/works">Come Eating</a></li> <li class='freeforms'><a class="tag" href="/tags/Aftercare/works">Aftercare</a></li> <li class='freeforms'><a class="tag" href="/tags/Cuddling%20*a*%20Snuggling/works">Cuddling &amp; Snuggling</a></li> <li class='freeforms'><a class="tag" href="/tags/Open%20Relationships/works">Open Relationships</a></li> <li class='freeforms'><a class="tag" href="/tags/Foursome/works">Foursome</a></li> <li class='freeforms'><a class="tag" href="/tags/Moresomes/works">Moresomes</a></li> <li class='freeforms'><a class="tag" href="/tags/Recreational%20Drug%20Use/works">Recreational Drug Use</a></li> <li class='freeforms'><a class="tag" href="/tags/Marijuana/works">Marijuana</a></li> <li class='freeforms'><a class="tag" href="/tags/Shotgunning/works">Shotgunning</a></li> <li class='freeforms'><a class="tag" href="/tags/feederism/works">feederism</a></li> <li class='freeforms'><a class="tag" href="/tags/Feeding%20Kink/works">Feeding Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Foot%20Fetish/works">Foot Fetish</a></li> <li class='freeforms'><a class="tag" href="/tags/Lazy%20Sex/works">Lazy Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Nudity/works">Public Nudity</a></li> <li class='freeforms'><a class="tag" href="/tags/Public%20Sex/works">Public Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Drugged%20Sex/works">Drugged Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Mildly%20Dubious%20Consent/works">Mildly Dubious Consent</a></li> <li class='freeforms'><a class="tag" href="/tags/Sleepy%20Cuddles/works">Sleepy Cuddles</a></li> <li class='freeforms'><a class="tag" href="/tags/Sweet*s*Hot/works">Sweet/Hot</a></li> <li class='freeforms'><a class="tag" href="/tags/Asphyxiation/works">Asphyxiation</a></li> <li class='freeforms'><a class="tag" href="/tags/Breathplay/works">Breathplay</a></li> <li class='freeforms'><a class="tag" href="/tags/Butt%20Plugs/works">Butt Plugs</a></li> <li class='freeforms'><a class="tag" href="/tags/Sadism/works">Sadism</a></li> <li class='freeforms'><a class="tag" href="/tags/Sex%20Magic/works">Sex Magic</a></li> <li class='freeforms'><a class="tag" href="/tags/Uniform%20Kink/works">Uniform Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Crossdressing%20Kink/works">Crossdressing Kink</a></li> <li class='freeforms'><a class="tag" href="/tags/Semi-Public%20Sex/works">Semi-Public Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Alley%20Sex/works">Alley Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Exhibitionism/works">Exhibitionism</a></li> <li class='freeforms'><a class="tag" href="/tags/Consensual%20Non-Consent/works">Consensual Non-Consent</a></li>
+</ul>
+
+<!--summary-->
+<!--stats-->
+<dl class="stats">
+  <dt class="words">Words:</dt>
+  <dd class="words">22,443</dd>
+  <dt class="works">Works:</dt>
+  <dd class="works">7</dd>
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/series/1511636/bookmarks">8</a></dd>
+</dl>
+
+</li>
+
+    </ol>
+   </div>
+  
+  <div class="bookmark listbox group" id="user-bookmarks">
+    <h3 class="heading">Recent bookmarks</h3>
+    <ol class="index group">
+      <li id="bookmark_260461671" class="bookmark blurb group work-4824758 user-265394 user-54613" role="article">
+
+    <!--bookmark icons-->
+    <p class="status" title="467 Bookmarks">
+       <a class="help symbol question modal" title="Bookmark symbols key" href="/help/bookmark-symbols-key.html"><span class="public" title="Public Bookmark"><span class="text">Public Bookmark</span></span></a>
+      <span class="count"><a href="/works/4824758/bookmarks">*</a></span>
+    </p>
+
+    <!--bookmark item module-->
+      
+
+  <!--title, author, fandom-->
+  <div class="header module">
+
+    <h4 class="heading">
+      <a href="/works/4824758">all things warm and tender</a>
+      by
+        
+      <!-- do not cache -->
+      <a rel="author" href="/users/darcylindbergh/pseuds/darcylindbergh">darcylindbergh</a>
+
+
+
+      
+      
+    </h4>
+
+    <h5 class="fandoms heading">
+      <span class="landmark">Fandoms:</span>
+      <a class="tag" href="/tags/Sherlock%20(TV)/works">Sherlock (TV)</a>
+      &nbsp;
+    </h5>
+
+    <!--required tags-->
+    <ul class="required-tags">
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="rating-explicit rating" title="Explicit"><span class="text">Explicit</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="warning-no warnings" title="No Archive Warnings Apply"><span class="text">No Archive Warnings Apply</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="category-slash category" title="M/M"><span class="text">M/M</span></span></a></li>
+<li> <a class="help symbol question modal" title="Symbols key" href="/help/symbols-key.html"><span class="complete-yes iswip" title="Complete Work"><span class="text">Complete Work</span></span></a></li>
+</ul>
+    <p class="datetime">18 Sep 2015</p>
+  </div>
+
+  <!--warnings again, cast, freeform tags-->
+  <h6 class="landmark heading">Tags</h6>
+  <ul class="tags commas">
+    <li class='warnings'><strong><a class="tag" href="/tags/No%20Archive%20Warnings%20Apply/works">No Archive Warnings Apply</a></strong></li><li class='relationships'><a class="tag" href="/tags/Sherlock%20Holmes*s*John%20Watson/works">Sherlock Holmes/John Watson</a></li><li class='characters'><a class="tag" href="/tags/Sherlock%20Holmes/works">Sherlock Holmes</a></li> <li class='characters'><a class="tag" href="/tags/John%20Watson/works">John Watson</a></li><li class='freeforms'><a class="tag" href="/tags/Fluff%20and%20Smut/works">Fluff and Smut</a></li> <li class='freeforms'><a class="tag" href="/tags/Romantic%20Fluff/works">Romantic Fluff</a></li> <li class='freeforms'><a class="tag" href="/tags/Plot%20What%20Plot*s*Porn%20Without%20Plot/works">Plot What Plot/Porn Without Plot</a></li> <li class='freeforms'><a class="tag" href="/tags/Blow%20Jobs/works">Blow Jobs</a></li> <li class='freeforms'><a class="tag" href="/tags/Rimming/works">Rimming</a></li> <li class='freeforms'><a class="tag" href="/tags/Anal%20Sex/works">Anal Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Tender%20Sex/works">Tender Sex</a></li> <li class='freeforms'><a class="tag" href="/tags/Body%20Worship/works">Body Worship</a></li> <li class='freeforms'><a class="tag" href="/tags/Soft%20and%20Quiet%20and%20Romantic/works">Soft and Quiet and Romantic</a></li> <li class='freeforms'><a class="tag" href="/tags/In%20Front%20of%20the%20Fire/works">In Front of the Fire</a></li>
+  </ul>
+
+  <!--summary-->
+    <h6 class="landmark heading">Summary</h6>
+    <blockquote class="userstuff summary">
+      <p>Grinning and giggling, John slides back down under the sheet and pulls it over his head. He finds Sherlock waiting for him, eyes bright and hair wild, the firelight bleeding through the thin fabric, colouring everything in soft peach and topaz, and in that moment he is so suddenly, unexpectedly, ethereally beautiful that John forgets how to breathe.</p>
+    </blockquote>
+
+
+  <!--stats-->
+
+  <dl class="stats">
+      <dt class="language">Language:</dt>
+      <dd class="language" lang="en">English</dd>
+    <dt class="words">Words:</dt>
+    <dd class="words">5,177</dd>
+    <dt class="chapters">Chapters:</dt>
+    <dd class="chapters">1/1</dd>
+
+
+    <dt class="collections">Collections:</dt>
+    <dd class="collections"><a href="/works/4824758/collections">1</a></dd>
+
+    <dt class="comments">Comments:</dt>
+    <dd class="comments"><a href="/works/4824758?show_comments=true#comments">149</a></dd>
+
+    <dt class="kudos">Kudos:</dt>
+    <dd class="kudos"><a href="/works/4824758#kudos">1,947</a></dd>
+
+    <dt class="bookmarks">Bookmarks:</dt>
+    <dd class="bookmarks"><a href="/works/4824758/bookmarks">467</a></dd>
+
+  <dt class="hits">Hits:</dt>
+  <dd class="hits">26,258</dd>
+
+  </dl>
+
+
+
+
+    <!--actions-->
+      <ul class="actions" role="navigation">
+      </ul>
+
+    <div class="new dynamic" id="bookmark_form_placement_for_4824758"></div>
+
+  <div class="user module group">
+    <!--bookmarker, time-->
+    <h5 class="byline heading">
+      Bookmarked by <a href="/users/Rhov/pseuds/Rhov/bookmarks">Rhov</a>
+    </h5>
+    <p class="datetime">29 Jul 2018</p>
+
+    <!--meta-->
+
+
+    <!--notes-->
+
+  <!--navigation and actions-->
+</div>
+
+
+
+</li>
+
+    </ol>
+  </div>
+
+<!--/content-->
+
+</div>
+
+
+          <div class="clear"><!--presentational--></div>
+        </div>
+        <!-- END main -->
+      </div>
+      <!-- BEGIN footer -->
+<div id="footer" role="contentinfo" class="region">
+  <h3 class="landmark heading">Footer</h3>
+  <ul class="navigation actions" role="navigation">
+    <li class="module group">
+      <h4 class="heading">About the Archive</h4>
+      <ul class="menu">
+        <li><a href="/site_map">Site Map</a></li>
+        <li><a href="/diversity">Diversity Statement</a></li>
+        <li><a href="/tos">Terms of Service</a></li>
+        <li><a href="/content">Content Policy</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/dmca">DMCA Policy</a> </li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Contact Us</h4>
+      <ul class="menu">
+        <li><a href="/abuse_reports/new">Policy Questions &amp; Abuse Reports</a></li>
+        <li><a href="/support">Technical Support &amp; Feedback</a></li>
+      </ul>
+    </li>
+    <li class="module group">
+      <h4 class="heading">Development</h4>
+      <ul class="menu">
+          <li>
+            <a href="https://github.com/otwcode/otwarchive/commits/v0.9.398.5">otwarchive v0.9.398.5</a>
+          </li>
+        <li><a href="/known_issues">Known Issues</a></li>
+        <li>
+          <a title="View License" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL-2.0-or-later</a> by the <a title="Organization for Transformative Works" href="https://transformativeworks.org/">OTW</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!-- END footer -->
+
+    </div>
+    <!-- check to see if this controller/action allow tinymce before we load the gigantor js; see application_helper -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js" type="text/javascript"></script>
+<!-- if user has googleapis blocked for some reason we need a fallback -->
+<script type="text/javascript">
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    document.write(unescape("%3Cscript src='/javascripts/jquery-ui.min.js' type='text/javascript'%3E%3C/script%3E"));
+  }
+</script>
+
+
+<script type="text/javascript">$j = jQuery.noConflict();</script>
+<script src="/javascripts/jquery.scrollTo.min.js"></script>
+<script src="/javascripts/jquery.livequery.min.js"></script>
+<script src="/javascripts/rails.js"></script>
+<script src="/javascripts/application.js"></script>
+<script src="/javascripts/bootstrap/bootstrap-dropdown.min.js"></script>
+<script src="/javascripts/jquery-shuffle.js"></script>
+<script src="/javascripts/jquery.tokeninput.min.js"></script>
+<script src="/javascripts/jquery.trap.min.js"></script>
+<script src="/javascripts/ao3modal.min.js"></script>
+<script src="/javascripts/js.cookie.min.js"></script>
+
+<script src="/javascripts/filters.min.js"></script>
+
+
+  <script>
+//<![CDATA[
+
+    // We can't rely on !window.localStorage to test localStorage support in
+    // browsers like Safari 9, which technically support it, but which have a
+    // storage length of 0 in private mode.
+    // Credit: https://github.com/getgrav/grav-plugin-admin/commit/cfe2188f10c4ca604e03c96f3e21537fda1cdf9a
+    function isSupported() {
+        var item = "localStoragePolyfill";
+        try {
+            localStorage.setItem(item, item);
+            localStorage.removeItem(item);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
+
+    function acceptTOS() {
+      if (isSupported()) {
+        localStorage.setItem("accepted_tos", "20241119");
+      } else {
+        Cookies.set("accepted_tos", "20241119", { expires: 365 });
+      }
+    }
+
+    $j(document).ready(function() {
+        if (localStorage.getItem("accepted_tos") !== "20241119" && Cookies.get("accepted_tos") !== "20241119") {
+          $j("body").prepend("<div id=\"tos_prompt\" class=\"hidden\">\n  <h2 class=\"heading\">\n    <span>Archive of Our Own<\/span>\n  <\/h2>\n  <div class=\"agreement\">\n    <p>\n      On the Archive of Our Own (AO3), users can create works, bookmarks, comments, tags, and other <a href=\"/tos_faq#define_content\">Content<\/a>. Any information you publish on AO3 may be accessible by the public, AO3 users, and/or AO3 personnel. Be mindful when sharing personal information, including but not limited to your name, email, age, location, personal relationships, gender or sexual identity, racial or ethnic background, religious or political views, and/or account usernames for other sites.\n    <\/p>\n    <p>\n      To learn more, check out our <a href=\"/tos\">Terms of Service<\/a>, including the <a href=\"/content\">Content Policy<\/a> and <a href=\"/privacy\">Privacy Policy<\/a>.\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"tos_agree\" />\n      <label for=\"tos_agree\">I have read &amp; understood the 2024 Terms of Service, including the Content Policy and Privacy Policy.<\/label>\n    <\/p>\n\n    <p class=\"confirmation\">\n      <input type=\"checkbox\" id=\"data_processing_agree\" />\n      <label for=\"data_processing_agree\">By checking this box, you consent to the processing of your personal data in the United States and other jurisdictions in connection with our provision of AO3 and its related services to you. You acknowledge that the data privacy laws of such jurisdictions may differ from those provided in your jurisdiction. For more information about how your personal data will be processed, please refer to our Privacy Policy.<\/label>\n    <\/p>\n\n      <p class=\"submit\">\n        <button name=\"button\" type=\"button\" disabled=\"disabled\" id=\"accept_tos\">I agree/consent to these Terms<\/button>\n      <\/p>\n\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    var container = \$j(\"#tos_prompt\");\n    var outer = \$j(\"#outer\");\n    var button = \$j(\"#accept_tos\");\n    var tosCheckbox = document.getElementById(\"tos_agree\");\n    var dataProcessingCheckbox = document.getElementById(\"data_processing_agree\");\n\n    var checkboxClicked = function() {\n      button.attr(\"disabled\", !tosCheckbox.checked || !dataProcessingCheckbox.checked);\n      if (this.checked) {\n        button.on(\"click\", function() {\n          acceptTOS();\n          outer.removeClass(\"hidden\").removeAttr(\"aria-hidden\");\n          \$j.when(container.fadeOut(500)).done(function() {\n            container.remove();\n          });\n        });\n      };\n    };\n\n    setTimeout(showTOSPrompt, 1500);\n\n    function showTOSPrompt() {\n      \$j.when(container.fadeIn(500)).done(function() {\n        outer.addClass(\"hidden\").attr(\"aria-hidden\", \"true\");\n      });\n\n      \$j(\"#tos_agree\").on(\"click\", checkboxClicked).change();\n      \$j(\"#data_processing_agree\").on(\"click\", checkboxClicked).change();\n    };\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+        }
+    });
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+    $j(document).ready(function() {
+      var permitted_hosts = ["104.153.64.122","208.85.241.152","208.85.241.157","ao3.org","archiveofourown.com","archiveofourown.gay","archiveofourown.net","archiveofourown.org","download.archiveofourown.org","insecure.archiveofourown.org","secure.archiveofourown.org","www.archiveofourown.com","www.archiveofourown.net","www.archiveofourown.org","www.ao3.org","archive.transformativeworks.org","xn--iao3-lw4b.ws"];
+      var current_host = window.location.hostname;
+
+      if (!permitted_hosts.includes(current_host) && Cookies.get("proxy_notice") !== "0" && window.location.protocol !== "file:") {
+        $j("#skiplinks").after("<div id=\"proxy-notice\">\n  <div class=\"userstuff\">\n    <p class=\"important\">Important message:<\/p>\n    <ol>\n      <li>You are using a proxy site that is not part of the Archive of Our Own.<\/li>\n      <li>The entity that set up the proxy site can see what you submit, including your IP address. If you log in through the proxy site, it can see your password.<\/li>\n    <\/ol>\n    <p class=\"important\">Важная информация:<\/p>\n    <ol>\n      <li>Вы используете прокси-сайт, который не является частью AO3 (Нашего Архива).<\/li>\n      <li>Субъект, настроивший прокси-сайт, может видеть, что вы отправляете, включая ваш IP-адрес. Если вы авторизуетесь через прокси-сайт, он может видеть ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">Важливе повідомлення:<\/p>\n    <ol>\n      <li>Ви використовуєте проксі-сайт, який не є частиною Archive of Our Own (Нашого Власного Архіву).<\/li>\n      <li>Творці цього проксі-сайту можуть бачити Ваші дані та дії, а також Вашу IP-адресу. Якщо Ви входите до свого облікового запису, використовуючи проксі-сайт, його творці можуть бачити Ваш пароль.<\/li>\n    <\/ol>\n    <p class=\"important\">重要提示：<\/p>\n    <ol>\n      <li>您使用的是第三方开发的反向代理网站，此网站并非Archive of Our Own - AO3（AO3作品库）原站。<\/li>\n      <li>代理网站的开发者能够获取您上传至该站点的全部内容，包括您的ip地址。如您通过代理登录AO3，对方将获得您的密码。<\/li>\n    <\/ol>\n    <p class=\"submit\"><button class=\"action\" type=\"button\" id=\"proxy-notice-dismiss\">Dismiss Notice<\/button><\/p>\n  <\/div>\n<\/div>\n\n<script>\n//<![CDATA[\n\n  \$j(document).ready(function() {\n    \$j(\"#proxy-notice-dismiss\").on(\"click\", function() {\n      Cookies.set(\"proxy_notice\", \"0\");\n      \$j(\"#proxy-notice\").slideUp();\n    });\n  });\n\n//]]]]><![CDATA[>\n<\/script>");
+      }
+    });
+
+//]]>
+</script>
+
+  <script>
+//<![CDATA[
+
+    $j(document).ready(function() {
+      $j("#expand-fandoms").removeClass("hidden").click(function(e) {
+        e.preventDefault();
+        $j(".more").toggleClass("hidden");
+        $j("#collapse-fandoms").toggleClass("hidden");
+        $j(this).toggleClass("hidden");
+      });
+      $j("#collapse-fandoms").click(function(e) {
+        e.preventDefault();
+        $j(".more").toggleClass("hidden");
+        $j("#expand-fandoms").toggleClass("hidden");
+        $j(this).toggleClass("hidden");
+      });
+    });
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      $j("#hide-first-login-help").click(function() {
+        $j("#first-login-help-banner").hide();
+      })
+
+//]]>
+</script>
+
+  </body>
+</html>
+

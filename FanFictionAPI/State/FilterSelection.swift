@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class FilterSelections: ObservableObject {
+public class FilterSelections: ObservableObject {
     @Published var sorting: Sorting
     @Published var includeTags: Tags
     @Published var excludeTags: Tags
