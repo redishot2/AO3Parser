@@ -30,13 +30,8 @@ internal class AboutInfoFactory {
             let summaryWrapper = try metaItems.select("div").first(where: { $0.hasClass("summary module") })
             let summaryRaw = try summaryWrapper?.select("blockquote")
             guard let summary = summaryRaw?.attributedText() else { return nil }
-
-            // Notes
-            let notesWrapper = try metaItems.select("div").first(where: { $0.hasClass("notes module") })
-            let notesRaw = try notesWrapper?.select("blockquote")
-            guard let notes = notesRaw?.attributedText() else { return nil }
             
-            return AboutInfo(title: title, author: author, summary: summary, notes: notes)
+            return AboutInfo(title: title, author: author, summary: summary)
         } catch {
             return nil
         }

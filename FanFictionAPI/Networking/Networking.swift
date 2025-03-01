@@ -128,7 +128,7 @@ public struct Networking {
                     return work as? T
                 }
                 
-                work.chapters[work.currentChapter] = chapter
+                work.saveAsCurrentChapter(chapter)
                 return work as? T
                 
             case .workChapters:

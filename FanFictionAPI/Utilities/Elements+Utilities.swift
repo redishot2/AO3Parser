@@ -32,6 +32,9 @@ extension Element {
     internal func attributedText() -> AttributedString? {
         do {
             let rawHTML = try self.outerHtml()
+            if rawHTML.contains("<img src=") {
+                return nil 
+            }
             let htmlData = NSString(string: rawHTML).data(using: String.Encoding.unicode.rawValue)
             let options = [NSAttributedString.DocumentReadingOptionKey.documentType:
                     NSAttributedString.DocumentType.html]

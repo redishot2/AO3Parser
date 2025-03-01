@@ -11,5 +11,4 @@ public struct AboutInfo {
     let title: String
     let author: Link
     let summary: AttributedString
-    let notes: AttributedString
 }

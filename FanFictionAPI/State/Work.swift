@@ -7,7 +7,11 @@
 
 public class Work {
     let id: String
-    var currentChapter: Int = 0
+    private var currentChapterIndex: Int = 0
+    var currentChapter: Chapter? {
+        guard currentChapterIndex < chapters.count else { return nil }
+        return chapters[currentChapterIndex]
+    }
     
     var storyInfo: StoryInfo?
     var aboutInfo: AboutInfo?
@@ -21,5 +25,9 @@ public class Work {
     
     public init(id: String) {
         self.id = id
+    }
+    
+    internal func saveAsCurrentChapter(_ chapter: Chapter) {
+        chapters[currentChapterIndex] = chapter
     }
 }

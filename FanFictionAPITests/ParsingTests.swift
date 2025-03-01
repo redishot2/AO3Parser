@@ -130,6 +130,8 @@ class ParsingTests: XCTestCase {
         }
         
         let workEmpty = Work(id: "2226570")
+        XCTAssertNil(workEmpty.currentChapter?.title)
+        
         guard let work: Work = await Networking.parseHTML(document: document, as: .work(work: workEmpty, chapterID: "4884561")) else {
             XCTFail("Could not parse mock HTML")
             return
@@ -138,7 +140,11 @@ class ParsingTests: XCTestCase {
         // Story Info
         XCTAssertEqual(work.storyInfo?.fandoms[0].name, "Fairy Tail")
         
+        // About Info
         XCTAssertEqual(work.aboutInfo?.author.name, "Rhov")
+        
+        // Chapter Info
+        XCTAssertEqual(work.currentChapter?.title.name, "Chapter 1: The Thunder God")
     }
     
     func testUserInfoParsing() async {
