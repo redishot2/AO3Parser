@@ -124,6 +124,16 @@ public struct Networking {
                     work.aboutInfo = AboutInfoFactory.parse(document)
                 }
                 
+                if work.chapterList == nil {
+                    let chapterListResult: Result<ChapterList?, Error> = await fetch(.workChapters(workID: work.id))
+                    switch chapterListResult {
+                        case .success(let chapterList):
+                            work.chapterList = chapterList
+                        case .failure:
+                            break
+                    }
+                }
+                
                 guard let chapter = ChapterFactory.parse(document) else {
                     return work as? T
                 }
