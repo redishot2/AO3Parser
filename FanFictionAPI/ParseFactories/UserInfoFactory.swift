@@ -24,16 +24,14 @@ internal class UserInfoFactory {
             let works = parseWorks(userHeader)
             let series = parseSeries(userHeader)
             let bookmarks = parseBookmarks(userHeader)
-            let gifts = parseGifts(userHeader)
             let counts = parseCounts(body)
             
-            // TODO: fix
             var userInfo: (joinDate: String?, bio: AttributedString?) = (nil, nil)
 //            if let profileDoc = profileDoc, let profileDoc2 = profileDoc, let profileBody = profileDoc2.body() {
 //                let pMain = try profileBody.select("div").first(where: { $0.id() == "main" })
 //                let pUserHeader = try pMain?.select("div").first(where: { $0.hasClass("user home profile") })
 //                userInfo = parseUserInfo(pUserHeader)
-//            }
+//            } TODO: 
             
             return UserInfo(username: profile.username, profilePicture: profile.picture, joinDate: userInfo.joinDate, bio: userInfo.bio, counts: counts, fandoms: fandoms, recentWorks: works, recentSeries: series, recentBookmarks: bookmarks)
         } catch {
@@ -58,83 +56,48 @@ internal class UserInfoFactory {
         }
     }
     
-    // TODO: fix
-//    private static func parseUserInfo(_ document: Element?) -> (joinDate: String?, bio: AttributedString?) {
-//        do {
-//            // Join date
-//            let joinMetaWrapper = try document?.select("div").first(where: { $0.hasClass("wrapper") })
-//            let dateJoined = try joinMetaWrapper?.select("dd")[1].text()
-//
-//            // Bio
-//            let bioWrapper = try document?.select("div").first(where: { $0.hasClass("bio module") })
-//            let bio = try bioWrapper?.select("blockquote").first(where: { $0.hasClass("userstuff") })?.attributedText()
-//            
-//            return (dateJoined, bio)
-//        } catch {
-//            return ("", nil)
-//        }
-//    }
+    private static func parseUserInfo(_ document: Element?) -> (joinDate: String?, bio: AttributedString?) {
+        do {
+            // Join date
+            let joinMetaWrapper = try document?.select("div").first(where: { $0.hasClass("wrapper") })
+            let dateJoined = try joinMetaWrapper?.select("dd")[1].text()
+
+            // Bio
+            let bioWrapper = try document?.select("div").first(where: { $0.hasClass("bio module") })
+            let bio = try bioWrapper?.select("blockquote").first(where: { $0.hasClass("userstuff") })?.attributedText()
+            
+            return (dateJoined, bio)
+        } catch {
+            return ("", nil)
+        }
+    }
     
-    private static func parseWorks(_ document: Element?) -> [FeedCardInfo] {
+    private static func parseUserSection(_ document: Element?, className: String, blurbClassName: String) -> [FeedCardInfo] {
         do {
             // Get to the area
-            let worksList = try document?.select("div").first(where: { $0.hasClass("work listbox group") })
+            let worksList = try document?.select("div").first(where: { $0.hasClass(className) })
             
             guard let worksRaw = try worksList?.select("li").filter({
                 let className = try $0.className()
-                return className.contains("work blurb group work")
+                return className.contains(blurbClassName)
             }) else { return [] }
             
             return FeedInfoFactory.createFeedCardInfo(from: worksRaw)
         } catch {
             return []
         }
+    }
+    
+    private static func parseWorks(_ document: Element?) -> [FeedCardInfo] {
+        parseUserSection(document, className: "work listbox group", blurbClassName: "work blurb group work")
     }
     
     private static func parseSeries(_ document: Element?) -> [FeedCardInfo] {
-        do {
-            // Get to the area
-            let worksList = try document?.select("div").first(where: { $0.hasClass("series listbox group") })
-            guard let worksRaw = try worksList?.select("li").filter({
-                let className = try $0.className()
-                return className.contains("series blurb group series")
-            }) else { return [] }
-            
-            return FeedInfoFactory.createFeedCardInfo(from: worksRaw)
-        } catch {
-            return []
-        }
+        parseUserSection(document, className: "series listbox group", blurbClassName: "series blurb group series")
     }
     
     private static func parseBookmarks(_ document: Element?) -> [FeedCardInfo] {
-        do {
-            // Get to the area
-            let worksList = try document?.select("div").first(where: { $0.hasClass("bookmark listbox group") })
-            guard let worksRaw = try worksList?.select("li").filter({
-                let className = try $0.className()
-                return className.contains("bookmark blurb group work")
-            }) else { return [] }
-            
-            return FeedInfoFactory.createFeedCardInfo(from: worksRaw)
-        } catch {
-            return []
-        }
-    }
-    
-    private static func parseGifts(_ document: Element?) -> [FeedCardInfo] {
-        do {
-            // Get to the area
-            let worksList = try document?.select("ul").first(where: { $0.hasClass("gift work index group") })
-            
-            guard let worksRaw = try worksList?.select("li").filter({
-                let className = try $0.className()
-                return className.contains("gift work blurb group work")
-            }) else { return [] }
-            
-            return FeedInfoFactory.createFeedCardInfo(from: worksRaw)
-        } catch {
-            return []
-        }
+        parseUserSection(document, className: "bookmark listbox group", blurbClassName: "bookmark blurb group work")
     }
     
     private static func parseFandoms(_ document: Element?) -> [Link] {

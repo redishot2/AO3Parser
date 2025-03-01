@@ -166,10 +166,9 @@ class ParsingTests: XCTestCase {
             return
         }
         
-        XCTAssertTrue(!userInfo.recentWorks.isEmpty)
-        XCTAssertTrue(!userInfo.recentSeries.isEmpty)
-        XCTAssertTrue(!userInfo.recentBookmarks.isEmpty)
-        XCTAssertTrue(!userInfo.fandoms.isEmpty)
-//        XCTAssertTrue(!userInfo.gifts.isEmpty) // TODO: Fix
+        XCTAssertEqual(userInfo.recentWorks.count, 5)
+        XCTAssertEqual(userInfo.recentSeries.count, 1)
+        XCTAssertEqual(userInfo.recentBookmarks.count, 1)
+        XCTAssertEqual(userInfo.fandoms.count, 16)
     }
 }
