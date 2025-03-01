@@ -21,7 +21,7 @@ internal class FeedInfoFactory {
             
             // Number of pages
             var pageCount = 0
-            let navWrapper = try divWrapper?.select("ol").first(where: { $0.hasClass("pagination actions") })
+            let navWrapper = try divWrapper?.select("ol").first(where: { $0.hasClass("pagination actions pagy") })
             let buttonWrapper = try navWrapper?.select("li").last(where: { !$0.hasClass("next") })
             if let countRaw = try buttonWrapper?.text() {
                 pageCount = countRaw.toInt() ?? 0
