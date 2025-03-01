@@ -10,7 +10,7 @@ internal import SwiftSoup
 
 internal class UserInfoFactory {
     
-    internal static func parse(_ document: Document?) -> UserInfo? {
+    internal static func parseDashboard(_ document: Document?, profileInfo: UserInfo.ProfileInfo) -> UserInfo? {
         guard let document = document else { return nil }
         guard let body = document.body() else { return nil }
         
@@ -20,55 +20,48 @@ internal class UserInfoFactory {
             let userHeader = try main?.select("div").first(where: { $0.hasClass("user home") })
             
             let fandoms = parseFandoms(userHeader)
-            let profile = parseProfile(userHeader)
             let works = parseWorks(userHeader)
             let series = parseSeries(userHeader)
             let bookmarks = parseBookmarks(userHeader)
             let counts = parseCounts(body)
             
-            var userInfo: (joinDate: String?, bio: AttributedString?) = (nil, nil)
-//            if let profileDoc = profileDoc, let profileDoc2 = profileDoc, let profileBody = profileDoc2.body() {
-//                let pMain = try profileBody.select("div").first(where: { $0.id() == "main" })
-//                let pUserHeader = try pMain?.select("div").first(where: { $0.hasClass("user home profile") })
-//                userInfo = parseUserInfo(pUserHeader)
-//            } TODO: 
-            
-            return UserInfo(username: profile.username, profilePicture: profile.picture, joinDate: userInfo.joinDate, bio: userInfo.bio, counts: counts, fandoms: fandoms, recentWorks: works, recentSeries: series, recentBookmarks: bookmarks)
+            return UserInfo(profileInfo: profileInfo, counts: counts, fandoms: fandoms, recentWorks: works, recentSeries: series, recentBookmarks: bookmarks)
         } catch {
             return nil
         }
     }
     
-    private static func parseProfile(_ document: Element?) -> (username: String, picture: URL?) {
+    internal static func parseProfile(_ document: Document?) -> UserInfo.ProfileInfo? {
+        guard let document = document else { return nil }
+        guard let body = document.body() else { return nil }
+        
         do {
+            // Get to the area
+            let pMain = try body.select("div").first(where: { $0.id() == "main" })
+            let pUserHeader = try pMain?.select("div").first(where: { $0.hasClass("user home profile") })
+            
+            // Join date
+            let joinMetaWrapper = try pUserHeader?.select("div").first(where: { $0.hasClass("wrapper") })
+            let dateJoined = try joinMetaWrapper?.select("dd")[1].text()
+
+            // Bio
+            let bioWrapper = try pUserHeader?.select("div").first(where: { $0.hasClass("bio module") })
+            let bio = try bioWrapper?.select("blockquote").first(where: { $0.hasClass("userstuff") })?.attributedText()
+            
+            // User name
+            let headerModule = try pUserHeader?.select("div").first(where: { $0.hasClass("primary header module") })
+            guard let username = try headerModule?.select("h2").first(where: { $0.hasClass("heading") })?.text() else { return nil }
+            
             // Profile pic
-            let headerModule = try document?.select("div").first(where: { $0.hasClass("primary header module") })
-            let username = try headerModule?.select("h2").first(where: { $0.hasClass("heading") })?.text() ?? ""
             let iconMeta = try headerModule?.select("p").first(where: { $0.hasClass("icon") })
             let iconLinkMeta = try iconMeta?.select("a").first()
             let iconImageLinkMeta = try iconLinkMeta?.select("img").first()
             let profilePic = try iconImageLinkMeta?.attr("src")
             let profilePicURL = URL(string: profilePic ?? "")
             
-            return (username, profilePicURL)
+            return UserInfo.ProfileInfo(username: username, profilePicture: profilePicURL, joinDate: dateJoined, bio: bio)
         } catch {
-            return ("", nil)
-        }
-    }
-    
-    private static func parseUserInfo(_ document: Element?) -> (joinDate: String?, bio: AttributedString?) {
-        do {
-            // Join date
-            let joinMetaWrapper = try document?.select("div").first(where: { $0.hasClass("wrapper") })
-            let dateJoined = try joinMetaWrapper?.select("dd")[1].text()
-
-            // Bio
-            let bioWrapper = try document?.select("div").first(where: { $0.hasClass("bio module") })
-            let bio = try bioWrapper?.select("blockquote").first(where: { $0.hasClass("userstuff") })?.attributedText()
-            
-            return (dateJoined, bio)
-        } catch {
-            return ("", nil)
+            return nil
         }
     }
     

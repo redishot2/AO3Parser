@@ -16,10 +16,14 @@ public struct UserInfo {
         let collections: Int
     }
     
-    let username: String
-    let profilePicture: URL?
-    let joinDate: String?
-    let bio: AttributedString?
+    struct ProfileInfo {
+        let username: String
+        let profilePicture: URL?
+        let joinDate: String?
+        let bio: AttributedString?
+    }
+    
+    let profileInfo: ProfileInfo
     let counts: Counts
     
     let fandoms: [Link]

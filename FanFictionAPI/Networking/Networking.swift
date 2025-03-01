@@ -112,8 +112,23 @@ public struct Networking {
             case .relatedWorks(let feedTitle):
                 return FeedInfoFactory.parse(document, for: feedTitle) as? T
                 
-            case .profile:
-                return UserInfoFactory.parse(document) as? T
+            case .profile(let username, let page):
+                switch page {
+                    case .profile:
+                        return UserInfoFactory.parseProfile(document) as? T
+                    default:
+                        let profileInfo: UserInfo.ProfileInfo?
+                        let chapterListResult: Result<UserInfo.ProfileInfo?, Error> = await fetch(.profile(username: username, page: .profile))
+                        switch chapterListResult {
+                            case .success(let profileInfoInternal):
+                                profileInfo = profileInfoInternal
+                            case .failure:
+                                profileInfo = nil
+                        }
+                        guard let profileInfo = profileInfo else { return nil }
+                        
+                        return UserInfoFactory.parseDashboard(document, profileInfo: profileInfo) as? T
+                }
                 
             case .newsfeed:
                 return await NewsFactory.parse(document) as? T

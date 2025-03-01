@@ -170,5 +170,9 @@ class ParsingTests: XCTestCase {
         XCTAssertEqual(userInfo.recentSeries.count, 1)
         XCTAssertEqual(userInfo.recentBookmarks.count, 1)
         XCTAssertEqual(userInfo.fandoms.count, 16)
+        XCTAssertNotNil(userInfo.profileInfo.bio)
+        XCTAssertNotNil(userInfo.profileInfo.joinDate)
+        XCTAssertNotNil(userInfo.profileInfo.profilePicture)
+        XCTAssertNotNil(userInfo.profileInfo.username)
     }
 }
