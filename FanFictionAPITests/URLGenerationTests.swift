@@ -23,9 +23,6 @@ class FanFictionAPITests: XCTestCase {
         let resultURL = Networking.generateURL(for: .relatedWorks(tag: "Fairy蘭丸~あなたの心お助けします~ | Fairy Ranmaru: Anata no Kokoro Otasuke Shimasu (Anime)"))
 
         XCTAssertEqual(expectedURL, resultURL)
-        
-        //("Optional(https://archiveofourown.org/tags/Fairy%E8%98%AD%E4%B8%B8~%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%BF%83%E3%81%8A%E5%8A%A9%E3%81%91%E3%81%97%E3%81%BE%E3%81%99~%20%7C%20Fairy%20Ranmaru:%20Anata%20no%20Kokoro%20Otasuke%20Shimasu%20(Anime)/works)") is not equal to
-        //("Optional(https://archiveofourown.org/tags/Fairy%25E8%2598%25AD%25E4%25B8%25B8~%25E3%2581%2582%25E3%2581%25AA%25E3%2581%259F%25E3%2581%25AE%25E5%25BF%2583%25E3%2581%258A%25E5%258A%25A9%25E3%2581%2591%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2599~%2520%257C%2520Fairy%2520Ranmaru%253A%2520Anata%2520no%2520Kokoro%2520Otasuke%2520Shimasu%2520(Anime)/works)")
     }
     
     // MARK: Profile
