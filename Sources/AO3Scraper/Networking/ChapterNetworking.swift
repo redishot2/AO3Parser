@@ -52,7 +52,6 @@ class ChapterNetworking {
     /// - Parameter workID: the unique identifier for the work
     /// - Returns: the next chapter in the work
     public func fetchNextChapter(for workID: String) async -> Chapter? {
-        let workResult: Result<Work?, Error>
         if let work = worksCache[workID] {
             return await fetch(work: workID, at: work.currentChapterIndex + 1)
         } else {
