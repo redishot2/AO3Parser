@@ -8,7 +8,7 @@
 import Foundation
 
 public struct AboutInfo {
-    let title: String
-    let author: Link
-    let summary: AttributedString
+    public let title: String
+    public let author: Link
+    public let summary: AttributedString
 }

@@ -8,19 +8,19 @@
 import Foundation
 
 public struct CategoryInfo {
-    enum SortType: String {
+    public enum SortType: String {
         case alphabetical = "Alphabetical"
         case mostPopular = "Most Popular"
         case leastPopular = "Least Popular"
         
-        func all() -> [SortType] {
+        public func all() -> [SortType] {
             return [.alphabetical, .mostPopular, .leastPopular]
         }
     }
     
-    let fandoms: [FandomGroup]
+    public let fandoms: [FandomGroup]
     
-    func sortedFandoms(by sortType: SortType) -> [FandomGroup] {
+    public func sortedFandoms(by sortType: SortType) -> [FandomGroup] {
         return sort(by: sortType)
     }
     
@@ -52,18 +52,18 @@ public struct CategoryInfo {
     }
 }
 
-struct FandomGroup: Identifiable, Hashable {
-    static func == (lhs: FandomGroup, rhs: FandomGroup) -> Bool {
+public struct FandomGroup: Identifiable, Hashable {
+    public static func == (lhs: FandomGroup, rhs: FandomGroup) -> Bool {
         return lhs.name == rhs.name && lhs.fandoms == rhs.fandoms
     }
     
-    var id = UUID()
+    public var id = UUID()
     
-    let name: String
-    let fandoms: [FandomItem]
+    public let name: String
+    public let fandoms: [FandomItem]
 }
 
-struct FandomItem: Hashable {
-    let name: String
-    let worksCount: Int
+public struct FandomItem: Hashable {
+    public let name: String
+    public let worksCount: Int
 }

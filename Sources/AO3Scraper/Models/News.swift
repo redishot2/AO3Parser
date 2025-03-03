@@ -9,10 +9,10 @@ import Foundation
 import SwiftUI
 
 public struct News {
-    let articles: [Article]
-    let tags: [Link]
-    let translations: [Link]
-    let pagesCount: Int
+    public let articles: [Article]
+    public let tags: [Link]
+    public let translations: [Link]
+    public let pagesCount: Int
 }
 
 public enum HTMLTextSize {
@@ -23,7 +23,7 @@ public enum HTMLTextSize {
     case h5
     case h6
     
-    var font: Font {
+    public var font: Font {
         switch self {
             case .h1:
                 return .title
@@ -42,7 +42,7 @@ public enum HTMLTextSize {
 }
 
 public class Article: Equatable, Hashable {
-    enum Content: Equatable, Hashable {
+    public enum Content: Equatable, Hashable {
         case image(url: String)
         case header(text: String, size: HTMLTextSize)
         case list(items: [AttributedString])
@@ -66,26 +66,26 @@ public class Article: Equatable, Hashable {
         }
     }
     
-    struct Comment: Equatable, Hashable {
-        let username: Link
-        let profilePicture: URL?
-        let isVerified: Bool
-        let commentText: String
-        let timestamp: String
-        let editedTimestamp: String?
-        let replyingTo: String?
-        var childComments: [Comment]
+    public struct Comment: Equatable, Hashable {
+        public let username: Link
+        public let profilePicture: URL?
+        public let isVerified: Bool
+        public let commentText: String
+        public let timestamp: String
+        public let editedTimestamp: String?
+        public let replyingTo: String?
+        public var childComments: [Comment]
     }
     
-    let title: String
-    let timeStamp: Date
-    let tags: [Link]
-    var comments: [Comment] = []
-    let commentURL: URL?
-    let commentsCount: Int
-    let text: [Content]
+    public let title: String
+    public let timeStamp: Date
+    public let tags: [Link]
+    public var comments: [Comment] = []
+    public let commentURL: URL?
+    public let commentsCount: Int
+    public let text: [Content]
     
-    var flavorText: AttributedString? {
+    public var flavorText: AttributedString? {
         for paragraph in text {
             if case let .paragraph(flavorText) = paragraph {
                 return flavorText
@@ -95,7 +95,7 @@ public class Article: Equatable, Hashable {
         return nil
     }
     
-    var titleImage: URL? {
+    public var titleImage: URL? {
         for paragraph in text {
             if case let .image(url) = paragraph {
                 return URL(string: url)
@@ -105,7 +105,7 @@ public class Article: Equatable, Hashable {
         return nil
     }
     
-    var textWithoutCoverImage: [Content] {
+    public var textWithoutCoverImage: [Content] {
         guard let titleImage = titleImage else {
             return text
         }
@@ -120,7 +120,7 @@ public class Article: Equatable, Hashable {
         return shortenedText
     }
     
-    var publishDate: String {
+    public var publishDate: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
         dateFormatter.doesRelativeDateFormatting = true
@@ -132,7 +132,7 @@ public class Article: Equatable, Hashable {
         return time
     }
     
-    init(title: String, timeStamp: Date, tags: [Link], comments: [Comment] = [], commentURL: URL?, commentsCount: Int, text: [Content]) {
+    public init(title: String, timeStamp: Date, tags: [Link], comments: [Comment] = [], commentURL: URL?, commentsCount: Int, text: [Content]) {
         self.title = title
         self.timeStamp = timeStamp
         self.tags = tags

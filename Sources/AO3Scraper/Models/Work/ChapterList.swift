@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ChapterList: Hashable {
-    let chapters: [Link]
+    public let chapters: [Link]
     
     public func hash(into hasher: inout Hasher) {
         hasher.combine(chapters)

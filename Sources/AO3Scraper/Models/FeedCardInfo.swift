@@ -9,32 +9,32 @@ import Foundation
 
 public struct FeedCardInfo: Hashable, Codable {
     
-    struct Tags: Codable {
-        let warnings: [StoryInfo.Warning]
-        let category: StoryInfo.Category?
-        let fandoms: [Link]
-        let relationships: [Link]
-        let characters: [Link]
-        let tags: [Link]
-        let collections: [Link]
+    public struct Tags: Codable {
+        public let warnings: [StoryInfo.Warning]
+        public let category: StoryInfo.Category?
+        public let fandoms: [Link]
+        public let relationships: [Link]
+        public let characters: [Link]
+        public let tags: [Link]
+        public let collections: [Link]
     }
     
-    struct Stats: Codable {
-        let lastUpdated: String?
-        let words: String?
-        let chapters: Link?
-        let comments: Link?
-        let kudos: String?
-        let bookmarks: String?
-        let hits: String?
-        let language: String?
+    public struct Stats: Codable {
+        public let lastUpdated: String?
+        public let words: String?
+        public let chapters: Link?
+        public let comments: Link?
+        public let kudos: String?
+        public let bookmarks: String?
+        public let hits: String?
+        public let language: String?
         
-        var completed: Bool? {
+        public var completed: Bool? {
             return totalChapters != nil
         }
         
         /// Number of chapter in work. Nil means author has not specified
-        var totalChapters: Int? {
+        public var totalChapters: Int? {
             guard
                 let chapterCountRaw = chapters?.name.split(separator: "/").last,
                     chapterCountRaw != "?"
@@ -47,13 +47,13 @@ public struct FeedCardInfo: Hashable, Codable {
         }
     }
     
-    let title: String?
-    let workID: String
-    let author: String
-    let summary: AttributedString?
-    let rating: StoryInfo.Rating?
-    let tags: Tags
-    let stats: Stats
+    public let title: String?
+    public let workID: String
+    public let author: String
+    public let summary: AttributedString?
+    public let rating: StoryInfo.Rating?
+    public let tags: Tags
+    public let stats: Stats
     
     public func hash(into hasher: inout Hasher) {
         hasher.combine(title)

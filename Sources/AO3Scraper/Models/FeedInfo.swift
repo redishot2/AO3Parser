@@ -8,29 +8,29 @@
 import Foundation
 
 public struct FeedInfo {
-    let feedInfo: [FeedCardInfo]
-    let pagesCount: Int
-    let filter: FeedFilterInfo
+    public let feedInfo: [FeedCardInfo]
+    public let pagesCount: Int
+    public let filter: FeedFilterInfo
 }
 
 public struct FeedFilterInfo {
     public struct FilterInfo: Hashable {
-        let name: String
-        let id: String
+        public let name: String
+        public let id: String
     }
     
-    var fandomName: String
+    public var fandomName: String
     
-    var ratings:        [FilterInfo]
-    var warnings:       [FilterInfo]
-    var categories:     [FilterInfo]
-    var fandoms:        [FilterInfo]
-    var characters:     [FilterInfo]
-    var relationships:  [FilterInfo]
-    var additionalTags: [FilterInfo]
-    var languages:      [FilterInfo]
+    public var ratings:        [FilterInfo]
+    public var warnings:       [FilterInfo]
+    public var categories:     [FilterInfo]
+    public var fandoms:        [FilterInfo]
+    public var characters:     [FilterInfo]
+    public var relationships:  [FilterInfo]
+    public var additionalTags: [FilterInfo]
+    public var languages:      [FilterInfo]
     
-    static func empty(fandom: String) -> FeedFilterInfo {
+    public static func empty(fandom: String) -> FeedFilterInfo {
         return FeedFilterInfo(fandomName: "", ratings: [], warnings: [], categories: [], fandoms: [], characters: [], relationships: [], additionalTags: [], languages: [])
     }
 }

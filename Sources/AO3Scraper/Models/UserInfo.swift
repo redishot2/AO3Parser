@@ -9,25 +9,25 @@ import Foundation
 
 public struct UserInfo {
     
-    struct Counts {
-        let works: Int
-        let series: Int
-        let bookmarks: Int
-        let collections: Int
+    public struct Counts {
+        public let works: Int
+        public let series: Int
+        public let bookmarks: Int
+        public let collections: Int
     }
     
-    struct ProfileInfo {
-        let username: String
-        let profilePicture: URL?
-        let joinDate: String?
-        let bio: AttributedString?
+    public struct ProfileInfo {
+        public let username: String
+        public let profilePicture: URL?
+        public let joinDate: String?
+        public let bio: AttributedString?
     }
     
-    let profileInfo: ProfileInfo
-    let counts: Counts
+    public let profileInfo: ProfileInfo
+    public let counts: Counts
     
-    let fandoms: [Link]
-    let recentWorks: [FeedCardInfo]
-    let recentSeries: [FeedCardInfo]
-    let recentBookmarks: [FeedCardInfo]
+    public let fandoms: [Link]
+    public let recentWorks: [FeedCardInfo]
+    public let recentSeries: [FeedCardInfo]
+    public let recentBookmarks: [FeedCardInfo]
 }

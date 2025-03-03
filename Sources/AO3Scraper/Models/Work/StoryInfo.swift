@@ -10,8 +10,8 @@ import SwiftUI
 
 public struct Link: Codable, Identifiable, Hashable {
     public var id = UUID()
-    let url: String
-    let name: String
+    public let url: String
+    public let name: String
     
     public func hash(into hasher: inout Hasher) {
         hasher.combine(url)
@@ -27,26 +27,26 @@ public protocol TagsProtocol {
 }
 
 public struct StoryInfo {
-    class Filter: TagsProtocol {
-        let title: String
-        let type: FilterType
+    public class Filter: TagsProtocol {
+        public let title: String
+        public let type: FilterType
         
-        enum FilterType {
+        public enum FilterType {
             case fandoms
             case characters
             case relationships
             case additionalTags
         }
         
-        var icon: String? {
+        public var icon: String? {
             return nil
         }
         
-        var fullText: LocalizedStringKey {
+        public var fullText: LocalizedStringKey {
             return LocalizedStringKey(title)
         }
         
-        var shortened: LocalizedStringKey {
+        public var shortened: LocalizedStringKey {
             switch type {
                 case .fandoms:
                     return LocalizedStringKey("👑")
@@ -59,24 +59,24 @@ public struct StoryInfo {
             }
         }
         
-        init(title: String, type: FilterType) {
+        public init(title: String, type: FilterType) {
             self.title = title
             self.type = type
         }
         
-        required convenience init?(filter: FeedFilterInfo.FilterInfo) {
+        public required convenience init?(filter: FeedFilterInfo.FilterInfo) {
             self.init(title: filter.name, type: .fandoms)
         }
     }
     
-    enum Rating: String, Codable, TagsProtocol {
+    public enum Rating: String, Codable, TagsProtocol {
         case explicit = "Explicit"
         case mature = "Mature"
         case teens = "Teen And Up Audiences"
         case generalAudiences = "General Audiences"
         case notRated = "Not Rated"
         
-        init?(filter: FeedFilterInfo.FilterInfo) {
+        public init?(filter: FeedFilterInfo.FilterInfo) {
             guard
                 let name = filter.name.components(separatedBy: " (").first,
                 let rating = Rating(rawValue: name)
@@ -85,7 +85,7 @@ public struct StoryInfo {
             self = rating
         }
         
-        static var all: [Rating] {
+        public static var all: [Rating] {
             return [
                 StoryInfo.Rating.generalAudiences,
                 StoryInfo.Rating.teens,
@@ -95,15 +95,15 @@ public struct StoryInfo {
             ]
         }
         
-        var link: URL? {
+        public var link: URL? {
             return Networking.generateURL(for: .relatedWorks(tag: rawValue))
         }
         
-        var icon: String? {
+        public var icon: String? {
             return nil
         }
         
-        var fullText: LocalizedStringKey {
+        public var fullText: LocalizedStringKey {
             switch self {
                 case .explicit:
                     return "rating.explicit"
@@ -118,7 +118,7 @@ public struct StoryInfo {
             }
         }
         
-        var shortened: LocalizedStringKey {
+        public var shortened: LocalizedStringKey {
             switch self {
                 case .explicit:
                     return "rating.explicit.short"
@@ -134,7 +134,7 @@ public struct StoryInfo {
         }
     }
     
-    enum Category: String, Codable, TagsProtocol {
+    public enum Category: String, Codable, TagsProtocol {
         case fm = "F/M"
         case ff = "F/F"
         case mm = "M/M"
@@ -142,7 +142,7 @@ public struct StoryInfo {
         case multi = "Multi"
         case other = "Other"
         
-        init?(filter: FeedFilterInfo.FilterInfo) {
+        public init?(filter: FeedFilterInfo.FilterInfo) {
             guard
                 let name = filter.name.components(separatedBy: " (").first,
                 let category = Category(rawValue: name)
@@ -151,7 +151,7 @@ public struct StoryInfo {
             self = category
         }
         
-        static var all: [Category] {
+        public static var all: [Category] {
             return [
                 StoryInfo.Category.fm,
                 StoryInfo.Category.ff,
@@ -162,11 +162,11 @@ public struct StoryInfo {
             ]
         }
         
-        var icon: String? {
+        public var icon: String? {
             return nil
         }
         
-        var fullText: LocalizedStringKey {
+        public var fullText: LocalizedStringKey {
             switch self {
                 case .fm:
                     return "category.fm"
@@ -183,7 +183,7 @@ public struct StoryInfo {
             }
         }
         
-        var shortened: LocalizedStringKey {
+        public var shortened: LocalizedStringKey {
             switch self {
                 case .fm:
                     return "⚤"
@@ -200,7 +200,7 @@ public struct StoryInfo {
             }
         }
         
-        init?(rawValue: String) {
+        public init?(rawValue: String) {
             switch rawValue {
                 case "F/M":
                     self = .fm
@@ -219,7 +219,7 @@ public struct StoryInfo {
         }
     }
     
-    enum Warning: String, Codable, TagsProtocol {
+    public enum Warning: String, Codable, TagsProtocol {
         case violence = "Graphic Depictions Of Violence"
         case death = "Major Character Death"
         case rape = "Rape/Non-Con"
@@ -227,7 +227,7 @@ public struct StoryInfo {
         case unrated = "Creator Chose Not To Use Archive Warnings"
         case none = "No Archive Warnings Apply"
         
-        init?(filter: FeedFilterInfo.FilterInfo) {
+        public init?(filter: FeedFilterInfo.FilterInfo) {
             guard
                 let name = filter.name.components(separatedBy: " (").first,
                 let warning = Warning(rawValue: name)
@@ -236,7 +236,7 @@ public struct StoryInfo {
             self = warning
         }
         
-        static var all: [Warning] {
+        public static var all: [Warning] {
             return [
                 StoryInfo.Warning.death,
                 StoryInfo.Warning.rape,
@@ -247,15 +247,15 @@ public struct StoryInfo {
             ]
         }
         
-        var link: URL? {
+        public var link: URL? {
             return Networking.generateURL(for: .relatedWorks(tag: rawValue))
         }
         
-        var icon: String? {
+        public var icon: String? {
             return nil
         }
         
-        var fullText: LocalizedStringKey {
+        public var fullText: LocalizedStringKey {
             switch self {
                 case .violence:
                     return "warning.violence"
@@ -272,7 +272,7 @@ public struct StoryInfo {
             }
         }
         
-        var shortened: LocalizedStringKey {
+        public var shortened: LocalizedStringKey {
             switch self {
                 case .violence:
                     return "🔪"
@@ -294,7 +294,7 @@ public struct StoryInfo {
         case inProgress = "This is a work in progress or is incomplete/unfulfilled."
         case completed = "This work is completed!/This prompt is filled!"
         
-        static var all: [CompletionStatus] {
+        public static var all: [CompletionStatus] {
             return [
                 CompletionStatus.inProgress,
                 CompletionStatus.completed
@@ -323,7 +323,7 @@ public struct StoryInfo {
             }
         }
         
-        init(_ raw: Bool?) {
+        public init(_ raw: Bool?) {
             self = raw ?? false ? CompletionStatus.completed : CompletionStatus.inProgress
         }
         
@@ -332,26 +332,26 @@ public struct StoryInfo {
         }
     }
     
-    struct Stats: Codable {
-        let published: Date
-        let completed: Date?
-        let words: Int
-        let chapters: String
-        let comments: Int
-        let kudos: Int
-        let bookmarks: Int
-        let hits: Int
+    public struct Stats: Codable {
+        public let published: Date
+        public let completed: Date?
+        public let words: Int
+        public let chapters: String
+        public let comments: Int
+        public let kudos: Int
+        public let bookmarks: Int
+        public let hits: Int
     }
     
-    let rating: Rating
-    let warnings: [Warning]
-    let categories: [Category]
-    let fandoms: [Link]
-    let relationships: [Link]
-    let characters: [Link]
-    let tags: [Link]
-    let language: String
-    let collections: [Link]
-    let stats: Stats
+    public let rating: Rating
+    public let warnings: [Warning]
+    public let categories: [Category]
+    public let fandoms: [Link]
+    public let relationships: [Link]
+    public let characters: [Link]
+    public let tags: [Link]
+    public let language: String
+    public let collections: [Link]
+    public let stats: Stats
 }
 
