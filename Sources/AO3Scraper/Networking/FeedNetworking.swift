@@ -7,6 +7,8 @@
 
 public class FeedNetworking {
     
+    public init() { }
+    
     /// Fetches the news feed
     /// - Parameter page: what page of the endpoint to fetch (if there are multiple next pages)
     /// - Returns: the news feed info

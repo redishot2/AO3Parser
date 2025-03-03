@@ -7,6 +7,8 @@
 
 public class ProfileNetworking {
     
+    public init() { }
+    
     /// Fetches the given user's profile
     /// - Parameter profilePage: the profile subpage to load
     /// - Returns: the news feed info

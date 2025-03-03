@@ -9,6 +9,8 @@ public class ChapterNetworking {
     /// Keeps track of the works loaded into memory
     var worksCache: [String: Work] = [:]
     
+    public init() { }
+    
     /// Fetches the work at a given chapter
     /// - Parameters:
     ///   - workID: the unique identifier for the work
