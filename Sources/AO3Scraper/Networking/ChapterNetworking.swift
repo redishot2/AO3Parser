@@ -7,7 +7,7 @@
 
 public class ChapterNetworking {
     /// Keeps track of the works loaded into memory
-    var worksCache: [String: Work] = [:]
+    public var worksCache: [String: Work] = [:]
     
     public init() { }
     
@@ -15,8 +15,8 @@ public class ChapterNetworking {
     /// - Parameters:
     ///   - workID: the unique identifier for the work
     ///   - chapterIndex: chapter index; defaults to 0
-    /// - Returns: the next chapter in the work
-    public func fetch(work workID: String, at chapterIndex: Int = 0) async -> Chapter? {
+    /// - Returns: the work
+    public func fetch(work workID: String, at chapterIndex: Int = 0) async -> Work? {
         let work: Work
         if let worksCached = worksCache[workID] {
             work = worksCached
@@ -46,14 +46,13 @@ public class ChapterNetworking {
                 break
         }
         
-        return worksCache[workID]?.currentChapter
+        return worksCache[workID]
     }
     
     /// Fetches the next chapter in a given work. If work is not loaded yet, load first chapter
     ///   - workID:
     /// - Parameter workID: the unique identifier for the work
-    /// - Returns: the next chapter in the work
-    public func fetchNextChapter(for workID: String) async -> Chapter? {
+    public func fetchNextChapter(for workID: String) async -> Work? {
         if let work = worksCache[workID] {
             return await fetch(work: workID, at: work.currentChapterIndex + 1)
         } else {
