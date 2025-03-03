@@ -20,9 +20,8 @@ public struct Link: Codable, Identifiable, Hashable {
 }
 
 public protocol TagsProtocol {
-    var icon: String? { get }
-    var fullText: LocalizedStringKey { get }
-    var shortened: LocalizedStringKey { get }
+    var fullText: String { get }
+    var shortened: String { get }
     init?(filter: FeedFilterInfo.FilterInfo)
 }
 
@@ -42,20 +41,20 @@ public struct StoryInfo {
             return nil
         }
         
-        public var fullText: LocalizedStringKey {
-            return LocalizedStringKey(title)
+        public var fullText: String {
+            return title
         }
         
-        public var shortened: LocalizedStringKey {
+        public var shortened: String {
             switch type {
                 case .fandoms:
-                    return LocalizedStringKey("👑")
+                    return "👑"
                 case .characters:
-                    return LocalizedStringKey("🧑")
+                    return "🧑"
                 case .relationships:
-                    return LocalizedStringKey("💞")
+                    return "💞"
                 case .additionalTags:
-                    return LocalizedStringKey("➕")
+                    return "➕"
             }
         }
         
@@ -99,37 +98,22 @@ public struct StoryInfo {
             return Networking.generateURL(for: .relatedWorks(tag: rawValue))
         }
         
-        public var icon: String? {
-            return nil
+        public var fullText: String {
+            self.rawValue
         }
         
-        public var fullText: LocalizedStringKey {
+        public var shortened: String {
             switch self {
                 case .explicit:
-                    return "rating.explicit"
+                    return "X"
                 case .mature:
-                    return "rating.mature"
+                    return "M"
                 case .teens:
-                    return "rating.teens"
+                    return "T"
                 case .generalAudiences:
-                    return "rating.generalAudiences"
+                    return "G"
                 case .notRated:
-                    return "rating.notRated"
-            }
-        }
-        
-        public var shortened: LocalizedStringKey {
-            switch self {
-                case .explicit:
-                    return "rating.explicit.short"
-                case .mature:
-                    return "rating.mature.short"
-                case .teens:
-                    return "rating.teens.short"
-                case .generalAudiences:
-                    return "rating.generalAudiences.short"
-                case .notRated:
-                    return "rating.notRated.short"
+                    return "U"
             }
         }
     }
@@ -162,28 +146,24 @@ public struct StoryInfo {
             ]
         }
         
-        public var icon: String? {
-            return nil
-        }
-        
-        public var fullText: LocalizedStringKey {
+        public var fullText: String {
             switch self {
                 case .fm:
-                    return "category.fm"
+                    return "Straight Pairing"
                 case .ff:
-                    return "category.ff"
+                    return "Female Pairing"
                 case .mm:
-                    return "category.mm"
+                    return "Male Pairing"
                 case .gen:
-                    return "category.gen"
+                    return "No Pairings"
                 case .multi:
-                    return "category.multi"
+                    return "Multiple Partners"
                 case .other:
-                    return "category.other"
+                    return "Other Pairing"
             }
         }
         
-        public var shortened: LocalizedStringKey {
+        public var shortened: String {
             switch self {
                 case .fm:
                     return "⚤"
@@ -251,28 +231,11 @@ public struct StoryInfo {
             return Networking.generateURL(for: .relatedWorks(tag: rawValue))
         }
         
-        public var icon: String? {
-            return nil
+        public var fullText: String {
+            return self.rawValue
         }
         
-        public var fullText: LocalizedStringKey {
-            switch self {
-                case .violence:
-                    return "warning.violence"
-                case .death:
-                    return "warning.death"
-                case .rape:
-                    return "warning.rape"
-                case .underage:
-                    return "warning.underage"
-                case .unrated:
-                    return "warning.unrated"
-                case .none:
-                    return "warning.none"
-            }
-        }
-        
-        public var shortened: LocalizedStringKey {
+        public var shortened: String {
             switch self {
                 case .violence:
                     return "🔪"
@@ -301,20 +264,16 @@ public struct StoryInfo {
             ]
         }
         
-        public var icon: String? {
-            return nil
-        }
-        
-        public var fullText: LocalizedStringKey {
+        public var fullText: String {
             switch self {
                 case .inProgress:
-                    return "completion.inProgress"
+                    return "In Progress"
                 case .completed:
-                    return "completion.completed"
+                    return "Completed"
             }
         }
         
-        public var shortened: LocalizedStringKey {
+        public var shortened: String {
             switch self {
                 case .inProgress:
                     return "✏️"
