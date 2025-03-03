@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct CacheAsyncImage<Content>: View where Content: View {
+public struct CacheAsyncImage<Content>: View where Content: View {
     
     private let url: URL
     private let scale: CGFloat
     private let transaction: Transaction
     private let content: (AsyncImagePhase) -> Content
     
-    init(
+    public init(
         url: URL,
         scale: CGFloat = 1.0,
         transaction: Transaction = Transaction(),
@@ -26,7 +26,7 @@ struct CacheAsyncImage<Content>: View where Content: View {
         self.content = content
     }
     
-    var body: some View {
+    public var body: some View {
         // Load image from cache or request
         if let cached = ImageCache[url] {
             content(.success(cached))
@@ -37,7 +37,7 @@ struct CacheAsyncImage<Content>: View where Content: View {
         }
     }
     
-    func cacheAndRender(phase: AsyncImagePhase) -> some View {
+    public func cacheAndRender(phase: AsyncImagePhase) -> some View {
         if case .success (let image) = phase {
             ImageCache[url] = image
         }
