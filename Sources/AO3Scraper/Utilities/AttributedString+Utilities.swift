@@ -24,17 +24,18 @@ extension AttributedString {
             
             var t = Text(.init(textString))
 
-            if let font = attrs[NSAttributedString.Key.font] as? UIFont {
-                let traits = font.fontDescriptor.symbolicTraits
-                
-                if traits.contains(.traitItalic) {
-                    t = t.italic()
-                }
-                
-                if traits.contains(.traitBold) {
-                    t = t.bold()
-                }
-            }
+//            if let font = attrs[NSAttributedString.Key.font] as? Font {
+                // TODO: fix
+//                let traits = font.fontDescriptor.symbolicTraits
+//
+//                if traits.contains(.traitItalic) {
+//                    t = t.italic()
+//                }
+//                
+//                if traits.contains(.traitBold) {
+//                    t = t.bold()
+//                }
+//            }
             
             if let paragraphStyle = attrs[NSAttributedString.Key.paragraphStyle] as? NSParagraphStyle {
                 if paragraphStyle.alignment == .center {
@@ -45,16 +46,16 @@ extension AttributedString {
             }
             
             if let striked = attrs[NSAttributedString.Key.strikethroughStyle] as? NSNumber, striked != 0 {
-                if let strikeColor = (attrs[NSAttributedString.Key.strikethroughColor] as? UIColor) {
-                    t = t.strikethrough(true, color: Color(strikeColor))
+                if let strikeColor = (attrs[NSAttributedString.Key.strikethroughColor] as? Color) {
+                    t = t.strikethrough(true, color: strikeColor)
                 } else {
                     t = t.strikethrough(true)
                 }
             }
             
             if let underline = attrs[NSAttributedString.Key.underlineStyle] as? NSNumber, underline != 0 {
-                if let underlineColor = (attrs[NSAttributedString.Key.underlineColor] as? UIColor) {
-                    t = t.underline(true, color: Color(underlineColor))
+                if let underlineColor = (attrs[NSAttributedString.Key.underlineColor] as? Color) {
+                    t = t.underline(true, color: underlineColor)
                 } else {
                     t = t.underline(true)
                 }

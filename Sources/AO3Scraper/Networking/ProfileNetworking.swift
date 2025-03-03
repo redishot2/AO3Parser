@@ -5,7 +5,7 @@
 //  Created by Natasha Martinez on 3/2/25.
 //
 
-class ProfileNetworking {
+public class ProfileNetworking {
     
     /// Fetches the given user's profile
     /// - Parameter profilePage: the profile subpage to load

@@ -5,7 +5,7 @@
 //  Created by Natasha Martinez on 3/1/25.
 //
 
-class FeedNetworking {
+public class FeedNetworking {
     
     /// Fetches the news feed
     /// - Parameter page: what page of the endpoint to fetch (if there are multiple next pages)

@@ -5,7 +5,7 @@
 //  Created by Natasha Martinez on 3/1/25.
 //
 
-class ChapterNetworking {
+public class ChapterNetworking {
     /// Keeps track of the works loaded into memory
     var worksCache: [String: Work] = [:]
     
