@@ -10,7 +10,7 @@ import SwiftUI
 
 extension AttributedString {
     
-    func convertToView() -> some View {
+    public func convertToView() -> some View {
         var textUI = Text("")
         var alignment: Alignment = .leading
         
