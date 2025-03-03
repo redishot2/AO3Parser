@@ -7,31 +7,31 @@
 
 public class Work {
     /// The identifying number for this work
-    let id: String
+    public let id: String
     
     /// The current chapter index for use in chapterList
-    var currentChapterIndex: Int
+    internal var currentChapterIndex: Int
     
     /// Returns the current chapter the user is on
-    var currentChapter: Chapter? {
+    public var currentChapter: Chapter? {
         guard currentChapterIndex < chapters.count else { return nil }
         return chapters[currentChapterIndex]
     }
     
     /// A list of chapter names and IDs for the given work
-    var chapterList: ChapterList?
+    public var chapterList: ChapterList?
     
     /// A dict of chapters that have been loaded
-    var chapters: [Int: Chapter] = [:]
+    public var chapters: [Int: Chapter] = [:]
     
     /// Information about the fandom, relationships, etc
-    var storyInfo: StoryInfo?
+    public var storyInfo: StoryInfo?
     
     /// Information about the work's title, author, etc
-    var aboutInfo: AboutInfo?
+    public var aboutInfo: AboutInfo?
     
     /// If vital information is missing
-    var shouldParseAdditionalInfo: Bool {
+    public var shouldParseAdditionalInfo: Bool {
         storyInfo == nil || aboutInfo == nil
     }
     
