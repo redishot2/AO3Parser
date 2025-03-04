@@ -66,5 +66,6 @@ extension AttributedString {
         
         return textUI
             .frame(maxWidth: .infinity, alignment: alignment)
+            .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
     }
 }
