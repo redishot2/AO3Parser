@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-public struct Link: Codable, Identifiable, Hashable {
+public struct LinkInfo: Codable, Identifiable, Hashable {
     public var id = UUID()
     public let url: String
     public let name: String
@@ -305,12 +305,12 @@ public struct StoryInfo {
     public let rating: Rating
     public let warnings: [Warning]
     public let categories: [Category]
-    public let fandoms: [Link]
-    public let relationships: [Link]
-    public let characters: [Link]
-    public let tags: [Link]
+    public let fandoms: [LinkInfo]
+    public let relationships: [LinkInfo]
+    public let characters: [LinkInfo]
+    public let tags: [LinkInfo]
     public let language: String
-    public let collections: [Link]
+    public let collections: [LinkInfo]
     public let stats: Stats
 }
 

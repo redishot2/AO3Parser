@@ -14,14 +14,14 @@ internal class ChapterListFactory {
         guard let document = document else { return nil }
         guard let metaItems = ChapterListFactory.getToChapterListData(document) else { return nil }
         
-        var chapterLists: [Link] = []
+        var chapterLists: [LinkInfo] = []
         do {
             for chapterLink in metaItems {
                 let link = try chapterLink.select("a").first()
                 if let linkHref = try link?.attr("href"), let linkText = try link?.text() {
                     let components = linkHref.components(separatedBy: "/")
                     if let chapterID = components.last {
-                        chapterLists.append(Link(url: chapterID, name: linkText))
+                        chapterLists.append(LinkInfo(url: chapterID, name: linkText))
                     }
                 }
             }

@@ -61,11 +61,11 @@ internal class StoryInfoFactory {
             // Collections
             guard let collectionsRaw = metaItems.first(where: { $0.hasClass("collections") }) else { return nil }
             let collectionsHTML = try collectionsRaw.select("a")
-            var collections: [Link] = []
+            var collections: [LinkInfo] = []
             for collectionRaw in collectionsHTML {
                 let collectionLink = try collectionRaw.attr("href")
                 let collectionText = try collectionRaw.text()
-                collections.append(Link(url: collectionLink, name: collectionText))
+                collections.append(LinkInfo(url: collectionLink, name: collectionText))
             }
             
             // Stats
@@ -150,18 +150,18 @@ internal class StoryInfoFactory {
         }
     }
     
-    private static func getRawListValues(_ element: Element) -> [Link] {
+    private static func getRawListValues(_ element: Element) -> [LinkInfo] {
         do {
             let list = try element.select("ul").first()
             guard let items = try list?.select("li") else { return [] }
             
-            var returnItems: [Link] = []
+            var returnItems: [LinkInfo] = []
             for item in items {
                 let linkRaw = item.child(0)
                 let linkHref: String = try linkRaw.attr("href")
                 let linkText: String = try linkRaw.text()
                 
-                returnItems.append(Link(url: linkHref, name: linkText))
+                returnItems.append(LinkInfo(url: linkHref, name: linkText))
             }
             
             return returnItems

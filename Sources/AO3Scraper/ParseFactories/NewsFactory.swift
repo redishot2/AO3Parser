@@ -43,16 +43,16 @@ internal class NewsFactory {
         }
     }
     
-    private static func parseFilter(_ filter: Element?) -> [Link] {
+    private static func parseFilter(_ filter: Element?) -> [LinkInfo] {
         do {
             guard let options = try filter?.select("option") else { return [] }
              
-            var filters: [Link] = []
+            var filters: [LinkInfo] = []
             for item in options {
                 let text = try item.text()
                 let url = try item.attr("value")
                 
-                filters.append(Link(url: url, name: text))
+                filters.append(LinkInfo(url: url, name: text))
             }
             
             return filters
@@ -177,7 +177,7 @@ internal class NewsFactory {
             guard let profileName = try profileRaw?.text() else { return nil }
             let profileURL = profileURLRaw.components(separatedBy: "/")
             guard profileURL.count > 2 else { return nil }
-            let username = Link(url: profileURL[2], name: profileName)
+            let username = LinkInfo(url: profileURL[2], name: profileName)
             
             // Verified
             let verifiedRaw = try headerRaw?.select("span").first(where: { $0.hasClass("role") })
@@ -252,9 +252,9 @@ internal class NewsFactory {
         }
     }
     
-    private static func parseTagsList(_ wrapper: Elements?) -> [Link] {
+    private static func parseTagsList(_ wrapper: Elements?) -> [LinkInfo] {
         do {
-            var links: [Link] = []
+            var links: [LinkInfo] = []
             
             guard let wrapper = wrapper else {
                 return links
@@ -266,7 +266,7 @@ internal class NewsFactory {
                     let url = try linkRaw.attr("href")
                     let tagID = String(url.split(separator: "=")[1])
                     
-                    links.append(Link(url: tagID, name: text))
+                    links.append(LinkInfo(url: tagID, name: text))
                 }
             }
             

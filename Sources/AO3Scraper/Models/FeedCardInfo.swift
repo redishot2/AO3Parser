@@ -12,18 +12,18 @@ public struct FeedCardInfo: Hashable, Codable {
     public struct Tags: Codable {
         public let warnings: [StoryInfo.Warning]
         public let category: StoryInfo.Category?
-        public let fandoms: [Link]
-        public let relationships: [Link]
-        public let characters: [Link]
-        public let tags: [Link]
-        public let collections: [Link]
+        public let fandoms: [LinkInfo]
+        public let relationships: [LinkInfo]
+        public let characters: [LinkInfo]
+        public let tags: [LinkInfo]
+        public let collections: [LinkInfo]
     }
     
     public struct Stats: Codable {
         public let lastUpdated: String?
         public let words: String?
-        public let chapters: Link?
-        public let comments: Link?
+        public let chapters: LinkInfo?
+        public let comments: LinkInfo?
         public let kudos: String?
         public let bookmarks: String?
         public let hits: String?

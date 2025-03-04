@@ -10,8 +10,8 @@ import SwiftUI
 
 public struct News {
     public let articles: [Article]
-    public let tags: [Link]
-    public let translations: [Link]
+    public let tags: [LinkInfo]
+    public let translations: [LinkInfo]
     public let pagesCount: Int
 }
 
@@ -67,7 +67,7 @@ public class Article: Equatable, Hashable {
     }
     
     public struct Comment: Equatable, Hashable {
-        public let username: Link
+        public let username: LinkInfo
         public let profilePicture: URL?
         public let isVerified: Bool
         public let commentText: String
@@ -79,7 +79,7 @@ public class Article: Equatable, Hashable {
     
     public let title: String
     public let timeStamp: Date
-    public let tags: [Link]
+    public let tags: [LinkInfo]
     public var comments: [Comment] = []
     public let commentURL: URL?
     public let commentsCount: Int
@@ -132,7 +132,7 @@ public class Article: Equatable, Hashable {
         return time
     }
     
-    public init(title: String, timeStamp: Date, tags: [Link], comments: [Comment] = [], commentURL: URL?, commentsCount: Int, text: [Content]) {
+    public init(title: String, timeStamp: Date, tags: [LinkInfo], comments: [Comment] = [], commentURL: URL?, commentsCount: Int, text: [Content]) {
         self.title = title
         self.timeStamp = timeStamp
         self.tags = tags

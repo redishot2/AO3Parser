@@ -22,7 +22,7 @@ internal class ChapterFactory {
             let chapterLinkRaw = try chapterRaw?.select("a").first()
             guard let chapterLink = try chapterLinkRaw?.attr("href") else { return nil }
             guard let chapterTitle = try chapterRaw?.text() else { return nil }
-            let title = Link(url: chapterLink, name: chapterTitle)
+            let title = LinkInfo(url: chapterLink, name: chapterTitle)
             
             // Pre Chapter Notes
             let preNotesWrapper = try metaItems.select("div").first(where: { $0.hasClass("notes module") })

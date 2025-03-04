@@ -24,7 +24,7 @@ internal class AboutInfoFactory {
             guard let authorRaw = try authorWrapper?.select("a").first() else { return nil }
             let authorUsername = try authorRaw.text()
             let authorLink = try authorRaw.attr("href")
-            let author = Link(url: authorLink, name: authorUsername)
+            let author = LinkInfo(url: authorLink, name: authorUsername)
 
             // Summary
             let summaryWrapper = try metaItems.select("div").first(where: { $0.hasClass("summary module") })
