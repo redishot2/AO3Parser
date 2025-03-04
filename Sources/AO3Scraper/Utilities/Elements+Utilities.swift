@@ -19,8 +19,6 @@ extension Elements {
             if let singleLine = element.attributedText() {
                 attributedString.append(singleLine)
             }
-            
-            attributedString.append(AttributedString("\n\n"))
         }
         
         return attributedString
