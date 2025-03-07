@@ -44,6 +44,7 @@ public class FeedNetworking {
     ///   - tag: the name of the category to fetch
     ///   - page: what page of the endpoint to fetch (if there are multiple next pages)
     /// - Returns: the category info
+    @MainActor
     public func fetchCategory(_ category: Networking.Endpoint.Category, page: Int = 0) async -> CategoryInfo? {
         let result: Result<CategoryInfo?, Error> = await Networking.fetch(.category(name: category))
         switch result {
