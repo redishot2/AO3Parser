@@ -34,12 +34,20 @@ extension Element {
             if rawHTML.contains("<img src=") {
                 return nil 
             }
-            let htmlData = NSString(string: rawHTML).data(using: String.Encoding.unicode.rawValue)
-            let options = [NSAttributedString.DocumentReadingOptionKey.documentType:
-                    NSAttributedString.DocumentType.html]
-            let attributedString = try NSMutableAttributedString(data: htmlData ?? Data(), options: options, documentAttributes: nil)
             
-            return AttributedString(attributedString)
+            guard let nsAttributedString = try? NSAttributedString(data: Data(rawHTML.utf8), options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) else {
+                return nil
+            }
+            
+            let attributedString = try? AttributedString(nsAttributedString, including: \.uiKit)
+            
+            return attributedString
+//            let htmlData = NSString(string: rawHTML).data(using: String.Encoding.unicode.rawValue)
+//            let options = [NSAttributedString.DocumentReadingOptionKey.documentType:
+//                    NSAttributedString.DocumentType.html]
+//            let attributedString = try NSMutableAttributedString(data: htmlData ?? Data(), options: options, documentAttributes: nil)
+//            
+//            return AttributedString(attributedString)
         } catch {
             return nil
         }
