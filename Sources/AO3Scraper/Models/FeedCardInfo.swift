@@ -29,21 +29,33 @@ public struct FeedCardInfo: Hashable, Codable {
         public let hits: String?
         public let language: String?
         
-        public var completed: Bool? {
-            return totalChapters != nil
+        public var completed: Bool {
+            let chapterCount = getChapterCount()
+            guard
+                let written = Int(chapterCount.0),
+                let expected = Int(chapterCount.1)
+            else {
+                return false
+            }
+            
+            return written >= expected
         }
         
         /// Number of chapter in work. Nil means author has not specified
         public var totalChapters: Int? {
+            return Int(getChapterCount().1)
+        }
+        
+        private func getChapterCount() -> (String, String) {
             guard
-                let chapterCountRaw = chapters?.name.split(separator: "/").last,
-                    chapterCountRaw != "?"
-            else { return nil }
-            guard
-                let chapterCount = String(chapterCountRaw).toInt()
-            else { return nil }
+                let chapterCountRaw = chapters?.name.split(separator: "/"),
+                let written = chapterCountRaw.first,
+                let expected = chapterCountRaw.last
+            else {
+                return ("0", "0")
+            }
             
-            return chapterCount
+            return (String(written), String(expected))
         }
     }
     
