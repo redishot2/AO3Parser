@@ -12,18 +12,18 @@ public struct FeedCardInfo: Hashable, Codable {
     public struct Tags: Codable {
         public let warnings: [StoryInfo.Warning]
         public let category: StoryInfo.Category?
-        public let fandoms: [LinkInfo]
-        public let relationships: [LinkInfo]
-        public let characters: [LinkInfo]
-        public let tags: [LinkInfo]
-        public let collections: [LinkInfo]
+        public let fandoms: [String]
+        public let relationships: [String]
+        public let characters: [String]
+        public let tags: [String]
+        public let collections: [String]
     }
     
     public struct Stats: Codable {
         public let lastUpdated: String?
         public let words: String?
-        public let chapters: LinkInfo?
-        public let comments: LinkInfo?
+        public let chapters: String?
+        public let comments: String?
         public let kudos: String?
         public let bookmarks: String?
         public let hits: String?
@@ -48,7 +48,7 @@ public struct FeedCardInfo: Hashable, Codable {
         
         private func getChapterCount() -> (String, String) {
             guard
-                let chapterCountRaw = chapters?.name.split(separator: "/"),
+                let chapterCountRaw = chapters?.split(separator: "/"),
                 let written = chapterCountRaw.first,
                 let expected = chapterCountRaw.last
             else {

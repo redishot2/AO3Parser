@@ -24,18 +24,17 @@ extension AttributedString {
             
             var t = Text(.init(textString))
 
-//            if let font = attrs[NSAttributedString.Key.font] as? Font {
-                // TODO: fix
-//                let traits = font.fontDescriptor.symbolicTraits
-//
-//                if traits.contains(.traitItalic) {
-//                    t = t.italic()
-//                }
-//                
-//                if traits.contains(.traitBold) {
-//                    t = t.bold()
-//                }
-//            }
+            if let font = attrs[NSAttributedString.Key.font] as? NSFont {
+                let traits = font.fontDescriptor.symbolicTraits
+
+                if traits.contains(.italic) {
+                    t = t.italic()
+                }
+                
+                if traits.contains(.bold) {
+                    t = t.bold()
+                }
+            }
             
             if let paragraphStyle = attrs[NSAttributedString.Key.paragraphStyle] as? NSParagraphStyle {
                 if paragraphStyle.alignment == .center {

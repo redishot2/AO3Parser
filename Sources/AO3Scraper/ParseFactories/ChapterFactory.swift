@@ -19,10 +19,7 @@ internal class ChapterFactory {
             // Chapter Title
             let chapterTitleWrapper = try metaItems.select("div").first(where: { $0.hasClass("chapter preface group") })
             let chapterRaw = try chapterTitleWrapper?.select("h3").first(where: { $0.hasClass("title") })
-            let chapterLinkRaw = try chapterRaw?.select("a").first()
-            guard let chapterLink = try chapterLinkRaw?.attr("href") else { return nil }
-            guard let chapterTitle = try chapterRaw?.text() else { return nil }
-            let title = LinkInfo(url: chapterLink, name: chapterTitle)
+            guard let title = try chapterRaw?.text() else { return nil }
             
             // Pre Chapter Notes
             let preNotesWrapper = try metaItems.select("div").first(where: { $0.hasClass("notes module") })

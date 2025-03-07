@@ -31,7 +31,7 @@ public class ChapterNetworking {
                 case .success(let chapterList):
                     work.chapterList = chapterList
                     if work.currentChapterIndex >= work.chapterList!.chapters.count {
-                        chapterID = work.chapterList?.chapters[work.currentChapterIndex].url
+                        chapterID = work.chapterList?.chapters[work.currentChapterIndex]
                     }
                 case .failure:
                     break

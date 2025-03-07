@@ -18,14 +18,14 @@ internal class StoryInfoFactory {
             // Rating
             guard let ratingRaw = metaItems.first(where: { $0.hasClass("rating tags") }) else { return nil }
             let ratingValues = getRawListValues(ratingRaw)
-            guard let rating = StoryInfo.Rating(rawValue: ratingValues.first?.name ?? "") else { return nil }
+            guard let rating = StoryInfo.Rating(rawValue: ratingValues.first ?? "") else { return nil }
             
             // Warnings
             guard let warningsRaw = metaItems.first(where: { $0.hasClass("warning tags") }) else { return nil }
             let warningsValues = getRawListValues(warningsRaw)
             var warnings: [StoryInfo.Warning] = []
             for warningRaw in warningsValues {
-                guard let warning = StoryInfo.Warning(rawValue: warningRaw.name) else { continue }
+                guard let warning = StoryInfo.Warning(rawValue: warningRaw) else { continue }
                 warnings.append(warning)
             }
             
@@ -34,7 +34,7 @@ internal class StoryInfoFactory {
             let categoriesValues = getRawListValues(categoriesRaw)
             var categories: [StoryInfo.Category] = []
             for categoryRaw in categoriesValues {
-                guard let category = StoryInfo.Category(rawValue: categoryRaw.name) else { continue }
+                guard let category = StoryInfo.Category(rawValue: categoryRaw) else { continue }
                 categories.append(category)
             }
             
@@ -61,11 +61,10 @@ internal class StoryInfoFactory {
             // Collections
             guard let collectionsRaw = metaItems.first(where: { $0.hasClass("collections") }) else { return nil }
             let collectionsHTML = try collectionsRaw.select("a")
-            var collections: [LinkInfo] = []
+            var collections: [String] = []
             for collectionRaw in collectionsHTML {
-                let collectionLink = try collectionRaw.attr("href")
                 let collectionText = try collectionRaw.text()
-                collections.append(LinkInfo(url: collectionLink, name: collectionText))
+                collections.append(collectionText)
             }
             
             // Stats
@@ -150,18 +149,16 @@ internal class StoryInfoFactory {
         }
     }
     
-    private static func getRawListValues(_ element: Element) -> [LinkInfo] {
+    private static func getRawListValues(_ element: Element) -> [String] {
         do {
             let list = try element.select("ul").first()
             guard let items = try list?.select("li") else { return [] }
             
-            var returnItems: [LinkInfo] = []
+            var returnItems: [String] = []
             for item in items {
                 let linkRaw = item.child(0)
-                let linkHref: String = try linkRaw.attr("href")
                 let linkText: String = try linkRaw.text()
-                
-                returnItems.append(LinkInfo(url: linkHref, name: linkText))
+                returnItems.append(linkText)
             }
             
             return returnItems

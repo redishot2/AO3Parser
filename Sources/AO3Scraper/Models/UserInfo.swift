@@ -26,7 +26,7 @@ public struct UserInfo {
     public let profileInfo: ProfileInfo
     public let counts: Counts
     
-    public let fandoms: [LinkInfo]
+    public let fandoms: [String]
     public let recentWorks: [FeedCardInfo]
     public let recentSeries: [FeedCardInfo]
     public let recentBookmarks: [FeedCardInfo]

@@ -8,17 +8,6 @@
 import Foundation
 import SwiftUI
 
-public struct LinkInfo: Codable, Identifiable, Hashable {
-    public var id = UUID()
-    public let url: String
-    public let name: String
-    
-    public func hash(into hasher: inout Hasher) {
-        hasher.combine(url)
-        hasher.combine(name)
-    }
-}
-
 public protocol TagsProtocol {
     var fullText: String { get }
     var shortened: String { get }
@@ -305,12 +294,12 @@ public struct StoryInfo {
     public let rating: Rating
     public let warnings: [Warning]
     public let categories: [Category]
-    public let fandoms: [LinkInfo]
-    public let relationships: [LinkInfo]
-    public let characters: [LinkInfo]
-    public let tags: [LinkInfo]
+    public let fandoms: [String]
+    public let relationships: [String]
+    public let characters: [String]
+    public let tags: [String]
     public let language: String
-    public let collections: [LinkInfo]
+    public let collections: [String]
     public let stats: Stats
 }
 

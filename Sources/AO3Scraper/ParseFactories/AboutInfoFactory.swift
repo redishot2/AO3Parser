@@ -22,9 +22,7 @@ internal class AboutInfoFactory {
             // Author
             let authorWrapper = try metaItems.select("h3").first(where: { $0.hasClass("byline heading") })
             guard let authorRaw = try authorWrapper?.select("a").first() else { return nil }
-            let authorUsername = try authorRaw.text()
-            let authorLink = try authorRaw.attr("href")
-            let author = LinkInfo(url: authorLink, name: authorUsername)
+            let author = try authorRaw.text()
 
             // Summary
             let summaryWrapper = try metaItems.select("div").first(where: { $0.hasClass("summary module") })

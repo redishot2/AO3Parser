@@ -93,7 +93,7 @@ internal class UserInfoFactory {
         parseUserSection(document, className: "bookmark listbox group", blurbClassName: "bookmark blurb group work")
     }
     
-    private static func parseFandoms(_ document: Element?) -> [LinkInfo] {
+    private static func parseFandoms(_ document: Element?) -> [String] {
         do {
             // Get to the area
             let userHome = try document?.select("div").first(where: { $0.hasClass("user home") })
@@ -101,12 +101,10 @@ internal class UserInfoFactory {
             let fandomsList = try header?.select("ol").first(where: { $0.hasClass("index group") })
             guard let fandomsRaw = try fandomsList?.select("li") else { return [] }
             
-            var links: [LinkInfo] = []
+            var links: [String] = []
             for fandom in fandomsRaw {
                 let text = try fandom.text()
-                let url = try fandom.attr("href")
-                
-                links.append(LinkInfo(url: url, name: text))
+                links.append(text)
             }
             
             return links

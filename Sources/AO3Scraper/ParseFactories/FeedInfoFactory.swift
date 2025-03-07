@@ -84,13 +84,12 @@ internal class FeedInfoFactory {
             }
             
             // Fandoms
-            var fandoms: [LinkInfo] = []
+            var fandoms: [String] = []
             if let worksContainer = try header?.select("h5").first(where: { $0.hasClass("fandoms heading") }) {
                 let workLinks = try worksContainer.select("a")
                 for workLink in workLinks {
                     let fandom = try workLink.text()
-                    let fandomLink = try workLink.attr("href")
-                    fandoms.append(LinkInfo(url: fandomLink, name: fandom))
+                    fandoms.append(fandom)
                 }
             }
             
@@ -130,14 +129,10 @@ internal class FeedInfoFactory {
             let hits = try statsHeader?.select("dd").first(where: { $0.hasClass("hits") })?.text()
             
             let chaptersWrapper = try statsHeader?.select("dd").first(where: { $0.hasClass("chapters") })
-            let chaptersText = try chaptersWrapper?.text()
-            let chaptersUrl = try chaptersWrapper?.select("a").first()?.attr("href")
-            let chapters = LinkInfo(url: chaptersUrl ?? "", name: chaptersText ?? "")
+            let chapters = try chaptersWrapper?.text()
             
             let commentsWrapper = try statsHeader?.select("dd").first(where: { $0.hasClass("comments") })
-            let commentsText = try commentsWrapper?.text()
-            let commentsUrl = try commentsWrapper?.select("a").first()?.attr("href")
-            let comments = LinkInfo(url: commentsUrl ?? "", name: commentsText ?? "")
+            let comments = try commentsWrapper?.text()
             
             let stats = FeedCardInfo.Stats(lastUpdated: lastUpdated, words: words, chapters: chapters, comments: comments, kudos: kudos, bookmarks: bookmarks, hits: hits, language: language)
             
@@ -149,17 +144,16 @@ internal class FeedInfoFactory {
         }
     }
     
-    private static func createTagsArray(from elements: [Element]?) -> [LinkInfo] {
+    private static func createTagsArray(from elements: [Element]?) -> [String] {
         guard let elements = elements else { return [] }
 
         do {
-            var fandoms: [LinkInfo] = []
+            var fandoms: [String] = []
             for workLinks in elements {
                 let work = try workLinks.select("a")
                 for workLink in work {
                     let fandom = try workLink.text()
-                    let fandomLink = try workLink.attr("href")
-                    fandoms.append(LinkInfo(url: fandomLink, name: fandom))
+                    fandoms.append(fandom)
                 }
             }
             

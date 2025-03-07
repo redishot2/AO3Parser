@@ -43,16 +43,14 @@ internal class NewsFactory {
         }
     }
     
-    private static func parseFilter(_ filter: Element?) -> [LinkInfo] {
+    private static func parseFilter(_ filter: Element?) -> [String] {
         do {
             guard let options = try filter?.select("option") else { return [] }
              
-            var filters: [LinkInfo] = []
+            var filters: [String] = []
             for item in options {
                 let text = try item.text()
-                let url = try item.attr("value")
-                
-                filters.append(LinkInfo(url: url, name: text))
+                filters.append(text)
             }
             
             return filters
@@ -150,7 +148,7 @@ internal class NewsFactory {
                     }
                 } else {
                     // Sub comments
-                    let subComments = parseThread(commentRaw, replyingTo: comments.last?.username.url)
+                    let subComments = parseThread(commentRaw, replyingTo: comments.last?.username)
                     guard !subComments.isEmpty else { continue }
                     
                     if replyingTo == nil {
@@ -173,11 +171,7 @@ internal class NewsFactory {
             
             // Profile
             let profileRaw = try headerRaw?.select("a").first()
-            guard let profileURLRaw = try profileRaw?.attr("href") else { return nil }
-            guard let profileName = try profileRaw?.text() else { return nil }
-            let profileURL = profileURLRaw.components(separatedBy: "/")
-            guard profileURL.count > 2 else { return nil }
-            let username = LinkInfo(url: profileURL[2], name: profileName)
+            guard let username = try profileRaw?.text() else { return nil }
             
             // Verified
             let verifiedRaw = try headerRaw?.select("span").first(where: { $0.hasClass("role") })
@@ -252,9 +246,9 @@ internal class NewsFactory {
         }
     }
     
-    private static func parseTagsList(_ wrapper: Elements?) -> [LinkInfo] {
+    private static func parseTagsList(_ wrapper: Elements?) -> [String] {
         do {
-            var links: [LinkInfo] = []
+            var links: [String] = []
             
             guard let wrapper = wrapper else {
                 return links
@@ -262,12 +256,7 @@ internal class NewsFactory {
             
             for item in wrapper {
                 let text = try item.text()
-                if let linkRaw = try item.select("a").first() {
-                    let url = try linkRaw.attr("href")
-                    let tagID = String(url.split(separator: "=")[1])
-                    
-                    links.append(LinkInfo(url: tagID, name: text))
-                }
+                links.append(text)
             }
             
             return links
