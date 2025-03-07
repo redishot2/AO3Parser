@@ -18,7 +18,6 @@ extension Elements {
         for element in self {
             if let singleLine = element.attributedText() {
                 attributedString.append(singleLine)
-                attributedString.append(AttributedString("\n"))
             }
         }
         
