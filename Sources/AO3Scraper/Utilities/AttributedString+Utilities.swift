@@ -67,5 +67,6 @@ extension AttributedString {
         
         return textUI
             .frame(maxWidth: .infinity, alignment: alignment)
+            .multilineTextAlignment(.leading)
     }
 }
