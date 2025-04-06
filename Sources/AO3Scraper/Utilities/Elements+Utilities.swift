@@ -34,8 +34,13 @@ extension Element {
             if rawHTML.contains("<img src=") {
                 return nil 
             }
+
+            let options: [NSAttributedString.DocumentReadingOptionKey: Any] = [
+                .documentType: NSAttributedString.DocumentType.html,
+                .characterEncoding: String.Encoding.utf8.rawValue
+            ]
             
-            guard let nsAttributedString = try? NSAttributedString(data: Data(rawHTML.utf8), options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) else {
+            guard let nsAttributedString = try? NSAttributedString(data: Data(rawHTML.utf8), options: options, documentAttributes: nil) else {
                 return nil
             }
             
