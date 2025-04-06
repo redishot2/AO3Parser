@@ -11,7 +11,13 @@ import SwiftUI
 extension AttributedString {
     
     public func convertToView() -> some View {
-        var textUI = Text("")
+        // Set text size to app size
+//        let range = self.startIndex..<self.endIndex
+//        self[range].font = .body
+        
+        return Text(self)
+            .font(.body)
+            .frame(maxWidth: .infinity)
 //        var alignment: Alignment = .leading
 //        
 //        let nsVersion = NSAttributedString(self)
@@ -24,7 +30,7 @@ extension AttributedString {
 //            
 //            var t = Text(.init(textString))
 //
-//            if let font = attrs[NSAttributedString.Key.font] as? Font {
+//            if let font = attrs[NSAttributedString.Key.font] as? NSFont {
 //                let traits = font.fontDescriptor.symbolicTraits
 //
 //                
@@ -64,7 +70,7 @@ extension AttributedString {
 //            textUI = textUI + t
 //        }
         
-        return textUI
+//        return textUI
 //            .frame(maxWidth: .infinity, alignment: alignment)
     }
 }
