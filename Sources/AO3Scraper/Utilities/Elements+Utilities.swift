@@ -42,7 +42,7 @@ extension Element {
             ]
             
             // Double line break on new lines
-            let html = rawHTML.replacingOccurrences(of: "\n", with: "\n\n")
+            let html = rawHTML.replacingOccurrences(of: "\n", with: "\n \n")
             
             guard let nsAttributedString = try? NSAttributedString(data: Data(html.utf8), options: options, documentAttributes: nil) else {
                 return nil
