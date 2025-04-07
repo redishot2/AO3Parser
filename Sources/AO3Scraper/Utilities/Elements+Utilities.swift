@@ -15,12 +15,10 @@ extension Elements {
     /// - Returns: converted HTML
     internal func attributedText() -> AttributedString? {
         var attributedString = AttributedString("")
-        let newLine = try! AttributedString(markdown: " \n \n ", options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace))
         
         for element in self {
             if let singleLine = element.attributedText() {
                 attributedString.append(singleLine)
-                attributedString.append(newLine)
             }
         }
         
@@ -43,7 +41,10 @@ extension Element {
                 .characterEncoding: String.Encoding.utf8.rawValue
             ]
             
-            guard let nsAttributedString = try? NSAttributedString(data: Data(rawHTML.utf8), options: options, documentAttributes: nil) else {
+            // Double line break on new lines
+            let html = rawHTML.replacingOccurrences(of: "\n", with: "\n\n")
+            
+            guard let nsAttributedString = try? NSAttributedString(data: Data(html.utf8), options: options, documentAttributes: nil) else {
                 return nil
             }
             
