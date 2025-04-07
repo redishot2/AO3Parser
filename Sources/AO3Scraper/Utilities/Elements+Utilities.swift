@@ -15,7 +15,7 @@ extension Elements {
     /// - Returns: converted HTML
     internal func attributedText() -> AttributedString? {
         var attributedString = AttributedString("")
-        let newLine = try! AttributedString(markdown: " \n ", options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace))
+        let newLine = try! AttributedString(markdown: " \n \n ", options: AttributedString.MarkdownParsingOptions(interpretedSyntax: .inlineOnlyPreservingWhitespace))
         
         for element in self {
             if let singleLine = element.attributedText() {
