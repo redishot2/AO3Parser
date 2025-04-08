@@ -80,6 +80,7 @@ public struct Networking {
         }
         
         // Scrape webpage for raw HTML
+        print("Fetching \(String(describing: url))")
         let result = await fetch(url: url)
         
         // Transform raw HTML into internal dataTypes
