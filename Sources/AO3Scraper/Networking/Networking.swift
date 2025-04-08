@@ -194,7 +194,7 @@ extension Networking {
         }
         
         if let page = page {
-            components.queryItems?.append(URLQueryItem(name: "page", value: String(page + 1)))
+            components.queryItems = [URLQueryItem(name: "page", value: String(page + 1))]
         }
         
         return components.url
