@@ -73,9 +73,9 @@ public struct Networking {
         case category(name: Category)
     }
     
-    public static func fetch<T>(_ endpoint: Endpoint) async -> Result<T?, Error> {
+    public static func fetch<T>(_ endpoint: Endpoint, at page: Int? = nil) async -> Result<T?, Error> {
         // Generate URL
-        guard let url = generateURL(for: endpoint) else {
+        guard let url = generateURL(for: endpoint, at: page) else {
             return .failure(NetworkingError.urlGenerationError)
         }
         
@@ -169,7 +169,7 @@ extension Networking {
     /// Generate a URL for the endpoint
     /// - Parameter endpoint: the desired webpage
     /// - Returns: a optional URL to the webpage
-    internal static func generateURL(for endpoint: Endpoint) -> URL? {
+    internal static func generateURL(for endpoint: Endpoint, at page: Int? = nil) -> URL? {
         var components = URLComponents()
         components.scheme = "https"
         components.host = "archiveofourown.org"
@@ -190,6 +190,10 @@ extension Networking {
                 components.path = "/works/\(workID)/navigate"
             case .category(let category):
                 components.path = "/media/\(category.rawValue.webFriendly())/fandoms"
+        }
+        
+        if let page = page {
+            components.queryItems?.append(URLQueryItem(name: "page", value: String(page + 1)))
         }
         
         return components.url

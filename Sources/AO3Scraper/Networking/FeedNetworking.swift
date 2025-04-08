@@ -13,7 +13,7 @@ public class FeedNetworking {
     /// - Parameter page: what page of the endpoint to fetch (if there are multiple next pages)
     /// - Returns: the news feed info
     public func fetchNews(at page: Int = 0) async -> News? {
-        let result: Result<News?, Error> = await Networking.fetch(.newsfeed)
+        let result: Result<News?, Error> = await Networking.fetch(.newsfeed, at: page)
         switch result {
             case .success(let news):
                 return news
@@ -29,7 +29,7 @@ public class FeedNetworking {
     ///   - page: what page of the endpoint to fetch (if there are multiple next pages)
     /// - Returns: the feed info
     public func fetchRelatedWorks(_ tag: String, page: Int = 0) async -> FeedInfo? {
-        let result: Result<FeedInfo?, Error> = await Networking.fetch(.relatedWorks(tag: tag))
+        let result: Result<FeedInfo?, Error> = await Networking.fetch(.relatedWorks(tag: tag), at: page)
         switch result {
             case .success(let feed):
                 return feed
@@ -45,7 +45,7 @@ public class FeedNetworking {
     ///   - page: what page of the endpoint to fetch (if there are multiple next pages)
     /// - Returns: the category info
     public func fetchCategory(_ category: Networking.Endpoint.Category, page: Int = 0) async -> CategoryInfo? {
-        let result: Result<CategoryInfo?, Error> = await Networking.fetch(.category(name: category))
+        let result: Result<CategoryInfo?, Error> = await Networking.fetch(.category(name: category), at: page)
         switch result {
             case .success(let category):
                 return category
