@@ -8,9 +8,13 @@
 import Foundation
 
 public struct FeedInfo {
-    public let feedInfo: [FeedCardInfo]
+    private(set) var feedInfo: [FeedCardInfo]
     public let pagesCount: Int
     public let filter: FeedFilterInfo
+    
+    public mutating func addFeedInfo(from newFeedInfo: FeedInfo) {
+        feedInfo.append(contentsOf: newFeedInfo.feedInfo)
+    }
 }
 
 public struct FeedFilterInfo {
