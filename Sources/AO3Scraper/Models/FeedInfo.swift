@@ -6,13 +6,20 @@
 //
 
 import Foundation
+import SwiftUI
 
-public struct FeedInfo {
-    public private(set) var feedInfo: [FeedCardInfo]
+public class FeedInfo {
+    @Published public private(set) var feedInfo: [FeedCardInfo]
     public let pagesCount: Int
     public let filter: FeedFilterInfo
     
-    public mutating func addFeedInfo(from newFeedInfo: FeedInfo) {
+    public init(feedInfo: [FeedCardInfo], pagesCount: Int, filter: FeedFilterInfo) {
+        self.feedInfo = feedInfo
+        self.pagesCount = pagesCount
+        self.filter = filter
+    }
+    
+    public func addFeedInfo(from newFeedInfo: FeedInfo) {
         feedInfo.append(contentsOf: newFeedInfo.feedInfo)
     }
 }
