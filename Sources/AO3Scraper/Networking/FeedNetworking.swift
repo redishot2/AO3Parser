@@ -17,8 +17,8 @@ public class FeedNetworking {
         switch result {
             case .success(let news):
                 return news
-            case .failure:
-                // TODO: error handling
+            case .failure(let error):
+                Logging.log(error)
                 return nil
         }
     }
@@ -33,8 +33,8 @@ public class FeedNetworking {
         switch result {
             case .success(let feed):
                 return feed
-            case .failure:
-                // TODO: error handling
+            case .failure(let error):
+                Logging.log(error)
                 return nil
         }
     }
@@ -49,8 +49,8 @@ public class FeedNetworking {
         switch result {
             case .success(let category):
                 return category
-            case .failure:
-                // TODO: error handling
+            case .failure(let error):
+                Logging.log(error)
                 return nil
         }
     }

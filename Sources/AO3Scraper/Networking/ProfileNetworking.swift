@@ -17,8 +17,8 @@ public class ProfileNetworking {
         switch result {
             case .success(let userInfo):
                 return userInfo
-            case .failure:
-                // TODO: error handling
+            case .failure(let error):
+                Logging.log(error)
                 return nil
         }
     }

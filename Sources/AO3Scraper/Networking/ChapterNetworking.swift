@@ -33,7 +33,8 @@ public class ChapterNetworking {
                     if work.currentChapterIndex >= work.chapterList!.chapters.count {
                         chapterID = work.chapterList?.chapters[work.currentChapterIndex]
                     }
-                case .failure:
+                case .failure(let error):
+                    Logging.log(error)
                     break
             }
         }
@@ -42,7 +43,8 @@ public class ChapterNetworking {
         switch workResult {
             case .success(let work):
                 worksCache[workID] = work
-            case .failure:
+            case .failure(let error):
+                Logging.log(error)
                 break
         }
         
