@@ -8,7 +8,7 @@
 import Foundation
 
 public struct FeedInfo {
-    private(set) var feedInfo: [FeedCardInfo]
+    public private(set) var feedInfo: [FeedCardInfo]
     public let pagesCount: Int
     public let filter: FeedFilterInfo
     
