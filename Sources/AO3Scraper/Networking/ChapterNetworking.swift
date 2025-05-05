@@ -30,8 +30,8 @@ public class ChapterNetworking {
             switch chapterListResult {
                 case .success(let chapterList):
                     work.chapterList = chapterList
-                    if work.currentChapterIndex >= work.chapterList!.chapters.count {
-                        chapterID = work.chapterList?.chapters[work.currentChapterIndex]
+                    if work.currentChapterIndex >= work.chapterList?.chapters.count ?? 0 && !(work.chapterList?.chapters.isEmpty ?? true) {
+                        chapterID = work.chapterList?.chapters[work.currentChapterIndex - 1]
                     }
                 case .failure(let error):
                     Logging.log(error)
