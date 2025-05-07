@@ -155,11 +155,8 @@ public struct Networking {
                 
                 // Parse chapter information and save to work
                 let chapter = ChapterFactory.parse(document)
-                if let chapterIndex = work.chapterIndex(for: chapterID) {
-                    work.chapters[chapterIndex] = chapter
-                } else {
-                    Logging.log("No chapter index found for chapter \(chapterID ?? "first chapter") in work \(work.id)")
-                }
+                let chapterIndex = work.chapterIndex(for: chapterID) ?? 1
+                work.chapters[chapterIndex] = chapter
                 
                 return work as? T
                 
