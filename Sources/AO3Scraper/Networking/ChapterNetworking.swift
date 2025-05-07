@@ -31,9 +31,9 @@ public class ChapterNetworking {
             work = Work(id: workID)
         }
         
-        // Get chapterID from chapter index (only needed for chapters 2 and up)
+        // Get chapterID from chapter index
         var chapterID = work.chapterID(for: chapterIndex)
-        if chapterIndex > 1 && chapterID == nil {
+        if chapterID == nil {
             // ChapterList needs fetching
             let chapterListResult: Result<ChapterList?, Error> = await Networking.fetch(.workChapters(workID: workID))
             switch chapterListResult {

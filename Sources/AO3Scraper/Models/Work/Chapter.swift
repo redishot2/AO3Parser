@@ -23,6 +23,7 @@ public struct ChapterParagraph: Identifiable {
 }
 
 public struct Chapter {
+    public let title: String?
     public let paragraphs: [ChapterParagraph]
     public let preNotes: [ChapterParagraph]
     public let postNotes: [ChapterParagraph]

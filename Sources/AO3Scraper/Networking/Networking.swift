@@ -142,18 +142,6 @@ public struct Networking {
                     work.aboutInfo = AboutInfoFactory.parse(document)
                 }
                 
-                // Fetch chapter list if needed
-                if work.chapterList == nil {
-                    let chapterListResult: Result<ChapterList?, Error> = await fetch(.workChapters(workID: work.id))
-                    switch chapterListResult {
-                        case .success(let chapterList):
-                            work.chapterList = chapterList
-                        case .failure(let error):
-                            Logging.log(error)
-                            break
-                    }
-                }
-                
                 // Parse chapter information and save to work
                 let chapter = ChapterFactory.parse(document)
                 let chapterIndex = work.chapterIndex(for: chapterID) ?? 1
