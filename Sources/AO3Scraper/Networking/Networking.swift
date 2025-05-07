@@ -134,7 +134,7 @@ public struct Networking {
             case .newsfeed:
                 return await NewsFactory.parse(document) as? T
                 
-            case .work(let work, _):
+            case .work(let work, let chapterID):
                 
                 // Parse additional info if needed
                 if work.shouldParseAdditionalInfo {
@@ -153,9 +153,12 @@ public struct Networking {
                     }
                 }
                 
-                // Parse chapter information
-                guard let chapter = ChapterFactory.parse(document) else {
-                    return work as? T
+                // Parse chapter information and save to work
+                let chapter = ChapterFactory.parse(document)
+                if let chapterIndex = work.chapterIndex(for: chapterID) {
+                    work.chapters[chapterIndex] = chapter
+                } else {
+                    Logging.log("No chapter index found for chapter \(chapterID ?? "first chapter") in work \(work.id)")
                 }
                 
                 return work as? T

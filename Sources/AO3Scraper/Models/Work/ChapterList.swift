@@ -8,9 +8,10 @@
 import Foundation
 
 public struct ChapterList: Hashable {
-    public let chapters: [String]
+    public let chapterNames: [String]
+    public let chapterIDs: [String]
     
     public func hash(into hasher: inout Hasher) {
-        hasher.combine(chapters)
+        hasher.combine(chapterIDs)
     }
 }

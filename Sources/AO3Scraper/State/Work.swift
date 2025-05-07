@@ -35,8 +35,14 @@ public class Work {
     /// - Returns: chapterID
     internal func chapterID(for index: Int) -> String? {
         guard let chapterList = chapterList else { return nil }
-        guard index >= 1 && index <= chapterList.chapters.count else { return nil }
+        guard index >= 1 && index <= chapterList.chapterIDs.count else { return nil }
         
-        return chapterList.chapters[index - 1]
+        return chapterList.chapterIDs[index - 1]
+    }
+    
+    internal func chapterIndex(for chapterID: String?) -> Int? {
+        guard let chapterID = chapterID else { return nil }
+        
+        return chapterList?.chapterIDs.firstIndex(of: chapterID)
     }
 }
