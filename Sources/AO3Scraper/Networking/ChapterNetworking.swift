@@ -43,6 +43,7 @@ public class ChapterNetworking {
                     
                     if chapterID == nil {
                         Logging.log("Couldn't find chapterID for chapter \(chapterIndex) of work \(workID)")
+                        print(work.chapterList?.chapters ?? "no chapter IDs found")
                         return nil
                     }
                 case .failure(let error):

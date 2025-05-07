@@ -22,6 +22,7 @@ internal class ChapterListFactory {
                     let components = linkHref.components(separatedBy: "/")
                     if let _ = components.last {
                         chapterLists.append(linkText)
+                        print(linkText)
                     }
                 }
             }
