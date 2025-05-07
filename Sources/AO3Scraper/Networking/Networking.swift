@@ -148,7 +148,8 @@ public struct Networking {
                     switch chapterListResult {
                         case .success(let chapterList):
                             work.chapterList = chapterList
-                        case .failure:
+                        case .failure(let error):
+                            Logging.log(error)
                             break
                     }
                 }
