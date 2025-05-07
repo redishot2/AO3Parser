@@ -135,11 +135,14 @@ public struct Networking {
                 return await NewsFactory.parse(document) as? T
                 
             case .work(let work, _):
+                
+                // Parse additional info if needed
                 if work.shouldParseAdditionalInfo {
                     work.storyInfo = StoryInfoFactory.parse(document)
                     work.aboutInfo = AboutInfoFactory.parse(document)
                 }
                 
+                // Fetch chapter list if needed
                 if work.chapterList == nil {
                     let chapterListResult: Result<ChapterList?, Error> = await fetch(.workChapters(workID: work.id))
                     switch chapterListResult {
@@ -150,11 +153,11 @@ public struct Networking {
                     }
                 }
                 
+                // Parse chapter information
                 guard let chapter = ChapterFactory.parse(document) else {
                     return work as? T
                 }
                 
-                work.saveAsCurrentChapter(chapter)
                 return work as? T
                 
             case .workChapters:

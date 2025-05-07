@@ -14,24 +14,36 @@ public class ChapterNetworking {
     /// Fetches the work at a given chapter
     /// - Parameters:
     ///   - workID: the unique identifier for the work
-    ///   - chapterIndex: chapter index; defaults to 0
+    ///   - chapterIndex: chapter index; defaults to 1; starts counting at 1
     /// - Returns: the work
-    public func fetch(work workID: String, at chapterIndex: Int = 0) async -> Work? {
+    public func fetch(work workID: String, at chapterIndex: Int = 1) async -> Work? {
+        // Return cached work if chapter is already loaded
         let work: Work
         if let worksCached = worksCache[workID] {
             work = worksCached
+            
+            // Chapter is already loaded
+            if work.chapters[chapterIndex - 1] != nil {
+                return work
+            }
         } else {
-            work = Work(id: workID, currentChapterIndex: chapterIndex)
+            // Work hasn't been fetched
+            work = Work(id: workID)
         }
         
-        var chapterID: String? = nil
-        if chapterIndex > 0 {
+        // Get chapterID from chapter index (only needed for chapters 2 and up)
+        var chapterID = work.chapterID(for: chapterIndex)
+        if chapterIndex > 1 && chapterID == nil {
+            // ChapterList needs fetching
             let chapterListResult: Result<ChapterList?, Error> = await Networking.fetch(.workChapters(workID: workID))
             switch chapterListResult {
                 case .success(let chapterList):
                     work.chapterList = chapterList
-                    if work.currentChapterIndex >= work.chapterList?.chapters.count ?? 0 && !(work.chapterList?.chapters.isEmpty ?? true) {
-                        chapterID = work.chapterList?.chapters[work.currentChapterIndex - 1]
+                    chapterID = work.chapterID(for: chapterIndex)
+                    
+                    if chapterID == nil {
+                        Logging.log("Couldn't find chapterID for chapter \(chapterIndex) of work \(workID)")
+                        return nil
                     }
                 case .failure(let error):
                     Logging.log(error)
@@ -39,6 +51,7 @@ public class ChapterNetworking {
             }
         }
         
+        // Fetch chapter
         let workResult: Result<Work?, Error> = await Networking.fetch(.work(work: work, chapterID: chapterID))
         switch workResult {
             case .success(let work):
@@ -49,16 +62,5 @@ public class ChapterNetworking {
         }
         
         return worksCache[workID]
-    }
-    
-    /// Fetches the next chapter in a given work. If work is not loaded yet, load first chapter
-    ///   - workID:
-    /// - Parameter workID: the unique identifier for the work
-    public func fetchNextChapter(for workID: String) async -> Work? {
-        if let work = worksCache[workID] {
-            return await fetch(work: workID, at: work.currentChapterIndex + 1)
-        } else {
-            return await fetch(work: workID)
-        }
     }
 }

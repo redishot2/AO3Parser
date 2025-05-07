@@ -9,15 +9,6 @@ public class Work {
     /// The identifying number for this work
     public let id: String
     
-    /// The current chapter index for use in chapterList
-    internal var currentChapterIndex: Int
-    
-    /// Returns the current chapter the user is on
-    public var currentChapter: Chapter? {
-        guard currentChapterIndex < chapters.count else { return nil }
-        return chapters[currentChapterIndex]
-    }
-    
     /// A list of chapter names and IDs for the given work
     public var chapterList: ChapterList?
     
@@ -35,13 +26,15 @@ public class Work {
         storyInfo == nil || aboutInfo == nil
     }
     
-    public init(id: String, currentChapterIndex: Int = 0) {
+    public init(id: String) {
         self.id = id
-        self.currentChapterIndex = currentChapterIndex
     }
     
-    /// Saves a chapter at the current chapter index
-    internal func saveAsCurrentChapter(_ chapter: Chapter) {
-        chapters[currentChapterIndex] = chapter
+    /// Converts chapter index to chapterID used in url creation
+    /// - Parameter index: chapter index; starts counting at 1
+    /// - Returns: chapterID
+    internal func chapterID(for index: Int) -> String? {
+        guard index >= 1 && index < chapterList?.chapters.count ?? 0 else { return nil }
+        return chapterList?.chapters[index - 1]
     }
 }
