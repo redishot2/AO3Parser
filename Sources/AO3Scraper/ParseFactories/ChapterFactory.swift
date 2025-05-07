@@ -16,11 +16,6 @@ internal class ChapterFactory {
         guard let metaItems = ChapterFactory.getToChapterData(document) else { return nil }
         
         do {
-            // Chapter Title
-            let chapterTitleWrapper = try metaItems.select("div").first(where: { $0.hasClass("chapter preface group") })
-            let chapterRaw = try chapterTitleWrapper?.select("h3").first(where: { $0.hasClass("title") })
-            guard let title = try chapterRaw?.text() else { return nil }
-            
             // Pre Chapter Notes
             let preNotesWrapper = try metaItems.select("div").first(where: { $0.hasClass("notes module") })
             let preNotesRaw = try preNotesWrapper?.select("blockquote").first(where: { $0.hasClass("userstuff") })
@@ -42,7 +37,7 @@ internal class ChapterFactory {
                 postNotes = parseParagraphs(postNotesItemsRaw)
             }
             
-            return Chapter(title: title, paragraphs: paragraphs, preNotes: preNotes, postNotes: postNotes)
+            return Chapter(paragraphs: paragraphs, preNotes: preNotes, postNotes: postNotes)
         } catch {
             return nil
         }
