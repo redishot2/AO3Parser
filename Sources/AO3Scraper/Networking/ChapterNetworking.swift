@@ -23,7 +23,7 @@ public class ChapterNetworking {
             work = worksCached
             
             // Chapter is already loaded
-            if work.chapters[chapterIndex - 1] != nil {
+            if work.chapters[chapterIndex] != nil {
                 return work
             }
         } else {

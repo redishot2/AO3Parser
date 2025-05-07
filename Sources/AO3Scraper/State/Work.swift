@@ -40,9 +40,16 @@ public class Work {
         return chapterList.chapterIDs[index - 1]
     }
     
+    /// Calculates chapter index from provided chapterID
+    /// - Parameter chapterID: the ID for the chapter used in url generation
+    /// - Returns: the chapter index; starts counting at 1
     internal func chapterIndex(for chapterID: String?) -> Int? {
         guard let chapterID = chapterID else { return nil }
         
-        return chapterList?.chapterIDs.firstIndex(of: chapterID)
+        if let chapterIndex = chapterList?.chapterIDs.firstIndex(of: chapterID) {
+            return chapterIndex + 1
+        }
+        
+        return nil
     }
 }
