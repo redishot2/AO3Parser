@@ -66,7 +66,8 @@ internal class FeedInfoFactory {
             let workTitle = try heading?.select("a")[0].text()
             guard let authorRaw = try heading?.select("a"), authorRaw.count > 1 else { return nil }
             var authors: [String] = []
-            for author in authorRaw {
+            let authorsRaw = authorRaw.dropFirst()
+            for author in authorsRaw {
                 let authorName = try author.text()
                 authors.append(authorName)
             }
