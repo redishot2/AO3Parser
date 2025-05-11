@@ -61,7 +61,7 @@ public struct FeedCardInfo: Hashable, Codable {
     
     public let title: String?
     public let workID: String
-    public let author: String
+    public let authors: [String]
     public let summary: AttributedString?
     public let rating: StoryInfo.Rating?
     public let tags: Tags
@@ -70,7 +70,7 @@ public struct FeedCardInfo: Hashable, Codable {
     public func hash(into hasher: inout Hasher) {
         hasher.combine(title)
         hasher.combine(workID)
-        hasher.combine(author)
+        hasher.combine(authors)
     }
     
     public static func == (lhs: FeedCardInfo, rhs: FeedCardInfo) -> Bool {

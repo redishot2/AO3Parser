@@ -65,7 +65,11 @@ internal class FeedInfoFactory {
             let heading = try header?.select("h4").first(where: { $0.hasClass("heading") })
             let workTitle = try heading?.select("a")[0].text()
             guard let authorRaw = try heading?.select("a"), authorRaw.count > 1 else { return nil }
-            let author = try authorRaw[1].text()
+            var authors: [String] = []
+            for author in authorRaw {
+                let authorName = try author.text()
+                authors.append(authorName)
+            }
             let lastUpdated = try header?.select("p").first(where: { $0.hasClass("datetime") })?.text()
             
             // Rating
@@ -138,7 +142,7 @@ internal class FeedInfoFactory {
             
             let tags = FeedCardInfo.Tags(warnings: warnings, category: category, fandoms: fandoms, relationships: relationships, characters: characters, tags: freeforms, collections: [])
             
-            return FeedCardInfo(title: workTitle, workID: workID, author: author, summary: summary, rating: rating, tags: tags, stats: stats)
+            return FeedCardInfo(title: workTitle, workID: workID, authors: authors, summary: summary, rating: rating, tags: tags, stats: stats)
         } catch {
             return nil
         }
