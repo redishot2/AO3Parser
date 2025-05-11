@@ -76,4 +76,8 @@ public struct FeedCardInfo: Hashable, Codable {
     public static func == (lhs: FeedCardInfo, rhs: FeedCardInfo) -> Bool {
         lhs.workID == rhs.workID
     }
+    
+    public func displayAuthors() -> String {
+        authors.joined(separator: ", ")
+    }
 }
