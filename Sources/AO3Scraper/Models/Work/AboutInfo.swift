@@ -9,6 +9,6 @@ import Foundation
 
 public struct AboutInfo {
     public let title: String
-    public let author: String
+    public let authors: [String]
     public let summary: AttributedString
 }
