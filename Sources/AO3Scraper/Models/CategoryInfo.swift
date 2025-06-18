@@ -63,7 +63,9 @@ public struct FandomGroup: Identifiable, Hashable {
     public let fandoms: [FandomItem]
 }
 
-public struct FandomItem: Hashable {
+public struct FandomItem: Hashable, Identifiable {
+    public var id = UUID()
+    
     public let name: String
     public let worksCount: Int
 }
