@@ -13,7 +13,7 @@ public struct CategoryInfo {
         case mostPopular = "Most Popular"
         case leastPopular = "Least Popular"
         
-        public func all() -> [SortType] {
+        public static func all() -> [SortType] {
             return [.alphabetical, .mostPopular, .leastPopular]
         }
     }
