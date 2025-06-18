@@ -24,37 +24,33 @@ public struct CategoryInfo {
         self.fandoms = fandoms
     }
     
-    public func sort(by sortType: SortType) -> [FandomItem] {
+    public func sort(by sortType: SortType) -> [FandomGroup] {
         switch sortType {
             case .alphabetical:
                 return sortAlphabetical()
             case .mostPopular:
-                let sort = sortMostPopular()
-                return sort
+                return sortMostPopular()
             case .leastPopular:
-                let sort = sortLeastPopular()
-                return sort
+                return sortLeastPopular()
         }
     }
     
-    private func sortAlphabetical() -> [FandomItem] {
-        let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
-        
-        return flatFandoms
+    private func sortAlphabetical() -> [FandomGroup] {
+        return fandoms
     }
     
-    private func sortMostPopular() -> [FandomItem] {
+    private func sortMostPopular() -> [FandomGroup] {
         let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
         let sorted = flatFandoms.sorted(by: { $0.worksCount > $1.worksCount })
         
-        return sorted
+        return [FandomGroup(name: "Most Popular", fandoms: sorted)]
     }
     
-    private func sortLeastPopular() -> [FandomItem] {
+    private func sortLeastPopular() -> [FandomGroup] {
         let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
         let sorted = flatFandoms.sorted(by: { $0.worksCount < $1.worksCount })
         
-        return sorted
+        return [FandomGroup(name: "Least Popular", fandoms: sorted)]
     }
 }
 
