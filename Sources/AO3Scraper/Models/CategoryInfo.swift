@@ -63,6 +63,11 @@ public struct FandomGroup: Identifiable, Hashable {
     
     public let name: String
     public let fandoms: [FandomItem]
+    
+    public init(name: String, fandoms: [FandomItem]) {
+        self.name = name
+        self.fandoms = fandoms
+    }
 }
 
 public struct FandomItem: Hashable, Identifiable {
@@ -70,4 +75,9 @@ public struct FandomItem: Hashable, Identifiable {
     
     public let name: String
     public let worksCount: Int
+    
+    public init(name: String, worksCount: Int) {
+        self.name = name
+        self.worksCount = worksCount
+    }
 }
