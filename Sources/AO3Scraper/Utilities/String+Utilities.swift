@@ -12,6 +12,7 @@ extension String {
         var encoded = self
         encoded = encoded.replacingOccurrences(of: ".", with: "*d*")
         encoded = encoded.replacingOccurrences(of: "&", with: "*a*")
+        encoded = encoded.replacingOccurrences(of: "/", with: "*s*")
         
         return encoded
     }
