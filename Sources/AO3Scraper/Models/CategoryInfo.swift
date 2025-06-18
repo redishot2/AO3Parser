@@ -18,16 +18,16 @@ public struct CategoryInfo {
         }
     }
     
-    public let fandoms: [FandomGroup]
+    private let fandoms: [FandomGroup]
     
-    public func sortedFandoms(by sortType: SortType) -> [FandomGroup] {
-        return sort(by: sortType)
+    init(fandoms: [FandomGroup]) {
+        self.fandoms = fandoms
     }
     
-    private func sort(by sortType: SortType) -> [FandomGroup] {
+    public func sort(by sortType: SortType) -> [FandomItem] {
         switch sortType {
             case .alphabetical:
-                return fandoms
+                return sortAlphabetical()
             case .mostPopular:
                 let sort = sortMostPopular()
                 return sort
@@ -37,18 +37,24 @@ public struct CategoryInfo {
         }
     }
     
-    private func sortMostPopular() -> [FandomGroup] {
+    private func sortAlphabetical() -> [FandomItem] {
+        let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
+        
+        return flatFandoms
+    }
+    
+    private func sortMostPopular() -> [FandomItem] {
         let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
         let sorted = flatFandoms.sorted(by: { $0.worksCount > $1.worksCount })
         
-        return [FandomGroup(name: SortType.mostPopular.rawValue, fandoms: sorted)]
+        return sorted
     }
     
-    private func sortLeastPopular() -> [FandomGroup] {
+    private func sortLeastPopular() -> [FandomItem] {
         let flatFandoms: [FandomItem] = fandoms.flatMap({ $0.fandoms })
         let sorted = flatFandoms.sorted(by: { $0.worksCount < $1.worksCount })
         
-        return [FandomGroup(name: SortType.leastPopular.rawValue, fandoms: sorted)]
+        return sorted
     }
 }
 
