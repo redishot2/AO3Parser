@@ -79,6 +79,12 @@ public struct Networking {
             return .failure(NetworkingError.urlGenerationError)
         }
         
+        // Check cache
+        if let cachedData = Cache.shared.getCachedData(for: url) as? T {
+            print("Returning cached data for \(String(describing: url))")
+            return .success(cachedData)
+        }
+        
         // Scrape webpage for raw HTML
         print("Fetching \(String(describing: url))")
         let result = await fetch(url: url)
@@ -89,6 +95,9 @@ public struct Networking {
                 guard let value: T = await parseHTML(document: document, as: endpoint) else {
                     return .failure(NetworkingError.genericTypecastError)
                 }
+                
+                // Cache
+                Cache.shared.cacheData(value, for: url)
                 
                 return .success(value)
                 
